@@ -1,0 +1,10 @@
+# Versions this code was run with. Python 3.10.19.
+# A Fortran compiler is needed only to rebuild the TEP simulator
+# (GNU Fortran 16.1.0 here).
+numpy==2.2.5
+scipy==1.15.3
+torch==2.9.1
+matplotlib==3.10.8
+
+# MBR experiments only, for the plant ODE integration.
+casadi==3.7.2

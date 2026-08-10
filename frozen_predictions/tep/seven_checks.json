@@ -1,0 +1,976 @@
+{
+  "gate": {
+    "obs_bias": {
+      "rho_relative_radius": "-0.77",
+      "rho_abs_error": 0.7999999999999999
+    },
+    "obs_noise": {
+      "rho_relative_radius": "-0.95",
+      "rho_abs_error": 0.39999999999999997
+    },
+    "process_idv1": {
+      "rho_relative_radius": "+nan",
+      "rho_abs_error": 0.7999999999999999
+    },
+    "actuation_idv6": {
+      "rho_relative_radius": "+nan",
+      "rho_abs_error": 0.39999999999999997
+    },
+    "dynamics_idv13": {
+      "rho_relative_radius": "-0.77",
+      "rho_abs_error": 1.0
+    },
+    "regime_setpt18": {
+      "rho_relative_radius": "+nan",
+      "rho_abs_error": -0.39999999999999997
+    },
+    "actuation_idv14": {
+      "rho_relative_radius": "+nan",
+      "rho_abs_error": 0.19999999999999998
+    }
+  },
+  "window_agg": [
+    {
+      "domain": "obs_noise",
+      "sev": 0.5,
+      "mean": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42"
+      ],
+      "pooled": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "actuation_idv6",
+      "sev": 0.5,
+      "mean": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s123",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "actuation_idv6",
+      "sev": 1.0,
+      "mean": [
+        "ridge",
+        "mlp_s42",
+        "mlp_s123"
+      ],
+      "pooled": [
+        "ridge",
+        "mlp_s42",
+        "gru_s7"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "sev": 1.0,
+      "mean": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "sev": 1.5,
+      "mean": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "sev": 2.0,
+      "mean": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "sev": 4.0,
+      "mean": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "sev": 6.0,
+      "mean": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "ridge"
+      ]
+    }
+  ],
+  "state_agg": [
+    {
+      "domain": "obs_bias",
+      "sev": 0.0,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "ridge",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "sev": 0.02,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "ridge",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "sev": 0.05,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "ridge",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "sev": 0.08,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "ridge",
+        "gru_s123"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "sev": 0.12,
+      "norm": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42"
+      ],
+      "phys": [
+        "gru_s7",
+        "gru_s123",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "sev": 0.18,
+      "norm": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42"
+      ],
+      "phys": [
+        "gru_s7",
+        "gru_s123",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "sev": 0.25,
+      "norm": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42"
+      ],
+      "phys": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "sev": 0.35,
+      "norm": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42"
+      ],
+      "phys": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "sev": 0.5,
+      "norm": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42"
+      ],
+      "phys": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "sev": 0.7,
+      "norm": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42"
+      ],
+      "phys": [
+        "gru_s7",
+        "gru_s123",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "sev": 1.0,
+      "norm": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42"
+      ],
+      "phys": [
+        "gru_s7",
+        "gru_s123",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "sev": 1.3,
+      "norm": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42"
+      ],
+      "phys": [
+        "gru_s7",
+        "gru_s123",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "sev": 1.6,
+      "norm": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42"
+      ],
+      "phys": [
+        "gru_s7",
+        "gru_s123",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "sev": 2.0,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7"
+      ],
+      "phys": [
+        "gru_s7",
+        "mlp_s7",
+        "mlp_s123"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "sev": 0.0,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "ridge",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "sev": 0.02,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "ridge",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "sev": 0.12,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "sev": 0.18,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "sev": 0.35,
+      "norm": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42"
+      ],
+      "phys": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "sev": 0.5,
+      "norm": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42"
+      ],
+      "phys": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "sev": 0.7,
+      "norm": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42"
+      ],
+      "phys": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "sev": 1.6,
+      "norm": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42"
+      ],
+      "phys": [
+        "gru_s123",
+        "gru_s42",
+        "gru_s7"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "sev": 2.0,
+      "norm": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42"
+      ],
+      "phys": [
+        "gru_s123",
+        "gru_s42",
+        "gru_s7"
+      ]
+    },
+    {
+      "domain": "process_idv1",
+      "sev": 0.0,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "ridge",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "process_idv1",
+      "sev": 0.1,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "ridge",
+        "gru_s123"
+      ]
+    },
+    {
+      "domain": "process_idv1",
+      "sev": 0.25,
+      "norm": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42"
+      ],
+      "phys": [
+        "gru_s7",
+        "ridge",
+        "gru_s123"
+      ]
+    },
+    {
+      "domain": "process_idv1",
+      "sev": 0.5,
+      "norm": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42"
+      ],
+      "phys": [
+        "ridge",
+        "gru_s7",
+        "gru_s123"
+      ]
+    },
+    {
+      "domain": "process_idv1",
+      "sev": 0.75,
+      "norm": [
+        "gru_s7",
+        "ridge",
+        "gru_s123"
+      ],
+      "phys": [
+        "ridge",
+        "gru_s7",
+        "gru_s123"
+      ]
+    },
+    {
+      "domain": "process_idv1",
+      "sev": 1.0,
+      "norm": [
+        "gru_s7",
+        "ridge",
+        "gru_s42"
+      ],
+      "phys": [
+        "ridge",
+        "gru_s7",
+        "gru_s123"
+      ]
+    },
+    {
+      "domain": "process_idv1",
+      "sev": 1.5,
+      "norm": [
+        "ridge",
+        "gru_s7",
+        "gru_s42"
+      ],
+      "phys": [
+        "ridge",
+        "gru_s7",
+        "gru_s123"
+      ]
+    },
+    {
+      "domain": "process_idv1",
+      "sev": 2.0,
+      "norm": [
+        "ridge",
+        "gru_s7",
+        "gru_s42"
+      ],
+      "phys": [
+        "ridge",
+        "gru_s7",
+        "gru_s123"
+      ]
+    },
+    {
+      "domain": "actuation_idv6",
+      "sev": 0.0,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "ridge",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "actuation_idv6",
+      "sev": 0.05,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "ridge",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "actuation_idv6",
+      "sev": 0.1,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "ridge",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "actuation_idv6",
+      "sev": 0.2,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "ridge",
+        "gru_s123"
+      ]
+    },
+    {
+      "domain": "actuation_idv6",
+      "sev": 0.35,
+      "norm": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42"
+      ],
+      "phys": [
+        "gru_s7",
+        "ridge",
+        "gru_s123"
+      ]
+    },
+    {
+      "domain": "actuation_idv6",
+      "sev": 0.5,
+      "norm": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42"
+      ],
+      "phys": [
+        "ridge",
+        "gru_s123",
+        "gru_s7"
+      ]
+    },
+    {
+      "domain": "actuation_idv6",
+      "sev": 0.75,
+      "norm": [
+        "ridge",
+        "gru_s7",
+        "gru_s123"
+      ],
+      "phys": [
+        "ridge",
+        "gru_s123",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "actuation_idv6",
+      "sev": 1.0,
+      "norm": [
+        "ridge",
+        "mlp_s42",
+        "mlp_s123"
+      ],
+      "phys": [
+        "ridge",
+        "gru_s42",
+        "gru_s123"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "sev": 0.0,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "ridge",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "sev": 0.25,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "ridge",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "sev": 0.5,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "gru_s42",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "sev": 1.0,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "sev": 1.5,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "gru_s42",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "sev": 3.0,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "gru_s42",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "sev": 4.0,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "ridge",
+        "gru_s123"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "sev": 6.0,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "ridge",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "regime_setpt18",
+      "sev": 0.0,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "ridge",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "regime_setpt18",
+      "sev": 0.25,
+      "norm": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42"
+      ],
+      "phys": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "regime_setpt18",
+      "sev": 0.5,
+      "norm": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42"
+      ],
+      "phys": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "regime_setpt18",
+      "sev": 1.0,
+      "norm": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42"
+      ],
+      "phys": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "actuation_idv14",
+      "sev": 0.0,
+      "norm": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "phys": [
+        "gru_s7",
+        "ridge",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "actuation_idv14",
+      "sev": 2.0,
+      "norm": [
+        "ridge",
+        "mlp_s123",
+        "mlp_s42"
+      ],
+      "phys": [
+        "ridge",
+        "mlp_s7",
+        "mlp_s123"
+      ]
+    },
+    {
+      "domain": "actuation_idv14",
+      "sev": 3.0,
+      "norm": [
+        "ridge",
+        "mlp_s123",
+        "mlp_s42"
+      ],
+      "phys": [
+        "ridge",
+        "mlp_s7",
+        "mlp_s123"
+      ]
+    },
+    {
+      "domain": "actuation_idv14",
+      "sev": 5.0,
+      "norm": [
+        "ridge",
+        "mlp_s123",
+        "mlp_s7"
+      ],
+      "phys": [
+        "ridge",
+        "mlp_s7",
+        "gru_s123"
+      ]
+    },
+    {
+      "domain": "actuation_idv14",
+      "sev": 8.0,
+      "norm": [
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42"
+      ],
+      "phys": [
+        "gru_s123",
+        "gru_s42",
+        "gru_s7"
+      ]
+    }
+  ],
+  "operator_choice": {
+    "observation: bias vs noise": {
+      "rank_a": [
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "gru_s123",
+        "ridge"
+      ],
+      "rank_b": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ],
+      "reorders": true
+    },
+    "actuation: idv6 vs idv14": {
+      "rank_a": [
+        "ridge",
+        "mlp_s42",
+        "mlp_s123",
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s7"
+      ],
+      "rank_b": [
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42",
+        "ridge",
+        "gru_s123",
+        "gru_s42",
+        "gru_s7"
+      ],
+      "reorders": true
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "cstr/horizon_excitation_sweep.json": {
+    "sha256": "9d6294e3be5e0927",
+    "bytes": 5068
+  },
+  "tep/gain_sweep.json": {
+    "sha256": "f41c27d661e89ebc",
+    "bytes": 13089
+  },
+  "tep/history_probe.json": {
+    "sha256": "f049665cae4976aa",
+    "bytes": 859
+  },
+  "tep/modern_panel.json": {
+    "sha256": "6e4161a8bc76a50d",
+    "bytes": 24563
+  },
+  "tep/panel.json": {
+    "sha256": "d8119087fe8e1a6b",
+    "bytes": 2246
+  },
+  "tep/regime_act2.json": {
+    "sha256": "2af7a3a8a0edd55c",
+    "bytes": 13096
+  },
+  "tep/regime_diagnostic.json": {
+    "sha256": "10b8f2d53e45c94e",
+    "bytes": 23836
+  },
+  "tep/retention.json": {
+    "sha256": "736520d825a9f4df",
+    "bytes": 49510
+  },
+  "tep/seed_spread.json": {
+    "sha256": "02a8ce43f04d3f33",
+    "bytes": 25344
+  },
+  "tep/seven_checks.json": {
+    "sha256": "7e079d05ce07cc9e",
+    "bytes": 15829
+  },
+  "tep/tau_abs.json": {
+    "sha256": "0d0e9754481400d6",
+    "bytes": 5384
+  }
+}

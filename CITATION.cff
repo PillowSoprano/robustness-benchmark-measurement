@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: >-
+  If you use this protocol or its code, please cite the paper.
+title: >-
+  A Protocol for Robustness Benchmarking of Data-Driven Process Models
+abstract: >-
+  Seven measurement choices decide what a robustness benchmark for
+  data-driven process models concludes. This repository holds the protocol
+  implementation, the two system adapters, the simulator patches, and the
+  per-episode errors the experiments produced.
+authors:
+  - family-names: Yu
+    given-names: Xiyao
+    affiliation: >-
+      School of Chemistry, Chemical Engineering and Biotechnology,
+      Nanyang Technological University, Singapore
+license: MIT
+type: software
+keywords:
+  - benchmarking
+  - robustness
+  - evaluation methodology
+  - process control
+  - Tennessee Eastman process
+  - wastewater treatment

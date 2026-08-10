@@ -1,0 +1,14 @@
+# conda env create -f environment.yml && conda activate rbm
+#
+# Package versions are sourced from requirements.txt through pip. Tier 2 also
+# needs a Fortran compiler for the Tennessee Eastman plant, supplied below;
+# on macOS `brew install gcc` works equally well.
+name: rbm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - gfortran            # tier 2 only; drop it for a tier 1 environment
+  - pip
+  - pip:
+      - -r requirements.txt

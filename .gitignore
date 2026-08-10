@@ -1,0 +1,27 @@
+# run products; frozen_predictions/ holds what is meant to be committed
+reproduced/
+results/
+artifacts/
+episodes/
+retention/
+*.npz
+*.pt
+*.npy
+
+# compiled TEP extension, built by tep/build/
+*.so
+*.o
+*.mod
+
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+tep/gain_sweep/
+cstr/artifacts/

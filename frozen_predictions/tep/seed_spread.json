@@ -1,0 +1,1352 @@
+{
+  "method": {
+    "space": "norm",
+    "episode_estimator": "pooled RMS over surviving episodes",
+    "ratio_order": "aggregate errors first, divide second",
+    "seeds": [
+      "42",
+      "123",
+      "7",
+      "2024",
+      "31337"
+    ],
+    "censored_levels_excluded": [
+      "process_idv1@3.0",
+      "regime_setpt18@1.5",
+      "regime_setpt18@2.0",
+      "regime_setpt18@2.5"
+    ],
+    "tables": [
+      "tables_v2.npz",
+      "tables_ext.npz",
+      "tables_regime_act2.npz"
+    ]
+  },
+  "per_domain_minimum_skill": {
+    "actuation_idv14": {
+      "mlp": {
+        "per_seed": {
+          "42": 1.1874,
+          "123": 1.1898,
+          "7": 1.1859,
+          "2024": 1.1873,
+          "31337": 1.1886
+        },
+        "mean": 1.1878,
+        "spread": 0.0039
+      },
+      "gru": {
+        "per_seed": {
+          "42": 1.0327,
+          "123": 1.0393,
+          "7": 1.0292,
+          "2024": 1.0403,
+          "31337": 1.0371
+        },
+        "mean": 1.0357,
+        "spread": 0.0111
+      },
+      "ridge": {
+        "value": 1.1882,
+        "spread": 0.0,
+        "note": "no training seed"
+      }
+    },
+    "actuation_idv6": {
+      "mlp": {
+        "per_seed": {
+          "42": 1.595,
+          "123": 1.5718,
+          "7": 1.5424,
+          "2024": 1.587,
+          "31337": 1.5991
+        },
+        "mean": 1.5791,
+        "spread": 0.0567
+      },
+      "gru": {
+        "per_seed": {
+          "42": 1.5691,
+          "123": 1.5577,
+          "7": 1.5796,
+          "2024": 1.5922,
+          "31337": 1.5708
+        },
+        "mean": 1.5739,
+        "spread": 0.0345
+      },
+      "ridge": {
+        "value": 1.8301,
+        "spread": 0.0,
+        "note": "no training seed"
+      }
+    },
+    "dynamics_idv13": {
+      "mlp": {
+        "per_seed": {
+          "42": 1.0398,
+          "123": 1.0402,
+          "7": 1.0406,
+          "2024": 1.039,
+          "31337": 1.041
+        },
+        "mean": 1.0401,
+        "spread": 0.002
+      },
+      "gru": {
+        "per_seed": {
+          "42": 1.0416,
+          "123": 1.0411,
+          "7": 1.0423,
+          "2024": 1.042,
+          "31337": 1.0417
+        },
+        "mean": 1.0417,
+        "spread": 0.0012
+      },
+      "ridge": {
+        "value": 1.0413,
+        "spread": 0.0,
+        "note": "no training seed"
+      }
+    },
+    "obs_bias": {
+      "mlp": {
+        "per_seed": {
+          "42": 1.2392,
+          "123": 1.2303,
+          "7": 1.3204,
+          "2024": 1.3269,
+          "31337": 1.285
+        },
+        "mean": 1.2804,
+        "spread": 0.0966
+      },
+      "gru": {
+        "per_seed": {
+          "42": 1.327,
+          "123": 1.1737,
+          "7": 1.3287,
+          "2024": 1.4597,
+          "31337": 1.3663
+        },
+        "mean": 1.3311,
+        "spread": 0.286
+      },
+      "ridge": {
+        "value": 1.0183,
+        "spread": 0.0,
+        "note": "no training seed"
+      }
+    },
+    "obs_noise": {
+      "mlp": {
+        "per_seed": {
+          "42": 1.2911,
+          "123": 1.2479,
+          "7": 1.3226,
+          "2024": 1.3257,
+          "31337": 1.2687
+        },
+        "mean": 1.2912,
+        "spread": 0.0778
+      },
+      "gru": {
+        "per_seed": {
+          "42": 1.4289,
+          "123": 1.4693,
+          "7": 1.4563,
+          "2024": 1.4693,
+          "31337": 1.4877
+        },
+        "mean": 1.4623,
+        "spread": 0.0588
+      },
+      "ridge": {
+        "value": 0.7879,
+        "spread": 0.0,
+        "note": "no training seed"
+      }
+    },
+    "process_idv1": {
+      "mlp": {
+        "per_seed": {
+          "42": 1.3642,
+          "123": 1.339,
+          "7": 1.3651,
+          "2024": 1.3662,
+          "31337": 1.3697
+        },
+        "mean": 1.3608,
+        "spread": 0.0307
+      },
+      "gru": {
+        "per_seed": {
+          "42": 1.4155,
+          "123": 1.4128,
+          "7": 1.4478,
+          "2024": 1.4265,
+          "31337": 1.3685
+        },
+        "mean": 1.4142,
+        "spread": 0.0793
+      },
+      "ridge": {
+        "value": 1.4513,
+        "spread": 0.0,
+        "note": "no training seed"
+      }
+    },
+    "regime_setpt18": {
+      "mlp": {
+        "per_seed": {
+          "42": 0.0211,
+          "123": 0.0215,
+          "7": 0.0229,
+          "2024": 0.0238,
+          "31337": 0.0218
+        },
+        "mean": 0.0222,
+        "spread": 0.0027
+      },
+      "gru": {
+        "per_seed": {
+          "42": 0.5621,
+          "123": 0.6663,
+          "7": 0.6031,
+          "2024": 0.6281,
+          "31337": 0.681
+        },
+        "mean": 0.6281,
+        "spread": 0.1188
+      },
+      "ridge": {
+        "value": 0.0201,
+        "spread": 0.0,
+        "note": "no training seed"
+      }
+    }
+  },
+  "clean_skill_at_zero_severity": {
+    "mlp": {
+      "per_seed": {
+        "42": 1.9923,
+        "123": 2.0152,
+        "7": 1.9836,
+        "2024": 1.9899,
+        "31337": 2.0388
+      },
+      "spread": 0.0552
+    },
+    "gru": {
+      "per_seed": {
+        "42": 2.0738,
+        "123": 2.0676,
+        "7": 2.0796,
+        "2024": 2.0704,
+        "31337": 2.0705
+      },
+      "spread": 0.012
+    },
+    "dlinear": {
+      "per_seed": {
+        "42": 1.7682,
+        "123": 1.7753,
+        "7": 1.7682,
+        "2024": 1.6771,
+        "31337": 1.7793
+      },
+      "spread": 0.1022
+    },
+    "patchtf": {
+      "per_seed": {
+        "42": 1.9221,
+        "123": 1.9151,
+        "7": 1.9197,
+        "2024": 1.9182,
+        "31337": 1.9203
+      },
+      "spread": 0.007
+    }
+  },
+  "coverage": {
+    "per_seed_curves": [
+      "mlp",
+      "gru",
+      "dlinear",
+      "patchtf"
+    ],
+    "no_training_seed": [
+      "ridge",
+      "persistence"
+    ]
+  },
+  "modern_per_domain_minimum_skill": {
+    "actuation_idv6": {
+      "dlinear": {
+        "per_seed": {
+          "42": 1.5922,
+          "123": 1.6027,
+          "7": 1.6043,
+          "2024": 1.3712,
+          "31337": 1.6091
+        },
+        "mean": 1.5559,
+        "spread": 0.2379
+      },
+      "patchtf": {
+        "per_seed": {
+          "42": 1.6122,
+          "123": 1.6142,
+          "7": 1.5896,
+          "2024": 1.5799,
+          "31337": 1.611
+        },
+        "mean": 1.6014,
+        "spread": 0.0342
+      }
+    },
+    "dynamics_idv13": {
+      "dlinear": {
+        "per_seed": {
+          "42": 1.3636,
+          "123": 1.3676,
+          "7": 1.3649,
+          "2024": 1.338,
+          "31337": 1.3671
+        },
+        "mean": 1.3602,
+        "spread": 0.0296
+      },
+      "patchtf": {
+        "per_seed": {
+          "42": 1.4154,
+          "123": 1.4193,
+          "7": 1.4174,
+          "2024": 1.4152,
+          "31337": 1.4202
+        },
+        "mean": 1.4175,
+        "spread": 0.005
+      }
+    },
+    "obs_bias": {
+      "dlinear": {
+        "per_seed": {
+          "42": 1.254,
+          "123": 1.2757,
+          "7": 1.4026,
+          "2024": 0.7129,
+          "31337": 1.4862
+        },
+        "mean": 1.2263,
+        "spread": 0.7733
+      },
+      "patchtf": {
+        "per_seed": {
+          "42": 1.0717,
+          "123": 1.1561,
+          "7": 1.1137,
+          "2024": 1.2049,
+          "31337": 1.1321
+        },
+        "mean": 1.1357,
+        "spread": 0.1332
+      }
+    },
+    "obs_noise": {
+      "dlinear": {
+        "per_seed": {
+          "42": 1.4542,
+          "123": 1.5039,
+          "7": 1.436,
+          "2024": 0.9935,
+          "31337": 1.5025
+        },
+        "mean": 1.378,
+        "spread": 0.5104
+      },
+      "patchtf": {
+        "per_seed": {
+          "42": 1.2504,
+          "123": 1.2514,
+          "7": 1.2581,
+          "2024": 1.2631,
+          "31337": 1.2497
+        },
+        "mean": 1.2545,
+        "spread": 0.0134
+      }
+    },
+    "process_idv1": {
+      "dlinear": {
+        "per_seed": {
+          "42": 1.1165,
+          "123": 1.1552,
+          "7": 1.1476,
+          "2024": 1.1425,
+          "31337": 1.1502
+        },
+        "mean": 1.1424,
+        "spread": 0.0387
+      },
+      "patchtf": {
+        "per_seed": {
+          "42": 1.2989,
+          "123": 1.3072,
+          "7": 1.2655,
+          "2024": 1.3139,
+          "31337": 1.3094
+        },
+        "mean": 1.299,
+        "spread": 0.0484
+      }
+    },
+    "regime_setpt18": {
+      "dlinear": {
+        "per_seed": {
+          "42": 0.02,
+          "123": 0.0208,
+          "7": 0.0197,
+          "2024": 0.0263,
+          "31337": 0.02
+        },
+        "mean": 0.0214,
+        "spread": 0.0066
+      },
+      "patchtf": {
+        "per_seed": {
+          "42": 0.0553,
+          "123": 0.0706,
+          "7": 0.0651,
+          "2024": 0.0831,
+          "31337": 0.0676
+        },
+        "mean": 0.0684,
+        "spread": 0.0277
+      }
+    }
+  },
+  "ordering_flips_across_seeds": {
+    "n_cells_checked": 64,
+    "n_cells_flipped": 27,
+    "cells": [
+      {
+        "domain": "actuation_idv14",
+        "severity": 0.5,
+        "orders": {
+          "42": [
+            "ridge",
+            "gru",
+            "mlp"
+          ],
+          "123": [
+            "ridge",
+            "gru",
+            "mlp"
+          ],
+          "7": [
+            "ridge",
+            "gru",
+            "mlp"
+          ],
+          "2024": [
+            "ridge",
+            "gru",
+            "mlp"
+          ],
+          "31337": [
+            "ridge",
+            "mlp",
+            "gru"
+          ]
+        }
+      },
+      {
+        "domain": "actuation_idv6",
+        "severity": 0.1,
+        "orders": {
+          "42": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "123": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "31337": [
+            "gru",
+            "mlp",
+            "ridge"
+          ]
+        }
+      },
+      {
+        "domain": "actuation_idv6",
+        "severity": 0.2,
+        "orders": {
+          "42": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "123": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "31337": [
+            "gru",
+            "mlp",
+            "ridge"
+          ]
+        }
+      },
+      {
+        "domain": "actuation_idv6",
+        "severity": 0.5,
+        "orders": {
+          "42": [
+            "ridge",
+            "gru",
+            "mlp"
+          ],
+          "123": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "31337": [
+            "gru",
+            "ridge",
+            "mlp"
+          ]
+        }
+      },
+      {
+        "domain": "actuation_idv6",
+        "severity": 1.0,
+        "orders": {
+          "42": [
+            "ridge",
+            "mlp",
+            "gru"
+          ],
+          "123": [
+            "ridge",
+            "mlp",
+            "gru"
+          ],
+          "7": [
+            "ridge",
+            "gru",
+            "mlp"
+          ],
+          "2024": [
+            "ridge",
+            "gru",
+            "mlp"
+          ],
+          "31337": [
+            "ridge",
+            "mlp",
+            "gru"
+          ]
+        }
+      },
+      {
+        "domain": "dynamics_idv13",
+        "severity": 0.25,
+        "orders": {
+          "42": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "123": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "31337": [
+            "gru",
+            "mlp",
+            "ridge"
+          ]
+        }
+      },
+      {
+        "domain": "dynamics_idv13",
+        "severity": 0.5,
+        "orders": {
+          "42": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "123": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "31337": [
+            "gru",
+            "mlp",
+            "ridge"
+          ]
+        }
+      },
+      {
+        "domain": "dynamics_idv13",
+        "severity": 1.0,
+        "orders": {
+          "42": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "123": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "31337": [
+            "gru",
+            "mlp",
+            "ridge"
+          ]
+        }
+      },
+      {
+        "domain": "dynamics_idv13",
+        "severity": 1.5,
+        "orders": {
+          "42": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "123": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "31337": [
+            "gru",
+            "mlp",
+            "ridge"
+          ]
+        }
+      },
+      {
+        "domain": "dynamics_idv13",
+        "severity": 2.0,
+        "orders": {
+          "42": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "123": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "31337": [
+            "gru",
+            "mlp",
+            "ridge"
+          ]
+        }
+      },
+      {
+        "domain": "dynamics_idv13",
+        "severity": 3.0,
+        "orders": {
+          "42": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "123": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "31337": [
+            "mlp",
+            "gru",
+            "ridge"
+          ]
+        }
+      },
+      {
+        "domain": "dynamics_idv13",
+        "severity": 4.0,
+        "orders": {
+          "42": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "123": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "31337": [
+            "gru",
+            "mlp",
+            "ridge"
+          ]
+        }
+      },
+      {
+        "domain": "dynamics_idv13",
+        "severity": 6.0,
+        "orders": {
+          "42": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "123": [
+            "ridge",
+            "gru",
+            "mlp"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "31337": [
+            "gru",
+            "ridge",
+            "mlp"
+          ]
+        }
+      },
+      {
+        "domain": "obs_bias",
+        "severity": 0.02,
+        "orders": {
+          "42": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "123": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "31337": [
+            "gru",
+            "mlp",
+            "ridge"
+          ]
+        }
+      },
+      {
+        "domain": "obs_bias",
+        "severity": 0.05,
+        "orders": {
+          "42": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "123": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "31337": [
+            "gru",
+            "mlp",
+            "ridge"
+          ]
+        }
+      },
+      {
+        "domain": "obs_bias",
+        "severity": 0.08,
+        "orders": {
+          "42": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "123": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "31337": [
+            "gru",
+            "mlp",
+            "ridge"
+          ]
+        }
+      },
+      {
+        "domain": "obs_bias",
+        "severity": 0.12,
+        "orders": {
+          "42": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "123": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "31337": [
+            "gru",
+            "mlp",
+            "ridge"
+          ]
+        }
+      },
+      {
+        "domain": "obs_bias",
+        "severity": 0.18,
+        "orders": {
+          "42": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "123": [
+            "gru",
+            "mlp",
+            "ridge"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "gru",
+            "mlp",
+            "ridge"
+          ],
+          "31337": [
+            "gru",
+            "mlp",
+            "ridge"
+          ]
+        }
+      },
+      {
+        "domain": "obs_bias",
+        "severity": 2.0,
+        "orders": {
+          "42": [
+            "gru",
+            "mlp",
+            "ridge"
+          ],
+          "123": [
+            "mlp",
+            "gru",
+            "ridge"
+          ],
+          "7": [
+            "gru",
+            "mlp",
+            "ridge"
+          ],
+          "2024": [
+            "gru",
+            "mlp",
+            "ridge"
+          ],
+          "31337": [
+            "gru",
+            "mlp",
+            "ridge"
+          ]
+        }
+      },
+      {
+        "domain": "obs_noise",
+        "severity": 0.02,
+        "orders": {
+          "42": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "123": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "31337": [
+            "gru",
+            "mlp",
+            "ridge"
+          ]
+        }
+      },
+      {
+        "domain": "obs_noise",
+        "severity": 0.05,
+        "orders": {
+          "42": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "123": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "31337": [
+            "gru",
+            "mlp",
+            "ridge"
+          ]
+        }
+      },
+      {
+        "domain": "obs_noise",
+        "severity": 0.08,
+        "orders": {
+          "42": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "123": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "31337": [
+            "gru",
+            "mlp",
+            "ridge"
+          ]
+        }
+      },
+      {
+        "domain": "obs_noise",
+        "severity": 0.12,
+        "orders": {
+          "42": [
+            "gru",
+            "mlp",
+            "ridge"
+          ],
+          "123": [
+            "gru",
+            "mlp",
+            "ridge"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "gru",
+            "mlp",
+            "ridge"
+          ],
+          "31337": [
+            "gru",
+            "mlp",
+            "ridge"
+          ]
+        }
+      },
+      {
+        "domain": "process_idv1",
+        "severity": 0.75,
+        "orders": {
+          "42": [
+            "ridge",
+            "gru",
+            "mlp"
+          ],
+          "123": [
+            "ridge",
+            "gru",
+            "mlp"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "31337": [
+            "ridge",
+            "gru",
+            "mlp"
+          ]
+        }
+      },
+      {
+        "domain": "process_idv1",
+        "severity": 1.0,
+        "orders": {
+          "42": [
+            "ridge",
+            "gru",
+            "mlp"
+          ],
+          "123": [
+            "ridge",
+            "gru",
+            "mlp"
+          ],
+          "7": [
+            "gru",
+            "ridge",
+            "mlp"
+          ],
+          "2024": [
+            "ridge",
+            "gru",
+            "mlp"
+          ],
+          "31337": [
+            "ridge",
+            "gru",
+            "mlp"
+          ]
+        }
+      },
+      {
+        "domain": "process_idv1",
+        "severity": 1.5,
+        "orders": {
+          "42": [
+            "ridge",
+            "gru",
+            "mlp"
+          ],
+          "123": [
+            "ridge",
+            "gru",
+            "mlp"
+          ],
+          "7": [
+            "ridge",
+            "gru",
+            "mlp"
+          ],
+          "2024": [
+            "ridge",
+            "gru",
+            "mlp"
+          ],
+          "31337": [
+            "ridge",
+            "mlp",
+            "gru"
+          ]
+        }
+      },
+      {
+        "domain": "process_idv1",
+        "severity": 2.0,
+        "orders": {
+          "42": [
+            "ridge",
+            "gru",
+            "mlp"
+          ],
+          "123": [
+            "ridge",
+            "gru",
+            "mlp"
+          ],
+          "7": [
+            "ridge",
+            "gru",
+            "mlp"
+          ],
+          "2024": [
+            "ridge",
+            "gru",
+            "mlp"
+          ],
+          "31337": [
+            "ridge",
+            "mlp",
+            "gru"
+          ]
+        }
+      }
+    ]
+  },
+  "per_domain_minimum_skill_mean_of_window": {
+    "actuation_idv14": {
+      "mlp": {
+        "mean": 1.1767,
+        "spread": 0.0089
+      },
+      "gru": {
+        "mean": 1.0333,
+        "spread": 0.0101
+      }
+    },
+    "actuation_idv6": {
+      "mlp": {
+        "mean": 1.5942,
+        "spread": 0.0542
+      },
+      "gru": {
+        "mean": 1.5855,
+        "spread": 0.0276
+      }
+    },
+    "dynamics_idv13": {
+      "mlp": {
+        "mean": 1.1993,
+        "spread": 0.0084
+      },
+      "gru": {
+        "mean": 1.2062,
+        "spread": 0.003
+      }
+    },
+    "obs_bias": {
+      "mlp": {
+        "mean": 1.2754,
+        "spread": 0.096
+      },
+      "gru": {
+        "mean": 1.3304,
+        "spread": 0.2676
+      }
+    },
+    "obs_noise": {
+      "mlp": {
+        "mean": 1.3006,
+        "spread": 0.0695
+      },
+      "gru": {
+        "mean": 1.4707,
+        "spread": 0.0563
+      }
+    },
+    "process_idv1": {
+      "mlp": {
+        "mean": 1.3556,
+        "spread": 0.0283
+      },
+      "gru": {
+        "mean": 1.408,
+        "spread": 0.0809
+      }
+    },
+    "regime_setpt18": {
+      "mlp": {
+        "mean": 0.0213,
+        "spread": 0.0026
+      },
+      "gru": {
+        "mean": 0.6226,
+        "spread": 0.1182
+      }
+    }
+  },
+  "summary": {
+    "max_seed_spread_over_all_domain_minima": 0.286,
+    "worst_domain": "obs_bias",
+    "n_seeded_cells": 14,
+    "n_ordering_flips": 27,
+    "scope_note": "seed spread is domain-dependent; report and interpret the per-domain values rather than applying a global bound"
+  }
+}

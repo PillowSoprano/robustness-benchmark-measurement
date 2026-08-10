@@ -1,0 +1,238 @@
+{
+  "decision_channels": {
+    "6": {
+      "name": "reactor_pressure",
+      "tol": 190.0
+    },
+    "7": {
+      "name": "reactor_level",
+      "tol": 25.0
+    },
+    "8": {
+      "name": "reactor_temp",
+      "tol": 29.6
+    },
+    "11": {
+      "name": "separator_level",
+      "tol": 20.0
+    },
+    "14": {
+      "name": "stripper_level",
+      "tol": 20.0
+    }
+  },
+  "nominal_admissibility": {
+    "persistence": "admissible",
+    "ridge": "admissible",
+    "mlp_s42": "admissible",
+    "gru_s42": "admissible",
+    "mlp_s123": "admissible",
+    "gru_s123": "admissible",
+    "mlp_s7": "admissible",
+    "gru_s7": "admissible"
+  },
+  "absolute_trips": [
+    {
+      "model": "ridge",
+      "domain": "obs_noise",
+      "severity": 2.0,
+      "channel": "reactor_pressure",
+      "rmse": 191.44117736816406,
+      "tol": 190.0
+    }
+  ],
+  "radii": {
+    "persistence|obs_bias": {
+      "relative_only": 0.3,
+      "conjunction": null
+    },
+    "persistence|obs_noise": {
+      "relative_only": 0.3,
+      "conjunction": null
+    },
+    "persistence|process_idv1": {
+      "relative_only": 0.175,
+      "conjunction": null
+    },
+    "persistence|actuation_idv6": {
+      "relative_only": 0.625,
+      "conjunction": null
+    },
+    "persistence|dynamics_idv13": {
+      "relative_only": 0.75,
+      "conjunction": null
+    },
+    "ridge|obs_bias": {
+      "relative_only": 0.215,
+      "conjunction": null
+    },
+    "ridge|obs_noise": {
+      "relative_only": 0.15,
+      "conjunction": 1.8
+    },
+    "ridge|process_idv1": {
+      "relative_only": 0.175,
+      "conjunction": null
+    },
+    "ridge|actuation_idv6": {
+      "relative_only": 0.625,
+      "conjunction": null
+    },
+    "ridge|dynamics_idv13": {
+      "relative_only": 0.375,
+      "conjunction": null
+    },
+    "mlp_s42|obs_bias": {
+      "relative_only": 0.215,
+      "conjunction": null
+    },
+    "mlp_s42|obs_noise": {
+      "relative_only": 0.215,
+      "conjunction": null
+    },
+    "mlp_s42|process_idv1": {
+      "relative_only": 0.175,
+      "conjunction": null
+    },
+    "mlp_s42|actuation_idv6": {
+      "relative_only": 0.625,
+      "conjunction": null
+    },
+    "mlp_s42|dynamics_idv13": {
+      "relative_only": 0.375,
+      "conjunction": null
+    },
+    "gru_s42|obs_bias": {
+      "relative_only": 0.215,
+      "conjunction": null
+    },
+    "gru_s42|obs_noise": {
+      "relative_only": 0.15,
+      "conjunction": null
+    },
+    "gru_s42|process_idv1": {
+      "relative_only": 0.175,
+      "conjunction": null
+    },
+    "gru_s42|actuation_idv6": {
+      "relative_only": 0.625,
+      "conjunction": null
+    },
+    "gru_s42|dynamics_idv13": {
+      "relative_only": 0.375,
+      "conjunction": null
+    },
+    "mlp_s123|obs_bias": {
+      "relative_only": 0.215,
+      "conjunction": null
+    },
+    "mlp_s123|obs_noise": {
+      "relative_only": 0.215,
+      "conjunction": null
+    },
+    "mlp_s123|process_idv1": {
+      "relative_only": 0.175,
+      "conjunction": null
+    },
+    "mlp_s123|actuation_idv6": {
+      "relative_only": 0.425,
+      "conjunction": null
+    },
+    "mlp_s123|dynamics_idv13": {
+      "relative_only": 0.375,
+      "conjunction": null
+    },
+    "gru_s123|obs_bias": {
+      "relative_only": 0.3,
+      "conjunction": null
+    },
+    "gru_s123|obs_noise": {
+      "relative_only": 0.215,
+      "conjunction": null
+    },
+    "gru_s123|process_idv1": {
+      "relative_only": 0.175,
+      "conjunction": null
+    },
+    "gru_s123|actuation_idv6": {
+      "relative_only": 0.625,
+      "conjunction": null
+    },
+    "gru_s123|dynamics_idv13": {
+      "relative_only": 0.375,
+      "conjunction": null
+    },
+    "mlp_s7|obs_bias": {
+      "relative_only": 0.3,
+      "conjunction": null
+    },
+    "mlp_s7|obs_noise": {
+      "relative_only": 0.215,
+      "conjunction": null
+    },
+    "mlp_s7|process_idv1": {
+      "relative_only": 0.175,
+      "conjunction": null
+    },
+    "mlp_s7|actuation_idv6": {
+      "relative_only": 0.625,
+      "conjunction": null
+    },
+    "mlp_s7|dynamics_idv13": {
+      "relative_only": 0.75,
+      "conjunction": null
+    },
+    "gru_s7|obs_bias": {
+      "relative_only": 0.3,
+      "conjunction": null
+    },
+    "gru_s7|obs_noise": {
+      "relative_only": 0.215,
+      "conjunction": null
+    },
+    "gru_s7|process_idv1": {
+      "relative_only": 0.175,
+      "conjunction": null
+    },
+    "gru_s7|actuation_idv6": {
+      "relative_only": 0.625,
+      "conjunction": null
+    },
+    "gru_s7|dynamics_idv13": {
+      "relative_only": 0.375,
+      "conjunction": null
+    }
+  },
+  "worst_margin": {
+    "reactor_pressure": {
+      "max_rmse": 191.44117736816406,
+      "tol": 190.0,
+      "ratio": 1.0075851440429688,
+      "at": "ridge|obs_noise|2.0"
+    },
+    "reactor_level": {
+      "max_rmse": 4.600200176239014,
+      "tol": 25.0,
+      "ratio": 0.18400800704956055,
+      "at": "persistence|obs_noise|2.0"
+    },
+    "reactor_temp": {
+      "max_rmse": 0.28260737657546997,
+      "tol": 29.6,
+      "ratio": 0.00954754650592804,
+      "at": "persistence|dynamics_idv13|4.0"
+    },
+    "separator_level": {
+      "max_rmse": 3.318998336791992,
+      "tol": 20.0,
+      "ratio": 0.16594991683959961,
+      "at": "ridge|obs_noise|2.0"
+    },
+    "stripper_level": {
+      "max_rmse": 3.3723604679107666,
+      "tol": 20.0,
+      "ratio": 0.16861802339553833,
+      "at": "ridge|obs_noise|2.0"
+    }
+  }
+}

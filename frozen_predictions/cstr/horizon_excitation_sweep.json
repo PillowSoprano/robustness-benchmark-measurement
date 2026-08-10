@@ -1,0 +1,181 @@
+{
+  "declared_before_running": {
+    "gate": "skill = J(persistence) / J(member) on the clean validation split; a task instance in which no member clears 1 by a usable margin is invalid (Section 3.3)",
+    "dt_hours": 0.05,
+    "history_samples": 20,
+    "horizons_samples": [
+      10,
+      20,
+      40,
+      60,
+      80,
+      120
+    ],
+    "excitation_multipliers": [
+      1.0,
+      2.0,
+      4.0,
+      8.0
+    ],
+    "excitation_horizon_samples": 10,
+    "panel": [
+      "persistence",
+      "ridge",
+      "mlp",
+      "gru"
+    ],
+    "seed": 42
+  },
+  "horizon_sweep": {
+    "episodes": {
+      "train": 200,
+      "val": 40,
+      "rejected_train": 0,
+      "rejected_val": 0,
+      "episode_length_samples": 400
+    },
+    "10": {
+      "n_train_windows": 6000,
+      "n_val_windows": 1200,
+      "persistence_jfid": 0.0029965664725750685,
+      "ridge_jfid": 0.0026640796568244696,
+      "mlp_jfid": 0.002717838451393551,
+      "gru_jfid": 0.002656624012947545,
+      "ridge_skill": 1.1248,
+      "mlp_skill": 1.1026,
+      "gru_skill": 1.128,
+      "panel_best_skill": 1.128,
+      "horizon_hours": 0.5
+    },
+    "20": {
+      "n_train_windows": 5800,
+      "n_val_windows": 1160,
+      "persistence_jfid": 0.004324807785451412,
+      "ridge_jfid": 0.003602058393880725,
+      "mlp_jfid": 0.003654093463104518,
+      "gru_jfid": 0.0035883562237601055,
+      "ridge_skill": 1.2006,
+      "mlp_skill": 1.1836,
+      "gru_skill": 1.2052,
+      "panel_best_skill": 1.2052,
+      "horizon_hours": 1.0
+    },
+    "40": {
+      "n_train_windows": 5400,
+      "n_val_windows": 1080,
+      "persistence_jfid": 0.005646364763379097,
+      "ridge_jfid": 0.004331968724727631,
+      "mlp_jfid": 0.004390534679712634,
+      "gru_jfid": 0.004319674737901381,
+      "ridge_skill": 1.3034,
+      "mlp_skill": 1.286,
+      "gru_skill": 1.3071,
+      "panel_best_skill": 1.3071,
+      "horizon_hours": 2.0
+    },
+    "60": {
+      "n_train_windows": 5000,
+      "n_val_windows": 1000,
+      "persistence_jfid": 0.006369323004037142,
+      "ridge_jfid": 0.004637427628040314,
+      "mlp_jfid": 0.004722545335410722,
+      "gru_jfid": 0.004621309724146847,
+      "ridge_skill": 1.3735,
+      "mlp_skill": 1.3487,
+      "gru_skill": 1.3783,
+      "panel_best_skill": 1.3783,
+      "horizon_hours": 3.0
+    },
+    "80": {
+      "n_train_windows": 4600,
+      "n_val_windows": 920,
+      "persistence_jfid": 0.0068574282340705395,
+      "ridge_jfid": 0.004827476106584072,
+      "mlp_jfid": 0.004927254502091092,
+      "gru_jfid": 0.004814455880958395,
+      "ridge_skill": 1.4205,
+      "mlp_skill": 1.3917,
+      "gru_skill": 1.4243,
+      "panel_best_skill": 1.4243,
+      "horizon_hours": 4.0
+    },
+    "120": {
+      "n_train_windows": 3800,
+      "n_val_windows": 760,
+      "persistence_jfid": 0.007409058976918459,
+      "ridge_jfid": 0.005049873609095812,
+      "mlp_jfid": 0.005146585954393402,
+      "gru_jfid": 0.005046051493631087,
+      "ridge_skill": 1.4672,
+      "mlp_skill": 1.4396,
+      "gru_skill": 1.4683,
+      "panel_best_skill": 1.4683,
+      "horizon_hours": 6.0
+    }
+  },
+  "excitation_sweep": {
+    "1.0": {
+      "n_train_windows": 3800,
+      "n_val_windows": 760,
+      "persistence_jfid": 0.0029110414907336235,
+      "ridge_jfid": 0.0025939925108104944,
+      "mlp_jfid": 0.00265526727659433,
+      "gru_jfid": 0.0025869667005385785,
+      "ridge_skill": 1.1222,
+      "mlp_skill": 1.0963,
+      "gru_skill": 1.1253,
+      "panel_best_skill": 1.1253,
+      "rejected_train": 0,
+      "rejected_val": 0
+    },
+    "2.0": {
+      "n_train_windows": 3800,
+      "n_val_windows": 760,
+      "persistence_jfid": 0.005802576430141926,
+      "ridge_jfid": 0.005187970120459795,
+      "mlp_jfid": 0.005345813533275991,
+      "gru_jfid": 0.005173537696164439,
+      "ridge_skill": 1.1185,
+      "mlp_skill": 1.0854,
+      "gru_skill": 1.1216,
+      "panel_best_skill": 1.1216,
+      "rejected_train": 0,
+      "rejected_val": 0
+    },
+    "4.0": {
+      "n_train_windows": 3800,
+      "n_val_windows": 760,
+      "persistence_jfid": 0.011599484831094742,
+      "ridge_jfid": 0.01038266345858574,
+      "mlp_jfid": 0.010781308688279584,
+      "gru_jfid": 0.010415372668797005,
+      "ridge_skill": 1.1172,
+      "mlp_skill": 1.0759,
+      "gru_skill": 1.1137,
+      "panel_best_skill": 1.1172,
+      "rejected_train": 4,
+      "rejected_val": 0
+    },
+    "8.0": {
+      "n_train_windows": 3800,
+      "n_val_windows": 760,
+      "persistence_jfid": 0.02434501051902771,
+      "ridge_jfid": 0.021500075235962868,
+      "mlp_jfid": 0.022515593248115934,
+      "gru_jfid": 0.02148829771123414,
+      "ridge_skill": 1.1323,
+      "mlp_skill": 1.0813,
+      "gru_skill": 1.1329,
+      "panel_best_skill": 1.1329,
+      "rejected_train": 102,
+      "rejected_val": 27
+    }
+  },
+  "summary": {
+    "best_skill_at_card_horizon": 1.128,
+    "best_skill_at_longest_horizon": 1.4683,
+    "best_skill_over_all_configurations": 1.4683,
+    "verdict": "invalid instance: persistence-dominated at every configuration tried"
+  },
+  "runtime_seconds": 833.5
+}
