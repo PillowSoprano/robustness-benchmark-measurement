@@ -30,7 +30,7 @@ FIGURES = [
 ]
 TABLES = [
     ("Table 6   TS-Fault re-ranking",
-     "reanalysis/tsfault_shared_denominator.py"),
+     "reanalysis/tsfault_common_reference.py"),
 ]
 # Artifacts the paper cites directly, listed so a tier-1 run surfaces every
 # number the text rests on; each is checksum-verified by check_manifest().

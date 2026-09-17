@@ -14,6 +14,8 @@ Usage:
 """
 
 import json
+import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -119,6 +121,40 @@ if d:
     for m, v in (("ridge", 0.02), ("mlp", 0.02), ("gru", 0.62),
                  ("dlinear", 0.02), ("patchtf", 0.07)):
         expect(f"regime minimum {m}", v, min(reg[m]), tol=6e-3)
+
+# --------------------------------------------------------------- Section 7
+# The TS-Fault table is a transparent transcription rather than a frozen
+# simulator artifact. Execute the released audit and pin its load-bearing
+# outputs so edits to the transcription or ranking logic cannot drift from
+# the manuscript silently.
+rean = ROOT / "reanalysis" / "tsfault_common_reference.py"
+if not rean.exists():
+    checks.append(("TS-Fault reanalysis script", False, "missing"))
+else:
+    run = subprocess.run([sys.executable, str(rean)], cwd=ROOT,
+                         capture_output=True, text=True)
+    expect("TS-Fault reanalysis executes", 0, run.returncode)
+    if run.returncode == 0:
+        own = re.search(r"own clean-error ratio\s+([+-]?\d+\.\d+).*p=(\d+\.\d+)",
+                        run.stdout)
+        shared = re.search(
+            r"common reference\s+([+-]?\d+\.\d+).*p=(\d+\.\d+)",
+            run.stdout)
+        expect("TS-Fault own-reference output parsed", True, own is not None)
+        expect("TS-Fault common-reference output parsed", True,
+               shared is not None)
+        if own:
+            expect("TS-Fault own-reference rho", -0.414, float(own.group(1)),
+                   tol=5e-4)
+            expect("TS-Fault own-reference p", 0.062, float(own.group(2)),
+                   tol=5e-4)
+        if shared:
+            expect("TS-Fault common-reference rho", 0.052,
+                   float(shared.group(1)), tol=5e-4)
+            expect("TS-Fault common-reference p", 0.823,
+                   float(shared.group(2)), tol=5e-4)
+        expect("TS-Fault models below the common reference", 3,
+               run.stdout.count("below baseline"))
 
 # ------------------------------------------------------------------- report
 width = max(len(c[0]) for c in checks)
