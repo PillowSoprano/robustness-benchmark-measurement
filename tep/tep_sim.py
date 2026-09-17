@@ -3,7 +3,9 @@
 The Fortran plant keeps state in COMMON blocks across calls. Resetting the
 exposed blocks (RANDSD, the CTRLn integrator states, FLAG6) fixes the first
 repeat call but not later ones, so some further block still carries state.
-Fresh processes with the same seed are bit-identical, hence maxtasksperchild=1.
+Fresh processes with the same seed are bit-identical. Both maxtasksperchild=1
+and chunksize=1 are required: a Pool task is a chunk, not necessarily one
+simulation. Spawn also prevents inheriting Fortran state from the parent.
 
 simulate(idata, seed, dsev=None, spoff=None, gainmul=1.0)
     -> (n_samples, 52) array of XMEAS(1..41) then XMV(1..11).
@@ -17,7 +19,7 @@ gainmul scalar on every controller gain; 1.0 is the original tuning and
 
 import os
 import sys
-from multiprocessing import Pool, set_start_method
+from multiprocessing import get_context, set_start_method
 
 import numpy as np
 
@@ -42,13 +44,13 @@ def _worker(job):
 
 
 def simulate(idata, seed, dsev=None, spoff=None, gainmul=1.0):
-    with Pool(processes=1, maxtasksperchild=1) as p:
-        return p.map(_worker, [(idata, seed, dsev, spoff, gainmul)])[0]
+    with get_context("spawn").Pool(processes=1, maxtasksperchild=1) as p:
+        return p.map(_worker, [(idata, seed, dsev, spoff, gainmul)], chunksize=1)[0]
 
 
 def simulate_batch(jobs, workers=8):
-    with Pool(processes=workers, maxtasksperchild=1) as p:
-        return p.map(_worker, jobs)
+    with get_context("spawn").Pool(processes=workers, maxtasksperchild=1) as p:
+        return p.map(_worker, jobs, chunksize=1)
 
 
 if __name__ == "__main__":
