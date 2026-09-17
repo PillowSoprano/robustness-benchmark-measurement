@@ -19,6 +19,9 @@ have per-episode tables at all five seeds. The two modern architectures have
 per-seed clean gate values but no per-seed curve tables, so their spread is
 reported at severity zero only.
 
+This legacy entry point reports pooled RMS explicitly. The revised primary
+mean-window analysis is provided in revision_2026_09.
+
 Usage:
     python seed_spread.py
 """
@@ -34,7 +37,8 @@ HERE = Path(__file__).resolve().parent
 RET = HERE / "retention"
 OUT = HERE / "retention" / "seed_spread.json"
 
-TABLES = ["tables_v2.npz", "tables_ext.npz", "tables_regime_act2.npz"]
+# Load early extensions first; the corrected masks take precedence.
+TABLES = ["tables_ext.npz", "tables_v2.npz", "tables_regime_act2.npz"]
 SEEDS = os.environ.get("RBM_SEEDS", "42,123,7,2024,31337").split(",")
 SEEDED = ["mlp", "gru"]           # members whose tables carry a seed suffix
 UNSEEDED = ["ridge"]              # deterministic given the split
@@ -97,7 +101,12 @@ def main():
                         own = cells.get((key(member, seed), domain, s))
                         if ref is None or own is None:
                             continue
-                        pts.append((s, agg(ref) / agg(own)))
+                        valid = np.isfinite(ref)
+                        if valid.sum() < 0.5 * len(ref):
+                            continue
+                        if not np.isfinite(own[valid]).all():
+                            raise ValueError(f"nonfinite model loss on viable arm: {member} {seed} {domain} {s}")
+                        pts.append((s, agg(ref[valid]) / agg(own[valid])))
                     if pts:
                         c[(member, seed)][domain] = pts
         return c
