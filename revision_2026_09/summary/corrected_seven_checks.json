@@ -1,0 +1,1991 @@
+{
+  "cells": 64,
+  "state_weighting_rank_changes": 56,
+  "window_aggregation_rank_changes": 8,
+  "details": [
+    {
+      "domain": "actuation_idv14",
+      "severity": 0.0,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "ridge",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "actuation_idv14",
+      "severity": 0.5,
+      "normalized": [
+        "ridge",
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "ridge",
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "ridge",
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "actuation_idv14",
+      "severity": 1.0,
+      "normalized": [
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7",
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "physical": [
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7",
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "pooled": [
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7",
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ]
+    },
+    {
+      "domain": "actuation_idv14",
+      "severity": 2.0,
+      "normalized": [
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7",
+        "gru_s123",
+        "gru_s7",
+        "gru_s42"
+      ],
+      "physical": [
+        "ridge",
+        "mlp_s7",
+        "mlp_s123",
+        "mlp_s42",
+        "gru_s7",
+        "gru_s42",
+        "gru_s123"
+      ],
+      "pooled": [
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7",
+        "gru_s123",
+        "gru_s7",
+        "gru_s42"
+      ]
+    },
+    {
+      "domain": "actuation_idv14",
+      "severity": 3.0,
+      "normalized": [
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7",
+        "gru_s123",
+        "gru_s42",
+        "gru_s7"
+      ],
+      "physical": [
+        "ridge",
+        "mlp_s7",
+        "mlp_s123",
+        "mlp_s42",
+        "gru_s42",
+        "gru_s7",
+        "gru_s123"
+      ],
+      "pooled": [
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7",
+        "gru_s123",
+        "gru_s42",
+        "gru_s7"
+      ]
+    },
+    {
+      "domain": "actuation_idv14",
+      "severity": 5.0,
+      "normalized": [
+        "ridge",
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42",
+        "gru_s123",
+        "gru_s42",
+        "gru_s7"
+      ],
+      "physical": [
+        "ridge",
+        "mlp_s7",
+        "gru_s123",
+        "mlp_s123",
+        "gru_s42",
+        "mlp_s42",
+        "gru_s7"
+      ],
+      "pooled": [
+        "ridge",
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42",
+        "gru_s123",
+        "gru_s42",
+        "gru_s7"
+      ]
+    },
+    {
+      "domain": "actuation_idv14",
+      "severity": 8.0,
+      "normalized": [
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42",
+        "ridge",
+        "gru_s123",
+        "gru_s42",
+        "gru_s7"
+      ],
+      "physical": [
+        "gru_s123",
+        "gru_s42",
+        "gru_s7",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ],
+      "pooled": [
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42",
+        "ridge",
+        "gru_s123",
+        "gru_s42",
+        "gru_s7"
+      ]
+    },
+    {
+      "domain": "actuation_idv6",
+      "severity": 0.0,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "ridge",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "actuation_idv6",
+      "severity": 0.05,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "ridge",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "actuation_idv6",
+      "severity": 0.1,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "ridge",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "actuation_idv6",
+      "severity": 0.2,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "ridge",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "actuation_idv6",
+      "severity": 0.35,
+      "normalized": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "ridge",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "actuation_idv6",
+      "severity": 0.5,
+      "normalized": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "ridge",
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s123",
+        "ridge",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "actuation_idv6",
+      "severity": 0.75,
+      "normalized": [
+        "ridge",
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s42",
+        "mlp_s123",
+        "mlp_s7"
+      ],
+      "physical": [
+        "ridge",
+        "gru_s123",
+        "gru_s42",
+        "gru_s7",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "ridge",
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s42",
+        "mlp_s123",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "actuation_idv6",
+      "severity": 1.0,
+      "normalized": [
+        "ridge",
+        "mlp_s42",
+        "mlp_s123",
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s7"
+      ],
+      "physical": [
+        "ridge",
+        "gru_s42",
+        "gru_s123",
+        "gru_s7",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "ridge",
+        "mlp_s42",
+        "gru_s7",
+        "mlp_s123",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "severity": 0.0,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "ridge",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "severity": 0.25,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "ridge",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "severity": 0.5,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "gru_s42",
+        "ridge",
+        "gru_s123",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "severity": 1.0,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42"
+      ],
+      "physical": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "ridge",
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "severity": 1.5,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "gru_s42",
+        "ridge",
+        "gru_s123",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "severity": 2.0,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "severity": 3.0,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42"
+      ],
+      "physical": [
+        "gru_s7",
+        "gru_s42",
+        "ridge",
+        "gru_s123",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "severity": 4.0,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42"
+      ],
+      "physical": [
+        "gru_s7",
+        "ridge",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s7",
+        "mlp_s123",
+        "mlp_s42"
+      ]
+    },
+    {
+      "domain": "dynamics_idv13",
+      "severity": 6.0,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42"
+      ],
+      "physical": [
+        "gru_s7",
+        "ridge",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "ridge",
+        "gru_s123",
+        "mlp_s7",
+        "mlp_s123",
+        "mlp_s42"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "severity": 0.0,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "ridge",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "severity": 0.02,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "ridge",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "severity": 0.05,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "ridge",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "severity": 0.08,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "ridge",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "severity": 0.12,
+      "normalized": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "gru_s123",
+        "ridge",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "severity": 0.18,
+      "normalized": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "ridge",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "gru_s123",
+        "ridge",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "ridge",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "severity": 0.25,
+      "normalized": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7",
+        "ridge"
+      ],
+      "physical": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "severity": 0.35,
+      "normalized": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42",
+        "ridge"
+      ],
+      "physical": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "ridge",
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "severity": 0.5,
+      "normalized": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ],
+      "physical": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s7",
+        "ridge",
+        "mlp_s42"
+      ],
+      "pooled": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "severity": 0.7,
+      "normalized": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ],
+      "physical": [
+        "gru_s7",
+        "gru_s123",
+        "mlp_s7",
+        "mlp_s123",
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "pooled": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "severity": 1.0,
+      "normalized": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ],
+      "physical": [
+        "gru_s7",
+        "gru_s123",
+        "mlp_s7",
+        "mlp_s123",
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "pooled": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "severity": 1.3,
+      "normalized": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ],
+      "physical": [
+        "gru_s7",
+        "gru_s123",
+        "mlp_s7",
+        "mlp_s123",
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "pooled": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "severity": 1.6,
+      "normalized": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ],
+      "physical": [
+        "gru_s7",
+        "gru_s123",
+        "mlp_s7",
+        "mlp_s123",
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "pooled": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "obs_bias",
+      "severity": 2.0,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "gru_s123",
+        "ridge"
+      ],
+      "physical": [
+        "gru_s7",
+        "mlp_s7",
+        "mlp_s123",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "gru_s123",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "severity": 0.0,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "ridge",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "severity": 0.02,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "ridge",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "severity": 0.05,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "severity": 0.08,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "severity": 0.12,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s123",
+        "mlp_s42",
+        "ridge",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s123",
+        "mlp_s42",
+        "ridge",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "severity": 0.18,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7",
+        "ridge"
+      ],
+      "physical": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "ridge",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "severity": 0.25,
+      "normalized": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7",
+        "ridge"
+      ],
+      "physical": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7",
+        "ridge"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "severity": 0.35,
+      "normalized": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7",
+        "ridge"
+      ],
+      "physical": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7",
+        "ridge"
+      ],
+      "pooled": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "severity": 0.5,
+      "normalized": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42",
+        "ridge"
+      ],
+      "physical": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7",
+        "ridge"
+      ],
+      "pooled": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s123",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "severity": 0.7,
+      "normalized": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ],
+      "physical": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42",
+        "ridge"
+      ],
+      "pooled": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "severity": 1.0,
+      "normalized": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ],
+      "physical": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ],
+      "pooled": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "severity": 1.3,
+      "normalized": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ],
+      "physical": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ],
+      "pooled": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "severity": 1.6,
+      "normalized": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ],
+      "physical": [
+        "gru_s123",
+        "gru_s42",
+        "gru_s7",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ],
+      "pooled": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "obs_noise",
+      "severity": 2.0,
+      "normalized": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ],
+      "physical": [
+        "gru_s123",
+        "gru_s42",
+        "gru_s7",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ],
+      "pooled": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "process_idv1",
+      "severity": 0.0,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "ridge",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "process_idv1",
+      "severity": 0.1,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "ridge",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "process_idv1",
+      "severity": 0.25,
+      "normalized": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "ridge",
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42"
+      ],
+      "physical": [
+        "gru_s7",
+        "ridge",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "ridge",
+        "mlp_s123",
+        "mlp_s7",
+        "mlp_s42"
+      ]
+    },
+    {
+      "domain": "process_idv1",
+      "severity": 0.5,
+      "normalized": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "ridge",
+        "mlp_s7",
+        "mlp_s123",
+        "mlp_s42"
+      ],
+      "physical": [
+        "ridge",
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "ridge",
+        "mlp_s7",
+        "mlp_s123",
+        "mlp_s42"
+      ]
+    },
+    {
+      "domain": "process_idv1",
+      "severity": 0.75,
+      "normalized": [
+        "gru_s7",
+        "ridge",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123"
+      ],
+      "physical": [
+        "ridge",
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s42",
+        "mlp_s7",
+        "mlp_s123"
+      ],
+      "pooled": [
+        "gru_s7",
+        "ridge",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123"
+      ]
+    },
+    {
+      "domain": "process_idv1",
+      "severity": 1.0,
+      "normalized": [
+        "gru_s7",
+        "ridge",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123"
+      ],
+      "physical": [
+        "ridge",
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123"
+      ],
+      "pooled": [
+        "gru_s7",
+        "ridge",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123"
+      ]
+    },
+    {
+      "domain": "process_idv1",
+      "severity": 1.5,
+      "normalized": [
+        "ridge",
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123"
+      ],
+      "physical": [
+        "ridge",
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s42",
+        "mlp_s7",
+        "mlp_s123"
+      ],
+      "pooled": [
+        "ridge",
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s7",
+        "mlp_s42",
+        "mlp_s123"
+      ]
+    },
+    {
+      "domain": "process_idv1",
+      "severity": 2.0,
+      "normalized": [
+        "ridge",
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s42",
+        "mlp_s7",
+        "mlp_s123"
+      ],
+      "physical": [
+        "ridge",
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s42",
+        "mlp_s7",
+        "mlp_s123"
+      ],
+      "pooled": [
+        "ridge",
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s42",
+        "mlp_s7",
+        "mlp_s123"
+      ]
+    },
+    {
+      "domain": "regime_setpt18",
+      "severity": 0.0,
+      "normalized": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "physical": [
+        "gru_s7",
+        "ridge",
+        "gru_s42",
+        "gru_s123",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s42",
+        "gru_s123",
+        "ridge",
+        "mlp_s123",
+        "mlp_s42",
+        "mlp_s7"
+      ]
+    },
+    {
+      "domain": "regime_setpt18",
+      "severity": 0.25,
+      "normalized": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s123",
+        "mlp_s42",
+        "ridge"
+      ],
+      "physical": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s7",
+        "ridge",
+        "mlp_s42"
+      ],
+      "pooled": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s123",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "regime_setpt18",
+      "severity": 0.5,
+      "normalized": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s123",
+        "mlp_s42",
+        "ridge"
+      ],
+      "physical": [
+        "gru_s123",
+        "gru_s7",
+        "gru_s42",
+        "mlp_s123",
+        "mlp_s7",
+        "ridge",
+        "mlp_s42"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s123",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    {
+      "domain": "regime_setpt18",
+      "severity": 1.0,
+      "normalized": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s123",
+        "mlp_s42",
+        "ridge"
+      ],
+      "physical": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s123",
+        "ridge",
+        "mlp_s7",
+        "mlp_s42"
+      ],
+      "pooled": [
+        "gru_s7",
+        "gru_s123",
+        "gru_s42",
+        "mlp_s7",
+        "mlp_s123",
+        "mlp_s42",
+        "ridge"
+      ]
+    }
+  ]
+}

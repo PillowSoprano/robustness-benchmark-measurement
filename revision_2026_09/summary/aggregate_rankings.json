@@ -1,0 +1,926 @@
+[
+  {
+    "system": "mbr",
+    "domain": "actuation",
+    "metric": "grid_mean",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "drift": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "ar1": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "mbr",
+    "domain": "actuation",
+    "metric": "grid_min",
+    "ranks": {
+      "persistence": [
+        "mlp_s42",
+        "gru_s42",
+        "ridge"
+      ],
+      "history_mean": [
+        "mlp_s42",
+        "gru_s42",
+        "ridge"
+      ],
+      "drift": [
+        "mlp_s42",
+        "gru_s42",
+        "ridge"
+      ],
+      "ar1": [
+        "mlp_s42",
+        "gru_s42",
+        "ridge"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "mbr",
+    "domain": "actuation",
+    "metric": "normalized_trapezoid",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "drift": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "ar1": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "mbr",
+    "domain": "obs_bias",
+    "metric": "grid_mean",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "drift": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "ar1": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "mbr",
+    "domain": "obs_bias",
+    "metric": "grid_min",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "drift": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "ar1": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "mbr",
+    "domain": "obs_bias",
+    "metric": "normalized_trapezoid",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "drift": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "ar1": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "mbr",
+    "domain": "obs_noise",
+    "metric": "grid_mean",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "drift": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "ar1": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "mbr",
+    "domain": "obs_noise",
+    "metric": "grid_min",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "drift": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "ar1": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "mbr",
+    "domain": "obs_noise",
+    "metric": "normalized_trapezoid",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "drift": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "ar1": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "mbr",
+    "domain": "process",
+    "metric": "grid_mean",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "drift": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "ar1": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "mbr",
+    "domain": "process",
+    "metric": "grid_min",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ],
+      "drift": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ],
+      "ar1": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "mbr",
+    "domain": "process",
+    "metric": "normalized_trapezoid",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "drift": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "ar1": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "tep",
+    "domain": "actuation_idv14",
+    "metric": "grid_mean",
+    "ranks": {
+      "persistence": [
+        "ridge",
+        "mlp_s42",
+        "gru_s42"
+      ],
+      "history_mean": [
+        "ridge",
+        "mlp_s42",
+        "gru_s42"
+      ],
+      "drift": [
+        "ridge",
+        "mlp_s42",
+        "gru_s42"
+      ],
+      "ar1": [
+        "ridge",
+        "mlp_s42",
+        "gru_s42"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "tep",
+    "domain": "actuation_idv14",
+    "metric": "grid_min",
+    "ranks": {
+      "persistence": [
+        "mlp_s42",
+        "ridge",
+        "gru_s42"
+      ],
+      "history_mean": [
+        "mlp_s42",
+        "ridge",
+        "gru_s42"
+      ],
+      "drift": [
+        "ridge",
+        "mlp_s42",
+        "gru_s42"
+      ],
+      "ar1": [
+        "mlp_s42",
+        "ridge",
+        "gru_s42"
+      ]
+    },
+    "reference_changes_order": true
+  },
+  {
+    "system": "tep",
+    "domain": "actuation_idv14",
+    "metric": "normalized_trapezoid",
+    "ranks": {
+      "persistence": [
+        "ridge",
+        "mlp_s42",
+        "gru_s42"
+      ],
+      "history_mean": [
+        "ridge",
+        "mlp_s42",
+        "gru_s42"
+      ],
+      "drift": [
+        "ridge",
+        "mlp_s42",
+        "gru_s42"
+      ],
+      "ar1": [
+        "ridge",
+        "mlp_s42",
+        "gru_s42"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "tep",
+    "domain": "actuation_idv6",
+    "metric": "grid_mean",
+    "ranks": {
+      "persistence": [
+        "ridge",
+        "gru_s42",
+        "mlp_s42"
+      ],
+      "history_mean": [
+        "ridge",
+        "gru_s42",
+        "mlp_s42"
+      ],
+      "drift": [
+        "ridge",
+        "gru_s42",
+        "mlp_s42"
+      ],
+      "ar1": [
+        "ridge",
+        "gru_s42",
+        "mlp_s42"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "tep",
+    "domain": "actuation_idv6",
+    "metric": "grid_min",
+    "ranks": {
+      "persistence": [
+        "ridge",
+        "mlp_s42",
+        "gru_s42"
+      ],
+      "history_mean": [
+        "ridge",
+        "mlp_s42",
+        "gru_s42"
+      ],
+      "drift": [
+        "ridge",
+        "mlp_s42",
+        "gru_s42"
+      ],
+      "ar1": [
+        "ridge",
+        "mlp_s42",
+        "gru_s42"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "tep",
+    "domain": "actuation_idv6",
+    "metric": "normalized_trapezoid",
+    "ranks": {
+      "persistence": [
+        "ridge",
+        "gru_s42",
+        "mlp_s42"
+      ],
+      "history_mean": [
+        "ridge",
+        "gru_s42",
+        "mlp_s42"
+      ],
+      "drift": [
+        "ridge",
+        "gru_s42",
+        "mlp_s42"
+      ],
+      "ar1": [
+        "ridge",
+        "gru_s42",
+        "mlp_s42"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "tep",
+    "domain": "dynamics_idv13",
+    "metric": "grid_mean",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ],
+      "drift": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ],
+      "ar1": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "tep",
+    "domain": "dynamics_idv13",
+    "metric": "grid_min",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ],
+      "drift": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ],
+      "ar1": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "tep",
+    "domain": "dynamics_idv13",
+    "metric": "normalized_trapezoid",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ],
+      "drift": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ],
+      "ar1": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "tep",
+    "domain": "obs_bias",
+    "metric": "grid_mean",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "drift": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "ar1": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "tep",
+    "domain": "obs_bias",
+    "metric": "grid_min",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "drift": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "ar1": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "tep",
+    "domain": "obs_bias",
+    "metric": "normalized_trapezoid",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "drift": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "ar1": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "tep",
+    "domain": "obs_noise",
+    "metric": "grid_mean",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "drift": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "ar1": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "tep",
+    "domain": "obs_noise",
+    "metric": "grid_min",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "drift": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "ar1": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "tep",
+    "domain": "obs_noise",
+    "metric": "normalized_trapezoid",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "drift": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "ar1": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "tep",
+    "domain": "process_idv1",
+    "metric": "grid_mean",
+    "ranks": {
+      "persistence": [
+        "ridge",
+        "gru_s42",
+        "mlp_s42"
+      ],
+      "history_mean": [
+        "ridge",
+        "gru_s42",
+        "mlp_s42"
+      ],
+      "drift": [
+        "ridge",
+        "gru_s42",
+        "mlp_s42"
+      ],
+      "ar1": [
+        "ridge",
+        "gru_s42",
+        "mlp_s42"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "tep",
+    "domain": "process_idv1",
+    "metric": "grid_min",
+    "ranks": {
+      "persistence": [
+        "ridge",
+        "gru_s42",
+        "mlp_s42"
+      ],
+      "history_mean": [
+        "ridge",
+        "gru_s42",
+        "mlp_s42"
+      ],
+      "drift": [
+        "ridge",
+        "gru_s42",
+        "mlp_s42"
+      ],
+      "ar1": [
+        "ridge",
+        "gru_s42",
+        "mlp_s42"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "tep",
+    "domain": "process_idv1",
+    "metric": "normalized_trapezoid",
+    "ranks": {
+      "persistence": [
+        "ridge",
+        "gru_s42",
+        "mlp_s42"
+      ],
+      "history_mean": [
+        "ridge",
+        "gru_s42",
+        "mlp_s42"
+      ],
+      "drift": [
+        "ridge",
+        "gru_s42",
+        "mlp_s42"
+      ],
+      "ar1": [
+        "ridge",
+        "gru_s42",
+        "mlp_s42"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "tep",
+    "domain": "regime_setpt18",
+    "metric": "grid_mean",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ],
+      "drift": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ],
+      "ar1": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    "reference_changes_order": true
+  },
+  {
+    "system": "tep",
+    "domain": "regime_setpt18",
+    "metric": "grid_min",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "drift": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ],
+      "ar1": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    "reference_changes_order": false
+  },
+  {
+    "system": "tep",
+    "domain": "regime_setpt18",
+    "metric": "normalized_trapezoid",
+    "ranks": {
+      "persistence": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ],
+      "history_mean": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ],
+      "drift": [
+        "gru_s42",
+        "ridge",
+        "mlp_s42"
+      ],
+      "ar1": [
+        "gru_s42",
+        "mlp_s42",
+        "ridge"
+      ]
+    },
+    "reference_changes_order": true
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "repeated_seed_checks": 6,
+  "all_bit_identical": true,
+  "batch_size": 12,
+  "workers": 1
+}

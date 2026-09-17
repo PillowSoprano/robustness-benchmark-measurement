@@ -1,0 +1,4648 @@
+{
+  "curves": {
+    "persistence|dlinear|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.7819072008132935,
+        1.7844301462173464,
+        1.7092058658599851,
+        1.5498629808425903
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.7482201093957745,
+        1.748675330108799,
+        1.6730235471405068,
+        1.538862954676934
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        3.0869088908266913,
+        3.1134163512539117,
+        2.9932640510907276,
+        2.6373548476107125
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.4249260621434383,
+        1.418933492333686,
+        1.3653350861434694,
+        1.283598756018892
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.9930928945541382,
+        1.9749737977981567,
+        1.819649338722229,
+        1.6012663841247559
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.955413321503528,
+        1.93540103833253,
+        1.7811290330958445,
+        1.5899015264945784
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        3.45275902899689,
+        3.4458707887206197,
+        3.186679299422931,
+        2.7248264605891737
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.5938035428707316,
+        1.5704489604805918,
+        1.453558717682719,
+        1.32617112875358
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s42|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.7994544506072996,
+        1.8062013387680054,
+        1.7475200891494753,
+        1.5921522378921509
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s42|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.7654356270952773,
+        1.7700102909651199,
+        1.7105266935046015,
+        1.5808520671718973
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s42|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        3.11730708517371,
+        3.151402028091532,
+        3.060362221948098,
+        2.7093171942569167
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s42|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.4389579564749773,
+        1.4362453912296227,
+        1.3959409683255755,
+        1.3186227796988874
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s123|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.8065581321716306,
+        1.8136659860610962,
+        1.7580111026763918,
+        1.6026973724365237
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s123|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.772405013018315,
+        1.7773253683286476,
+        1.7207956219084186,
+        1.5913223584834537
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s123|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        3.1296132354426613,
+        3.164426104706645,
+        3.078734715441634,
+        2.7272615300163197
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s123|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.444638510991825,
+        1.4421810890069087,
+        1.4043213215314767,
+        1.3273562753372241
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s7|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.7984269857406616,
+        1.8052976131439207,
+        1.7520517110824587,
+        1.604338884353638
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s7|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.7644275865302388,
+        1.7691246733872203,
+        1.714962385162379,
+        1.592952219903548
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s7|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        3.115527143754544,
+        3.1498252366766164,
+        3.0682982706687754,
+        2.730054841080281
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s7|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.438136330373606,
+        1.4355267715859164,
+        1.3995608847708814,
+        1.3287157778744438
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s2024|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.7018654346466064,
+        1.6886417865753176,
+        1.5479875802993772,
+        1.3712007999420168
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s2024|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.6696915389178677,
+        1.654806291988882,
+        1.5152181046481779,
+        1.361468814041217
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s2024|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        2.9482475511650943,
+        2.9462879008623557,
+        2.7109288987337337,
+        2.3333308308381704
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s2024|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.3609195871604274,
+        1.3427650236716326,
+        1.2365518972950953,
+        1.1356304801220627
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s31337|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.8080322742462156,
+        1.8152778148651123,
+        1.7620782852172852,
+        1.6091004610061646
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s31337|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.7738512863246465,
+        1.7789049007479565,
+        1.7247767059295702,
+        1.5976800016539352
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s31337|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        3.1321669836256762,
+        3.1672383717850083,
+        3.085857409981858,
+        2.7381574717141093
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s31337|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.4458173285309313,
+        1.4434627742994233,
+        1.4075702379643946,
+        1.3326593225254355
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s42|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.9912822246551514,
+        1.9749917984008787,
+        1.826686978340149,
+        1.612227201461792
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s42|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.9536368824569597,
+        1.935418678255266,
+        1.7880176923452937,
+        1.6007845503240627
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s42|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        3.449622292691552,
+        3.4459021955935456,
+        3.1990040369478945,
+        2.7434781511546795
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s42|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.5923556163300974,
+        1.570463274102304,
+        1.4591804724905546,
+        1.335248893480318
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s123|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.988773703575134,
+        1.9763652086257932,
+        1.8329894542694094,
+        1.6141653060913088
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s123|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.9511757851591165,
+        1.9367645693138307,
+        1.7941867506463156,
+        1.6027088994139604
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s123|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        3.4452766252958558,
+        3.4482984776000407,
+        3.2100413116312616,
+        2.7467761650455937
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s123|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.590349643705529,
+        1.5715553750012805,
+        1.4642149693219026,
+        1.336854034529709
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s7|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.9976102113723757,
+        1.9753137826919556,
+        1.8125038146972658,
+        1.5896122455596924
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s7|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.9598452381030849,
+        1.9357342109129503,
+        1.7741347732531854,
+        1.578330102227965
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s7|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        3.460584658436253,
+        3.4464639834331035,
+        3.1741656282395208,
+        2.7049949663092168
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s7|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.5974158760283321,
+        1.5707193078257773,
+        1.4478507834572212,
+        1.3165191543858492
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s2024|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.987910270690918,
+        1.9658108949661253,
+        1.797652006149292,
+        1.5799325704574585
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s2024|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.950328675539372,
+        1.9264217335564238,
+        1.7595973638546512,
+        1.5687191278307067
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s2024|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        3.4437808467021656,
+        3.4298836504385917,
+        3.148156248381721,
+        2.688523356644539
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s2024|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.589659187985349,
+        1.5631628530681332,
+        1.4359869724861354,
+        1.3085024335056978
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s31337|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.9999471902847292,
+        1.9824596643447876,
+        1.828881859779358,
+        1.611004114151001
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s31337|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.9621380362510163,
+        1.9427369097771638,
+        1.790166110159862,
+        1.599570143775757
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s31337|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        3.464633152644552,
+        3.458931888007129,
+        3.2028478452565468,
+        2.7413968605580017
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s31337|actuation_idv6": {
+      "levels": [
+        0.0,
+        0.35,
+        0.75,
+        1.0
+      ],
+      "skill": [
+        1.599284672651059,
+        1.5764015312689026,
+        1.460933771317065,
+        1.334235930805527
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.7819072008132935,
+        1.7096035480499265,
+        1.432438850402832,
+        1.3601330518722534
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.7482201093957745,
+        1.6846822182867547,
+        1.4278163111581204,
+        1.3643301026849082
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        3.0869088908266913,
+        2.898146182974556,
+        2.190592784888285,
+        1.98012077531236
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.4249260621434383,
+        1.3842750647102653,
+        1.2303317731571686,
+        1.1955756292128614
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.9930928945541382,
+        1.8844878673553467,
+        1.5119343996047971,
+        1.4174951314926147
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.955413321503528,
+        1.8570172039780803,
+        1.5070553249443768,
+        1.4218691881963879
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        3.45275902899689,
+        3.1946127661395463,
+        2.3121633332321703,
+        2.0636301389110523
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.5938035428707316,
+        1.5258798260594448,
+        1.2986110578053416,
+        1.245997684864453
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s42|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.7994544506072996,
+        1.7224771976470947,
+        1.4385062456130981,
+        1.3635588884353638
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s42|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.7654356270952773,
+        1.6973682053891692,
+        1.4338641266338208,
+        1.3677665105741925
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s42|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        3.11730708517371,
+        2.9199697914266687,
+        2.1998715001136766,
+        1.9851082066096892
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s42|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.4389579564749773,
+        1.3946989271019317,
+        1.2355431014490483,
+        1.1985869865935848
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s123|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.8065581321716306,
+        1.7306653261184692,
+        1.4427229166030884,
+        1.3676373958587646
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s123|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.772405013018315,
+        1.7054369734099812,
+        1.4380671902526287,
+        1.3718576033125904
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s123|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        3.1296132354426613,
+        2.9338504325274006,
+        2.206319949235482,
+        1.9910458148975145
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s123|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.444638510991825,
+        1.4013288981747554,
+        1.239164829730487,
+        1.2021720506226292
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s7|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.7984269857406616,
+        1.7232887744903564,
+        1.4383145570755005,
+        1.3648910522460938
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s7|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.7644275865302388,
+        1.6981679516684605,
+        1.4336730566830393,
+        1.3691027851292328
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s7|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        3.115527143754544,
+        2.921345588951874,
+        2.199578355643817,
+        1.9870476089601539
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s7|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.438136330373606,
+        1.3953560651784787,
+        1.2353784588199475,
+        1.199757976875775
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s2024|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.7018654346466064,
+        1.643914818763733,
+        1.4004147052764893,
+        1.337992548942566
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s2024|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.6696915389178677,
+        1.619951050469202,
+        1.3958955092687912,
+        1.3421212793687072
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s2024|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        2.9482475511650943,
+        2.786789640539683,
+        2.1416190634367522,
+        1.9478879950217918
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s2024|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.3609195871604274,
+        1.3310865520360242,
+        1.2028260103484765,
+        1.1761138231161614
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s31337|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.8080322742462156,
+        1.7310236692428587,
+        1.443170428276062,
+        1.367053151130676
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s31337|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.7738512863246465,
+        1.7057900928746625,
+        1.4385132577869781,
+        1.371271555742635
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s31337|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        3.1321669836256762,
+        2.934457901293671,
+        2.2070043176060365,
+        1.9901952546362502
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s31337|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.4458173285309313,
+        1.4016190505040886,
+        1.2395492006444444,
+        1.2016584914841044
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s42|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.9912822246551514,
+        1.8779170513153074,
+        1.5099776983261108,
+        1.4153573513031006
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s42|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.9536368824569597,
+        1.8505421724101396,
+        1.5051049380214119,
+        1.4197248113198295
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s42|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        3.449622292691552,
+        3.1834738179037467,
+        2.309170999072798,
+        2.0605178970899445
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s42|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.5923556163300974,
+        1.5205594014443933,
+        1.2969304333562992,
+        1.2441185467230196
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s123|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.988773703575134,
+        1.8824695348739624,
+        1.5141736268997192,
+        1.4192821979522705
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s123|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.9511757851591165,
+        1.855028293247369,
+        1.509287326160471,
+        1.423661769122975
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s123|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        3.4452766252958558,
+        3.1911912579287276,
+        2.3155877273377907,
+        2.0662318016077696
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s123|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.590349643705529,
+        1.5242455715391723,
+        1.3005343458308574,
+        1.2475685408215278
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s7|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.9976102113723757,
+        1.8871108293533323,
+        1.5125517845153809,
+        1.4174437522888184
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s7|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.9598452381030849,
+        1.8596019303857256,
+        1.5076707175283925,
+        1.4218176504484485
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s7|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        3.460584658436253,
+        3.199059251590059,
+        2.313107484481798,
+        2.0635553395899744
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s7|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.5974158760283321,
+        1.5280036523077212,
+        1.2991413340342675,
+        1.2459525218388041
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s2024|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.987910270690918,
+        1.8814541101455686,
+        1.509182333946228,
+        1.4152250289916992
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s2024|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.950328675539372,
+        1.8540276706258938,
+        1.504312140315184,
+        1.419592080692886
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s2024|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        3.4437808467021656,
+        3.1894698943388775,
+        2.3079546682874117,
+        2.0603252584672136
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s2024|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.589659187985349,
+        1.523423376748334,
+        1.2962472893131647,
+        1.2440022335943188
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s31337|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.9999471902847292,
+        1.8935647010803223,
+        1.5138014554977417,
+        1.4201830625534058
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s31337|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.9621380362510163,
+        1.8659617223678875,
+        1.5089163557709562,
+        1.424565413580464
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s31337|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        3.464633152644552,
+        3.2099999540308786,
+        2.315018574952902,
+        2.0675433061771176
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s31337|dynamics_idv13": {
+      "levels": [
+        0.0,
+        1.0,
+        3.0,
+        6.0
+      ],
+      "skill": [
+        1.599284672651059,
+        1.5332293864919424,
+        1.300214685203959,
+        1.248360413176115
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7819072008132935,
+        1.7170077562332153,
+        1.5779790878295896,
+        1.3401259183883667,
+        1.1442017555236816
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7482201093957745,
+        1.689956722083632,
+        1.560003294638373,
+        1.3348570523788585,
+        1.1458219096443523
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.0869088908266913,
+        2.934295482061948,
+        2.606004241513576,
+        2.005149385250258,
+        1.4394094780399485
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.4249260621434383,
+        1.365003756286806,
+        1.232562671220918,
+        0.9956857487446692,
+        0.7858553487938442
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9930928945541382,
+        1.872053861618042,
+        1.6374568939208984,
+        1.3252209424972534,
+        1.1339778900146484
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.955413321503528,
+        1.8425601142795995,
+        1.6188035500891118,
+        1.3200106771906852,
+        1.135583567459546
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.45275902899689,
+        3.1992628853193876,
+        2.704230774517295,
+        1.9828479710061568,
+        1.4265478224404315
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.5938035428707316,
+        1.488263837949001,
+        1.2790209063899889,
+        0.9846116609470004,
+        0.7788334408507426
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s42|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7994544506072996,
+        1.7499272823333738,
+        1.6436780691146848,
+        1.4399387836456299,
+        1.2539918422698975
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s42|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7654356270952773,
+        1.7223576091610546,
+        1.6249538558020844,
+        1.434277491367926,
+        1.2557674557408023
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s42|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.11730708517371,
+        2.990553595257213,
+        2.7145049340845846,
+        2.154493340668534,
+        1.5775257592765581
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s42|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.4389579564749773,
+        1.3911744457427917,
+        1.2838802789723807,
+        1.0698446364390028,
+        0.8612608675299743
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s123|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.8065581321716306,
+        1.7616021633148193,
+        1.660036325454712,
+        1.4608386754989624,
+        1.275707483291626
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s123|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.772405013018315,
+        1.7338485552691862,
+        1.6411257645312936,
+        1.4550952127861694,
+        1.2775138454352317
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s123|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.1296132354426613,
+        3.0105054856275975,
+        2.741520301863958,
+        2.185764585203454,
+        1.6048441053265368
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s123|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.444638510991825,
+        1.4004558577434196,
+        1.2966577462319198,
+        1.0853728223975985,
+        0.8761755034908341
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s7|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7984269857406616,
+        1.7696150541305544,
+        1.70128333568573,
+        1.554632306098938,
+        1.4026254415512085
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s7|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7644275865302388,
+        1.7417352049643982,
+        1.6819029030565409,
+        1.5485200824619694,
+        1.4046115155787269
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s7|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.115527143754544,
+        3.024199185748352,
+        2.8096390015608166,
+        2.3261023237378327,
+        1.7645073038580834
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s7|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.438136330373606,
+        1.406826024693736,
+        1.3288758697180472,
+        1.1550595436452011,
+        0.9633447075886182
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s2024|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7018654346466064,
+        1.5446150302886963,
+        1.2620164155960083,
+        0.9181506037712098,
+        0.7129011750221252
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s2024|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.6696915389178677,
+        1.520280001060894,
+        1.2476399601248034,
+        0.9145407843942089,
+        0.7139106209268943
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s2024|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        2.9482475511650943,
+        2.639683419278326,
+        2.0841975392883825,
+        1.3737732353785184,
+        0.8968319645367165
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s2024|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.3609195871604274,
+        1.227953287168932,
+        0.9857635860505448,
+        0.6821668462883771,
+        0.4896314822521336
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s31337|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.8080322742462156,
+        1.7843748331069949,
+        1.731160283088684,
+        1.61395525932312,
+        1.4861966371536255
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s31337|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7738512863246465,
+        1.7562624472596953,
+        1.7114395025855327,
+        1.607609800370322,
+        1.4883010453964787
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s31337|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.1321669836256762,
+        3.049423039635777,
+        2.858980245849844,
+        2.414863671874244,
+        1.869640135948691
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s31337|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.4458173285309313,
+        1.41855989932049,
+        1.3522128140305112,
+        1.1991352668949973,
+        1.0207426889780085
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s42|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9912822246551514,
+        1.8585634231567385,
+        1.612568378448486,
+        1.280490756034851,
+        1.0716609954833984
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s42|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9536368824569597,
+        1.8292822143523735,
+        1.5941985559956706,
+        1.2754563528288638,
+        1.0731784341426318
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s42|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.449622292691552,
+        3.176208282051386,
+        2.663127836343829,
+        1.9159208974703523,
+        1.3481529692624246
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s42|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.5923556163300974,
+        1.4775390761610674,
+        1.259580436392637,
+        0.9513780605903516,
+        0.7360332400546942
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s123|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.988773703575134,
+        1.8784791231155398,
+        1.661113977432251,
+        1.3560206890106201,
+        1.1561185121536255
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s123|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9511757851591165,
+        1.8488841473653104,
+        1.6421911402694136,
+        1.3506893308013035,
+        1.1577555400312762
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s123|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.4452766252958558,
+        3.2102433923757645,
+        2.7433000248311394,
+        2.0289317695057867,
+        1.4544007960988743
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s123|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.590349643705529,
+        1.493371855689381,
+        1.2974995023808618,
+        1.007495233488592,
+        0.7940399603736699
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s7|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9976102113723757,
+        1.8704949617385862,
+        1.6154648065567017,
+        1.291318416595459,
+        1.1137419939041138
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s7|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9598452381030849,
+        1.841025774483651,
+        1.597061988994465,
+        1.2862414431414766,
+        1.11531901794911
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s7|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.460584658436253,
+        3.19659878968169,
+        2.667911235562148,
+        1.9321216713072702,
+        1.4010910002344528
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s7|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.5974158760283321,
+        1.4870245283515882,
+        1.2618428422721546,
+        0.959422787704806,
+        0.7649351164343271
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s2024|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.987910270690918,
+        1.8721415996551514,
+        1.6596308946609497,
+        1.3769717216491701,
+        1.204870581626892
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s2024|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.950328675539372,
+        1.8426464700255516,
+        1.6407249522652154,
+        1.3715579919386245,
+        1.2065766409195595
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s2024|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.4437808467021656,
+        3.199412826008333,
+        2.740850740159159,
+        2.0602795329055628,
+        1.5157310558499304
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s2024|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.589659187985349,
+        1.488333588798867,
+        1.2963410634152661,
+        1.0230614159893943,
+        0.8275236308674289
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s31337|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9999471902847292,
+        1.8807522058486938,
+        1.6398264169692993,
+        1.3264012336730957,
+        1.1320875883102417
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s31337|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9621380362510163,
+        1.851121418240064,
+        1.621146080348693,
+        1.3211863279100058,
+        1.1336905891466817
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s31337|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.464633152644552,
+        3.2141279970725316,
+        2.708143999452988,
+        1.9846139693300326,
+        1.4241698168338657
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s31337|obs_bias": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.599284672651059,
+        1.4951789334138945,
+        1.2808717456568601,
+        0.985488592798724,
+        0.777535152591639
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7819072008132935,
+        1.7513380050659177,
+        1.6716241836547852,
+        1.5073529481887817,
+        1.3436967134475708
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7482201093957745,
+        1.6855083870758458,
+        1.5299785076978292,
+        1.1827779169319996,
+        0.7597019495416826
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.0869088908266913,
+        3.0953345327189545,
+        3.0880389428226795,
+        3.064860938710019,
+        3.03693956986981
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.4249260621434383,
+        1.389000314168244,
+        1.2992784990963495,
+        1.1097897461353656,
+        0.9102752919439363
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9930928945541382,
+        1.9375370740890503,
+        1.7862886190414429,
+        1.509210467338562,
+        1.2544927597045898
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.955413321503528,
+        1.8647085709332114,
+        1.6349268109434363,
+        1.1842354605240815,
+        0.7092676388172834
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.45275902899689,
+        3.424424866304063,
+        3.299861818618008,
+        3.068637783338152,
+        2.8353263529885844
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.5938035428707316,
+        1.5366762993994507,
+        1.3884020215756545,
+        1.1111573460117936,
+        0.8498448732167763
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s42|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7994544506072996,
+        1.7824816703796387,
+        1.7266819477081299,
+        1.5973167419433594,
+        1.4542070627212524
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s42|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7654356270952773,
+        1.7154814185173604,
+        1.5803709323272348,
+        1.253370002683513,
+        0.8221825130107573
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s42|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.11730708517371,
+        3.1503781978721994,
+        3.189748717761293,
+        3.24778194450888,
+        3.286708174072378
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s42|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.4389579564749773,
+        1.4137006066189182,
+        1.342072429539751,
+        1.176025657208638,
+        0.9851395373061409
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s123|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.8065581321716306,
+        1.796427845954895,
+        1.750859260559082,
+        1.6373606920242307,
+        1.5039011240005493
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s123|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.772405013018315,
+        1.7289033826566254,
+        1.6024995718848225,
+        1.2847913761045777,
+        0.8502786412937999
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s123|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.1296132354426613,
+        3.1750268257970116,
+        3.234412156078698,
+        3.3292022506037373,
+        3.3990235943426383
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s123|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.444638510991825,
+        1.4247614310853796,
+        1.3608643703721022,
+        1.205508045688328,
+        1.0188043335999637
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s7|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7984269857406616,
+        1.7801847457885742,
+        1.7207423448562622,
+        1.5847375392913818,
+        1.4359763860702515
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s7|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7644275865302388,
+        1.7132708311541436,
+        1.5749346238576183,
+        1.2434994523739462,
+        0.811875216390455
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s7|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.115527143754544,
+        3.1463185874570723,
+        3.178776320322434,
+        3.2222049839871327,
+        3.2455043348779857
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s7|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.438136330373606,
+        1.4118788971776908,
+        1.3374558426573273,
+        1.1667642097589894,
+        0.9727893288515506
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s2024|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7018654346466064,
+        1.6166683435440061,
+        1.4542425870895386,
+        1.194284439086914,
+        0.9935072064399719
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s2024|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.6696915389178677,
+        1.5559007137864722,
+        1.331016818841004,
+        0.9371217688497266,
+        0.5617111019640874
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s2024|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        2.9482475511650943,
+        2.857317854834632,
+        2.6864637309955937,
+        2.428307007635393,
+        2.245463070641121
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s2024|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.3609195871604274,
+        1.2821927181349324,
+        1.1303175344978682,
+        0.8792928199465659,
+        0.6730425499592003
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s31337|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.8080322742462156,
+        1.7953683137893677,
+        1.7481863498687744,
+        1.6341383457183836,
+        1.5025050640106201
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s31337|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7738512863246465,
+        1.7278836763827894,
+        1.6000531512424592,
+        1.2822628906189166,
+        0.8494893340897172
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s31337|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.1321669836256762,
+        3.173154196703715,
+        3.2294744120671752,
+        3.3226503389657536,
+        3.395868306558649
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s31337|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.4458173285309313,
+        1.4239211075689984,
+        1.3587868367829863,
+        1.2031355907878194,
+        1.0178585852758175
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s42|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9912822246551514,
+        1.9443280696868899,
+        1.7858355045318604,
+        1.5006780624389648,
+        1.2504171133041382
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s42|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9536368824569597,
+        1.871244305328082,
+        1.6345120912546653,
+        1.1775403198102279,
+        0.7069633416607313
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s42|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.449622292691552,
+        3.4364273484775385,
+        3.2990247672850406,
+        3.05128906980596,
+        2.826114830996712
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s42|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.5923556163300974,
+        1.5420622928465344,
+        1.3880498359913076,
+        1.104875356462613,
+        0.8470838631019918
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s123|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.988773703575134,
+        1.9311550855636594,
+        1.7813546657562256,
+        1.5057330131530762,
+        1.2513619661331177
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s123|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9511757851591165,
+        1.858566469777037,
+        1.6304109379630256,
+        1.181506798983546,
+        0.7074975444529402
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s123|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.4452766252958558,
+        3.4131452678411067,
+        3.2907471862527906,
+        3.0615671675861775,
+        2.828250328475655
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s123|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.590349643705529,
+        1.531614692764327,
+        1.3845670809940864,
+        1.108597067742298,
+        0.8477239451801392
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s7|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9976102113723757,
+        1.9418696165084837,
+        1.7941691875457761,
+        1.515167236328125,
+        1.2580740451812744
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s7|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9598452381030849,
+        1.8688782609440453,
+        1.642139616643405,
+        1.1889095714054023,
+        0.7112924332007734
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s7|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.460584658436253,
+        3.432082250616258,
+        3.3144198171627264,
+        3.0807495243998373,
+        2.843420551230119
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s7|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.5974158760283321,
+        1.5401124737783158,
+        1.394527233999867,
+        1.1155430216776405,
+        0.8522709829558256
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s2024|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.987910270690918,
+        1.9306068420410154,
+        1.7894634008407595,
+        1.525099277496338,
+        1.263061761856079
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s2024|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.950328675539372,
+        1.8580388337336782,
+        1.6378325764660218,
+        1.196702967754902,
+        0.7141123984828858
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s2024|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.4437808467021656,
+        3.4121762960589206,
+        3.3057266834166366,
+        3.1009440813910802,
+        2.8546934776140422
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s2024|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.589659187985349,
+        1.531179876399359,
+        1.3908696370669282,
+        1.1228554944862958,
+        0.8556498669010296
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s31337|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9999471902847292,
+        1.939807415008545,
+        1.7806906700134277,
+        1.4996811151504517,
+        1.2496570348739624
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s31337|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9621380362510163,
+        1.8668935738568393,
+        1.6298032061381234,
+        1.1767580430126037,
+        0.706533606989633
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s31337|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.464633152644552,
+        3.4284374924383836,
+        3.2895205680142667,
+        3.0492620032146953,
+        2.824396949098435
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s31337|obs_noise": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.599284672651059,
+        1.5384769251160886,
+        1.384050986886006,
+        1.1041413532687634,
+        0.8465689547837647
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7819072008132935,
+        1.6315430402755737,
+        1.411459803581238,
+        1.142242670059204
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7482201093957745,
+        1.6143638843006218,
+        1.409835430382703,
+        1.1582918137143852
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.0869088908266913,
+        2.7628147223736508,
+        2.231894715867745,
+        1.594278311409896
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.4249260621434383,
+        1.3411677527760053,
+        1.219922683206771,
+        1.070402942917713
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9930928945541382,
+        1.8663095235824585,
+        1.6443774700164795,
+        1.2987174987792969
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.955413321503528,
+        1.8466584193138604,
+        1.6424850443988375,
+        1.3169652006483978
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.45275902899689,
+        3.1603624918095066,
+        2.6001997201123395,
+        1.8126771090113654
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.5938035428707316,
+        1.5341514676221912,
+        1.4212330881386008,
+        1.2170365099738722
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s42|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7994544506072996,
+        1.633861780166626,
+        1.397343635559082,
+        1.1165012121200562
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s42|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7654356270952773,
+        1.6166582092707862,
+        1.3957355078993456,
+        1.1321886740002622
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s42|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.11730708517371,
+        2.7667412192849867,
+        2.209573286141576,
+        1.558349826883638
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s42|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.4389579564749773,
+        1.3430738129240902,
+        1.2077220994377593,
+        1.0462804573414841
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s123|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.8065581321716306,
+        1.6549896001815796,
+        1.4321876764297485,
+        1.1552459001541138
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s123|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.772405013018315,
+        1.6375635661900767,
+        1.4305394486368197,
+        1.1714777464111543
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s123|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.1296132354426613,
+        2.8025185483213786,
+        2.264671015812235,
+        1.6124274913188485
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s123|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.444638510991825,
+        1.3604413908494175,
+        1.2378377539713554,
+        1.0825883533614555
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s7|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7984269857406616,
+        1.6451276540756223,
+        1.4212311506271362,
+        1.147631049156189
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s7|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7644275865302388,
+        1.6278054603789744,
+        1.4195955321106586,
+        1.1637559025291586
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s7|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.115527143754544,
+        2.7858185721514634,
+        2.2473458238506407,
+        1.6017991090067254
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s7|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.438136330373606,
+        1.3523346331541437,
+        1.2283680444395404,
+        1.0754524275799084
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s2024|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7018654346466064,
+        1.572672963142395,
+        1.3799937963485718,
+        1.1424534320831299
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s2024|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.6696915389178677,
+        1.556113673277232,
+        1.3784056356859409,
+        1.1585055370617563
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s2024|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        2.9482475511650943,
+        2.663125586509146,
+        2.1821385590903044,
+        1.5945724812324926
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s2024|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.3609195871604274,
+        1.292775128673904,
+        1.1927266583000171,
+        1.0706004493640917
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s31337|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.8080322742462156,
+        1.6540203094482422,
+        1.4279617071151733,
+        1.1502019166946411
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s31337|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.7738512863246465,
+        1.6366044814986773,
+        1.426318342763113,
+        1.166362892183799
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s31337|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.1321669836256762,
+        2.800877175312995,
+        2.2579886302716137,
+        1.605387381854079
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s31337|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.4458173285309313,
+        1.359644610474934,
+        1.2341852547557874,
+        1.0778616040632805
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s42|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9912822246551514,
+        1.8668372631072996,
+        1.6435303688049316,
+        1.2988883256912231
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s42|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9536368824569597,
+        1.847180602062455,
+        1.6416389180705282,
+        1.3171384277732752
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s42|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.449622292691552,
+        3.161256152897702,
+        2.5988602269768903,
+        1.8129155396424632
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s42|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.5923556163300974,
+        1.5345852822474324,
+        1.4205009397768005,
+        1.2171965929702864
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s123|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.988773703575134,
+        1.859545707702637,
+        1.6426349878311157,
+        1.3071715831756592
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s123|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9511757851591165,
+        1.839965822301771,
+        1.6407445675425336,
+        1.3255380696239978
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s123|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.4452766252958558,
+        3.148908812911131,
+        2.597444390649793,
+        1.824476846273195
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s123|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.590349643705529,
+        1.528591447739296,
+        1.4197270632857388,
+        1.2249588867636236
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s7|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9976102113723757,
+        1.8557316064834597,
+        1.6160658597946167,
+        1.2654521465301514
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s7|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9598452381030849,
+        1.8361918812488482,
+        1.6142060164869598,
+        1.2832324517321685
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s7|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.460584658436253,
+        3.1424501080281835,
+        2.5554315070243314,
+        1.7662471944210847
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s7|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.5974158760283321,
+        1.5254561644922662,
+        1.3967634040426549,
+        1.185863334712582
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s2024|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.987910270690918,
+        1.8719626665115356,
+        1.6595537662506104,
+        1.3138823509216309
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s2024|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.950328675539372,
+        1.8522520380859093,
+        1.6576438750496103,
+        1.332343127382429
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s2024|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.4437808467021656,
+        3.1699353845414686,
+        2.6241974955257503,
+        1.8338433598440433
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s2024|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.589659187985349,
+        1.5387984875359477,
+        1.4343499392002514,
+        1.2312475903226958
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s31337|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9999471902847292,
+        1.8776400089263918,
+        1.6609034538269043,
+        1.3093843460083008
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s31337|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.9621380362510163,
+        1.8578696015378693,
+        1.658992009343041,
+        1.3277819230029015
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s31337|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        3.464633152644552,
+        3.179549256085471,
+        2.6263317118611784,
+        1.827565296639168
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s31337|process_idv1": {
+      "levels": [
+        0.0,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "skill": [
+        1.599284672651059,
+        1.5434654000110155,
+        1.4355164722360385,
+        1.2270324810270177
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.7819072008132935,
+        0.06304463744163513,
+        0.02992512471973896,
+        0.021128132939338684
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.7482201093957745,
+        0.06310386956416314,
+        0.029378114040247507,
+        0.021324446850740173
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        3.0869088908266913,
+        0.10713575040196884,
+        0.05176977085437795,
+        0.03872888446573036
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.4249260621434383,
+        1.0520567061089634,
+        1.0519374637580516,
+        1.0549959701506
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.9930928945541382,
+        0.19571152329444885,
+        0.09575867652893066,
+        0.0671907290816307
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.955413321503528,
+        0.19589539950340715,
+        0.09400827384202919,
+        0.06781503766932295
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        3.45275902899689,
+        0.33258500264791696,
+        0.16566028672058564,
+        0.12316383994941464
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.5938035428707316,
+        3.265933930309954,
+        3.3661393315506185,
+        3.3550502837199523
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s42|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.7994544506072996,
+        0.0599823072552681,
+        0.028434708714485165,
+        0.02004341594874859
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s42|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.7654356270952773,
+        0.06003866223670717,
+        0.027914941813570883,
+        0.020229651116524323
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s42|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        3.11730708517371,
+        0.10193173851755179,
+        0.049191385775207624,
+        0.03674054602015196
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s42|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.4389579564749773,
+        1.0009541042124905,
+        0.9995458882109354,
+        1.0008325446784079
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s123|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.8065581321716306,
+        0.06210900098085404,
+        0.029483133926987648,
+        0.020790979266166687
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s123|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.772405013018315,
+        0.06216735404791062,
+        0.02894420253492227,
+        0.020984160484465865
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s123|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        3.1296132354426613,
+        0.10554576403045508,
+        0.05100513704667364,
+        0.03811086555734103
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s123|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.444638510991825,
+        1.036443282779246,
+        1.036400463398466,
+        1.0381607974669003
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s7|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.7984269857406616,
+        0.05899228528141976,
+        0.027991222217679024,
+        0.01974407397210598
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s7|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.7644275865302388,
+        0.05904771011074376,
+        0.0274795619446313,
+        0.019927527777493945
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s7|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        3.115527143754544,
+        0.10024933139480682,
+        0.048424164434221165,
+        0.03619183777118267
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s7|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.438136330373606,
+        0.9844331232210997,
+        0.9839563103886088,
+        0.9858854322212127
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s2024|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.7018654346466064,
+        0.07790599763393402,
+        0.03707346320152283,
+        0.026337962597608566
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s2024|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.6696915389178677,
+        0.07797919240171727,
+        0.036395785815483736,
+        0.026582684100958046
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s2024|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        2.9482475511650943,
+        0.13239060221501772,
+        0.06413623043165022,
+        0.04827875295153446
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s2024|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.3609195871604274,
+        1.300055493740715,
+        1.3032181225033694,
+        1.315139604726663
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|dlinear_s31337|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.8080322742462156,
+        0.05970427393913269,
+        0.028329622000455853,
+        0.019981738179922104
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|dlinear_s31337|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.7738512863246465,
+        0.059760367700837355,
+        0.027811776012332583,
+        0.020167400263266785
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|dlinear_s31337|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        3.1321669836256762,
+        0.10145925887186438,
+        0.049009588200223796,
+        0.03662748770166054
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|dlinear_s31337|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.4458173285309313,
+        0.9963144262536353,
+        0.9958518467502578,
+        0.9977527743197755
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s42|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.9912822246551514,
+        0.1632707417011261,
+        0.07955196499824524,
+        0.05533552169799805
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s42|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.9536368824569597,
+        0.16342413892839436,
+        0.07809780984146265,
+        0.055849676580266405
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s42|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        3.449622292691552,
+        0.27745632524304503,
+        0.13762305211908157,
+        0.10143267428531058
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s42|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.5923556163300974,
+        2.7245787379945483,
+        2.796435873900457,
+        2.7630814594541406
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s123|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.988773703575134,
+        0.205463245511055,
+        0.09894356131553649,
+        0.07059724628925323
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s123|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.9511757851591165,
+        0.2056562837237718,
+        0.09713494112720306,
+        0.07125320683214686
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s123|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        3.4452766252958558,
+        0.34915672261941894,
+        0.17117006344313412,
+        0.12940814992906705
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s123|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.590349643705529,
+        3.4286656894320537,
+        3.4780954104696096,
+        3.5251486987861975
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s7|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.9976102113723757,
+        0.18797332048416138,
+        0.09329431504011154,
+        0.0651448667049408
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s7|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.9598452381030849,
+        0.18814992644467976,
+        0.09158895918476503,
+        0.06575016598184774
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s7|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        3.460584658436253,
+        0.31943498389159886,
+        0.16139699857146836,
+        0.11941367575615167
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s7|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.5974158760283321,
+        3.136802754524688,
+        3.279511315841081,
+        3.252893762408413
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s2024|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.987910270690918,
+        0.24002857506275177,
+        0.11801359802484512,
+        0.08306814730167389
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s2024|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.950328675539372,
+        0.24025408832677048,
+        0.11585639069323388,
+        0.08383998232166771
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s2024|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        3.4437808467021656,
+        0.4078957790988964,
+        0.2041607841125214,
+        0.15226791164489412
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s2024|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.589659187985349,
+        4.005474252847051,
+        4.148451381836069,
+        4.1478610960446485
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "persistence|patchtf_s31337|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.9999471902847292,
+        0.19724319875240326,
+        0.09666460007429123,
+        0.06761377304792404
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "history_mean|patchtf_s31337|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.9621380362510163,
+        0.19742851401140737,
+        0.0948976377286162,
+        0.0682420123859555
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "drift|patchtf_s31337|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        3.464633152644552,
+        0.3351878758853456,
+        0.16722751341701997,
+        0.12393929989855161
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    },
+    "ar1|patchtf_s31337|regime_setpt18": {
+      "levels": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "skill": [
+        1.599284672651059,
+        3.2914937479647906,
+        3.3979846429934373,
+        3.3761742363624974
+      ],
+      "method": "exact rescaling of published aggregate; no per-episode CI"
+    }
+  },
+  "population_checks": [
+    {
+      "domain": "actuation_idv6",
+      "severity": 0.0,
+      "ridge_relative_difference": 1.188482334768537e-08
+    },
+    {
+      "domain": "actuation_idv6",
+      "severity": 0.35,
+      "ridge_relative_difference": 2.3615260080767086e-08
+    },
+    {
+      "domain": "actuation_idv6",
+      "severity": 0.75,
+      "ridge_relative_difference": 2.6167604749716133e-08
+    },
+    {
+      "domain": "actuation_idv6",
+      "severity": 1.0,
+      "ridge_relative_difference": 9.607808260092554e-08
+    },
+    {
+      "domain": "dynamics_idv13",
+      "severity": 0.0,
+      "ridge_relative_difference": 1.188482334768537e-08
+    },
+    {
+      "domain": "dynamics_idv13",
+      "severity": 1.0,
+      "ridge_relative_difference": 9.07848820563828e-08
+    },
+    {
+      "domain": "dynamics_idv13",
+      "severity": 3.0,
+      "ridge_relative_difference": 5.301277834490747e-07
+    },
+    {
+      "domain": "dynamics_idv13",
+      "severity": 6.0,
+      "ridge_relative_difference": 7.470644816098826e-07
+    },
+    {
+      "domain": "obs_bias",
+      "severity": 0.0,
+      "ridge_relative_difference": 1.188482334768537e-08
+    },
+    {
+      "domain": "obs_bias",
+      "severity": 0.25,
+      "ridge_relative_difference": 1.2970141072266017e-08
+    },
+    {
+      "domain": "obs_bias",
+      "severity": 0.5,
+      "ridge_relative_difference": 5.497580535251956e-08
+    },
+    {
+      "domain": "obs_bias",
+      "severity": 1.0,
+      "ridge_relative_difference": 6.472770297527575e-08
+    },
+    {
+      "domain": "obs_bias",
+      "severity": 2.0,
+      "ridge_relative_difference": 4.389366337065326e-08
+    },
+    {
+      "domain": "obs_noise",
+      "severity": 0.0,
+      "ridge_relative_difference": 1.188482334768537e-08
+    },
+    {
+      "domain": "obs_noise",
+      "severity": 0.25,
+      "ridge_relative_difference": 7.325150752635068e-08
+    },
+    {
+      "domain": "obs_noise",
+      "severity": 0.5,
+      "ridge_relative_difference": 9.178775450813248e-08
+    },
+    {
+      "domain": "obs_noise",
+      "severity": 1.0,
+      "ridge_relative_difference": 7.912303479074012e-08
+    },
+    {
+      "domain": "obs_noise",
+      "severity": 2.0,
+      "ridge_relative_difference": 2.276257515809732e-08
+    },
+    {
+      "domain": "process_idv1",
+      "severity": 0.0,
+      "ridge_relative_difference": 1.188482334768537e-08
+    },
+    {
+      "domain": "process_idv1",
+      "severity": 0.5,
+      "ridge_relative_difference": 2.4346517024653735e-09
+    },
+    {
+      "domain": "process_idv1",
+      "severity": 1.0,
+      "ridge_relative_difference": 9.231468678372323e-08
+    },
+    {
+      "domain": "process_idv1",
+      "severity": 2.0,
+      "ridge_relative_difference": 1.4103415724164847e-07
+    },
+    {
+      "domain": "regime_setpt18",
+      "severity": 0.0,
+      "ridge_relative_difference": 1.188482334768537e-08
+    },
+    {
+      "domain": "regime_setpt18",
+      "severity": 0.25,
+      "ridge_relative_difference": 1.173284842614919e-07
+    },
+    {
+      "domain": "regime_setpt18",
+      "severity": 0.5,
+      "ridge_relative_difference": 1.0290110430410948e-08
+    },
+    {
+      "domain": "regime_setpt18",
+      "severity": 1.0,
+      "ridge_relative_difference": 2.4215263572102685e-08
+    }
+  ]
+}

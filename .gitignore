@@ -5,6 +5,8 @@ artifacts/
 episodes/
 retention/
 *.npz
+# released revision losses are checksummed artifacts, not run products
+!revision_2026_09/frozen_losses/**/*.npz
 *.pt
 *.npy
 

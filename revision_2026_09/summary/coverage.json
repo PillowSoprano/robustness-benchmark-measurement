@@ -1,0 +1,12 @@
+{
+  "mbr": {
+    "cells": 52,
+    "invariance_failures": [],
+    "censored_cells": 0
+  },
+  "tep": {
+    "cells": 68,
+    "invariance_failures": [],
+    "censored_cells": 4
+  }
+}

@@ -1,0 +1,116 @@
+\documentclass[tikz,border=2mm]{standalone}
+\usepackage{amsmath}\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}\usepgfplotslibrary{groupplots,fillbetween}\usetikzlibrary{calc}
+\definecolor{pers}{HTML}{222222}\definecolor{meanref}{HTML}{0072B2}
+\definecolor{driftref}{HTML}{D55E00}\definecolor{arref}{HTML}{009E73}
+\begin{document}\begin{tikzpicture}
+\begin{groupplot}[group style={group size=4 by 2,horizontal sep=12mm,vertical sep=14mm},width=34mm,height=32mm,scale only axis,ymode=log,ymin=0.01,ymax=100,
+axis lines=left,axis line style={line width=0.3pt,-},tick style={line width=0.3pt},
+tick label style={font=\fontsize{7}{8}\selectfont},label style={font=\fontsize{7}{8}\selectfont},title style={font=\fontsize{7}{8}\selectfont},
+minor ytick={},ytick={0.01,0.1,1,10,100},yticklabels={0.01,0.1,1,10,100},log ticks with fixed point,
+unbounded coords=jump,legend style={font=\fontsize{7}{8}\selectfont,draw=none,fill=none,/tikz/every even column/.append style={column sep=2mm}},legend columns=-1]
+\nextgroupplot[title={Observation bias},xlabel={Operator severity},xmin=0.0,xmax=2.0,ylabel={Persistence/model RMSE},legend to name=teplegend]
+\addplot[gray,dashed,line width=0.4pt,forget plot] coordinates {(0,1) (2.0,1)};
+\addplot[name path=lotep00,draw=none,forget plot] table[x=x,y=lower] {data_tep00.dat};
+\addplot[name path=hitep00,draw=none,forget plot] table[x=x,y=upper] {data_tep00.dat};
+\addplot[pers,fill opacity=0.10,draw=none,forget plot] fill between[of=lotep00 and hitep00];
+\addplot[pers,line width=0.65pt,mark=*,mark size=0.8pt] table[x=x,y=skill] {data_tep00.dat};
+\addlegendentry{Ridge}
+\addplot[name path=lotep01,draw=none,forget plot] table[x=x,y=lower] {data_tep01.dat};
+\addplot[name path=hitep01,draw=none,forget plot] table[x=x,y=upper] {data_tep01.dat};
+\addplot[meanref,fill opacity=0.10,draw=none,forget plot] fill between[of=lotep01 and hitep01];
+\addplot[meanref,line width=0.65pt,mark=*,mark size=0.8pt] table[x=x,y=skill] {data_tep01.dat};
+\addlegendentry{MLP seed 42}
+\addplot[name path=lotep02,draw=none,forget plot] table[x=x,y=lower] {data_tep02.dat};
+\addplot[name path=hitep02,draw=none,forget plot] table[x=x,y=upper] {data_tep02.dat};
+\addplot[driftref,fill opacity=0.10,draw=none,forget plot] fill between[of=lotep02 and hitep02];
+\addplot[driftref,line width=0.65pt,mark=*,mark size=0.8pt] table[x=x,y=skill] {data_tep02.dat};
+\addlegendentry{GRU seed 42}
+\nextgroupplot[title={Observation noise},xlabel={Operator severity},xmin=0.0,xmax=2.0,yticklabels={}]
+\addplot[gray,dashed,line width=0.4pt,forget plot] coordinates {(0,1) (2.0,1)};
+\addplot[name path=lotep10,draw=none,forget plot] table[x=x,y=lower] {data_tep10.dat};
+\addplot[name path=hitep10,draw=none,forget plot] table[x=x,y=upper] {data_tep10.dat};
+\addplot[pers,fill opacity=0.10,draw=none,forget plot] fill between[of=lotep10 and hitep10];
+\addplot[pers,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_tep10.dat};
+\addplot[name path=lotep11,draw=none,forget plot] table[x=x,y=lower] {data_tep11.dat};
+\addplot[name path=hitep11,draw=none,forget plot] table[x=x,y=upper] {data_tep11.dat};
+\addplot[meanref,fill opacity=0.10,draw=none,forget plot] fill between[of=lotep11 and hitep11];
+\addplot[meanref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_tep11.dat};
+\addplot[name path=lotep12,draw=none,forget plot] table[x=x,y=lower] {data_tep12.dat};
+\addplot[name path=hitep12,draw=none,forget plot] table[x=x,y=upper] {data_tep12.dat};
+\addplot[driftref,fill opacity=0.10,draw=none,forget plot] fill between[of=lotep12 and hitep12];
+\addplot[driftref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_tep12.dat};
+\nextgroupplot[title={Process / IDV(1)},xlabel={Operator severity},xmin=0.0,xmax=2.0,yticklabels={}]
+\addplot[gray,dashed,line width=0.4pt,forget plot] coordinates {(0,1) (2.0,1)};
+\addplot[name path=lotep20,draw=none,forget plot] table[x=x,y=lower] {data_tep20.dat};
+\addplot[name path=hitep20,draw=none,forget plot] table[x=x,y=upper] {data_tep20.dat};
+\addplot[pers,fill opacity=0.10,draw=none,forget plot] fill between[of=lotep20 and hitep20];
+\addplot[pers,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_tep20.dat};
+\addplot[name path=lotep21,draw=none,forget plot] table[x=x,y=lower] {data_tep21.dat};
+\addplot[name path=hitep21,draw=none,forget plot] table[x=x,y=upper] {data_tep21.dat};
+\addplot[meanref,fill opacity=0.10,draw=none,forget plot] fill between[of=lotep21 and hitep21];
+\addplot[meanref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_tep21.dat};
+\addplot[name path=lotep22,draw=none,forget plot] table[x=x,y=lower] {data_tep22.dat};
+\addplot[name path=hitep22,draw=none,forget plot] table[x=x,y=upper] {data_tep22.dat};
+\addplot[driftref,fill opacity=0.10,draw=none,forget plot] fill between[of=lotep22 and hitep22];
+\addplot[driftref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_tep22.dat};
+\nextgroupplot[title={Actuation / IDV(6)},xlabel={Operator severity},xmin=0.0,xmax=1.0,yticklabels={}]
+\addplot[gray,dashed,line width=0.4pt,forget plot] coordinates {(0,1) (1.0,1)};
+\addplot[name path=lotep30,draw=none,forget plot] table[x=x,y=lower] {data_tep30.dat};
+\addplot[name path=hitep30,draw=none,forget plot] table[x=x,y=upper] {data_tep30.dat};
+\addplot[pers,fill opacity=0.10,draw=none,forget plot] fill between[of=lotep30 and hitep30];
+\addplot[pers,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_tep30.dat};
+\addplot[name path=lotep31,draw=none,forget plot] table[x=x,y=lower] {data_tep31.dat};
+\addplot[name path=hitep31,draw=none,forget plot] table[x=x,y=upper] {data_tep31.dat};
+\addplot[meanref,fill opacity=0.10,draw=none,forget plot] fill between[of=lotep31 and hitep31];
+\addplot[meanref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_tep31.dat};
+\addplot[name path=lotep32,draw=none,forget plot] table[x=x,y=lower] {data_tep32.dat};
+\addplot[name path=hitep32,draw=none,forget plot] table[x=x,y=upper] {data_tep32.dat};
+\addplot[driftref,fill opacity=0.10,draw=none,forget plot] fill between[of=lotep32 and hitep32];
+\addplot[driftref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_tep32.dat};
+\nextgroupplot[title={Dynamics / IDV(13)},xlabel={Operator severity},xmin=0.0,xmax=6.0,ylabel={Persistence/model RMSE}]
+\addplot[gray,dashed,line width=0.4pt,forget plot] coordinates {(0,1) (6.0,1)};
+\addplot[name path=lotep40,draw=none,forget plot] table[x=x,y=lower] {data_tep40.dat};
+\addplot[name path=hitep40,draw=none,forget plot] table[x=x,y=upper] {data_tep40.dat};
+\addplot[pers,fill opacity=0.10,draw=none,forget plot] fill between[of=lotep40 and hitep40];
+\addplot[pers,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_tep40.dat};
+\addplot[name path=lotep41,draw=none,forget plot] table[x=x,y=lower] {data_tep41.dat};
+\addplot[name path=hitep41,draw=none,forget plot] table[x=x,y=upper] {data_tep41.dat};
+\addplot[meanref,fill opacity=0.10,draw=none,forget plot] fill between[of=lotep41 and hitep41];
+\addplot[meanref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_tep41.dat};
+\addplot[name path=lotep42,draw=none,forget plot] table[x=x,y=lower] {data_tep42.dat};
+\addplot[name path=hitep42,draw=none,forget plot] table[x=x,y=upper] {data_tep42.dat};
+\addplot[driftref,fill opacity=0.10,draw=none,forget plot] fill between[of=lotep42 and hitep42];
+\addplot[driftref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_tep42.dat};
+\nextgroupplot[title={Actuation / IDV(14)},xlabel={Operator severity},xmin=0.0,xmax=8.0,yticklabels={}]
+\addplot[gray,dashed,line width=0.4pt,forget plot] coordinates {(0,1) (8.0,1)};
+\addplot[name path=lotep50,draw=none,forget plot] table[x=x,y=lower] {data_tep50.dat};
+\addplot[name path=hitep50,draw=none,forget plot] table[x=x,y=upper] {data_tep50.dat};
+\addplot[pers,fill opacity=0.10,draw=none,forget plot] fill between[of=lotep50 and hitep50];
+\addplot[pers,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_tep50.dat};
+\addplot[name path=lotep51,draw=none,forget plot] table[x=x,y=lower] {data_tep51.dat};
+\addplot[name path=hitep51,draw=none,forget plot] table[x=x,y=upper] {data_tep51.dat};
+\addplot[meanref,fill opacity=0.10,draw=none,forget plot] fill between[of=lotep51 and hitep51];
+\addplot[meanref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_tep51.dat};
+\addplot[name path=lotep52,draw=none,forget plot] table[x=x,y=lower] {data_tep52.dat};
+\addplot[name path=hitep52,draw=none,forget plot] table[x=x,y=upper] {data_tep52.dat};
+\addplot[driftref,fill opacity=0.10,draw=none,forget plot] fill between[of=lotep52 and hitep52];
+\addplot[driftref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_tep52.dat};
+\nextgroupplot[title={Regime / setpoint},xlabel={Operator severity},xmin=0.0,xmax=1.0,yticklabels={}]
+\addplot[gray,dashed,line width=0.4pt,forget plot] coordinates {(0,1) (1.0,1)};
+\addplot[name path=lotep60,draw=none,forget plot] table[x=x,y=lower] {data_tep60.dat};
+\addplot[name path=hitep60,draw=none,forget plot] table[x=x,y=upper] {data_tep60.dat};
+\addplot[pers,fill opacity=0.10,draw=none,forget plot] fill between[of=lotep60 and hitep60];
+\addplot[pers,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_tep60.dat};
+\addplot[name path=lotep61,draw=none,forget plot] table[x=x,y=lower] {data_tep61.dat};
+\addplot[name path=hitep61,draw=none,forget plot] table[x=x,y=upper] {data_tep61.dat};
+\addplot[meanref,fill opacity=0.10,draw=none,forget plot] fill between[of=lotep61 and hitep61];
+\addplot[meanref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_tep61.dat};
+\addplot[name path=lotep62,draw=none,forget plot] table[x=x,y=lower] {data_tep62.dat};
+\addplot[name path=hitep62,draw=none,forget plot] table[x=x,y=upper] {data_tep62.dat};
+\addplot[driftref,fill opacity=0.10,draw=none,forget plot] fill between[of=lotep62 and hitep62];
+\addplot[driftref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_tep62.dat};
+\nextgroupplot[hide axis,xmin=0,xmax=1]
+\end{groupplot}
+\node[anchor=north] at ([yshift=-11mm]$(group c1r2.south)!0.5!(group c4r2.south)$) {\pgfplotslegendfromname{teplegend}};
+\end{tikzpicture}\end{document}

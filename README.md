@@ -1,4 +1,6 @@
 <h1 align="center">Measurement Choices Decide Robustness Benchmarks</h1>
+> September 2026 revision: the updated four-reference and clean-admission analyses, corrected seed statistics and editable LaTeX figures are in [`revision_2026_09/`](revision_2026_09/README.md). Use `python revision_2026_09/rescore.py` for the revised results. The original release and its reproduction entry point remain available below.
+
 
 <p align="center">
   Experiment code for the paper's two systems, seven measurement choices, and
@@ -15,6 +17,8 @@
   <a href="#run-the-cstr-experiment">CSTR</a>
   ·
   <a href="#run-the-mbr-experiments">MBR</a>
+  ·
+  <a href="#audit-the-ts-fault-re-ranking">TS-Fault audit</a>
   ·
   <a href="#figures">Figures</a>
   ·
@@ -41,7 +45,7 @@ dependencies. The manuscript is distributed separately.
 | `tep/` | Tennessee Eastman: patched Fortran simulator, task, panel, seven-operator evaluation, and the claim-testing probes |
 | `mbr/` | Membrane bioreactor adapter and analysis implementation |
 | `cstr/` | CSTR admission study and implementation-validation record |
-| `reanalysis/` | Re-ranks a published benchmark's 21 models under a shared denominator, from its printed aggregates |
+| `reanalysis/` | Re-ranks a released benchmark's 21 models against a common reference, from its printed aggregates |
 | `frozen_predictions/` | Eleven released artifacts (about 175 KiB), all checksummed |
 | `scripts/` | One-command validation and regeneration of released outputs |
 | `tests/` | Manifest integrity, and the paper's numbers against the artifacts |
@@ -171,6 +175,30 @@ python cstr/horizon_excitation_sweep.py   # about fifteen minutes
 Six forecast horizons and four excitation levels. No configuration produces a
 panel that clears the skill gate by a margin supporting a robustness
 comparison, and the three trained members are near-ties at every one of them.
+
+## Audit the TS-Fault Re-ranking
+
+The manuscript reanalysis of all 21 TS-Fault models is a standalone, directly
+inspectable script:
+
+[`reanalysis/tsfault_common_reference.py`](reanalysis/tsfault_common_reference.py)
+
+Its only inputs are the Clean MSE, Faulted MSE, and robustness-ratio columns
+transcribed from Table V of TS-Fault (arXiv:2606.18539). The own-error ratio is recomputed as faulted mean MSE divided by clean mean MSE; the source’s printed r instead averages within-dataset ratios. Both reconstructed
+rankings use those same mean aggregates. The comparison changes the scoring
+reference from each model's own clean error to the faulted error of the Naive
+baseline; it does not claim to reproduce TS-Fault's published robustness rank,
+which uses median relative degradation across configurations.
+
+```bash
+python reanalysis/tsfault_common_reference.py
+```
+
+The final lines report Spearman correlations of `-0.414` for the
+own-clean-error ratio and `+0.052` for common-reference skill. The same audit
+runs as Table 6 under `python scripts/reproduce_all.py --tables-only`.
+[`reanalysis/README.md`](reanalysis/README.md) records the source columns,
+calculation, expected output, and scope boundary.
 
 ## Figures
 

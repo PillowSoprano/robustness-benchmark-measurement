@@ -1,0 +1,253 @@
+{
+  "source": "https://arxiv.org/html/2606.18539v1",
+  "source_section": "V-D, Table V",
+  "published_r_aggregation": "mean of within-dataset ratios over six datasets",
+  "computed_r_aggregation": "ratio of printed faulted mean MSE to printed clean mean MSE",
+  "identity_max_abs_error": 2.842170943040401e-14,
+  "ratio_of_means_spearman": [
+    -0.4142857142857143,
+    0.06187994268302525
+  ],
+  "common_reference_spearman": [
+    0.051948051948051945,
+    0.8230456679720456
+  ],
+  "published_r_spearman": [
+    -0.48181818181818176,
+    0.02698722611165969
+  ],
+  "n": 21,
+  "rows": [
+    {
+      "model": "Naive",
+      "clean_mean": 1.238,
+      "faulted_mean": 129.5,
+      "published_r": 105.7,
+      "computed_r": 104.60420032310178,
+      "clean_skill": 1.0,
+      "common_skill": 1.0,
+      "own_rank": 9,
+      "common_rank": 18
+    },
+    {
+      "model": "SeasonalNaive",
+      "clean_mean": 0.905,
+      "faulted_mean": 118.5,
+      "published_r": 165.5,
+      "computed_r": 130.939226519337,
+      "clean_skill": 1.3679558011049724,
+      "common_skill": 1.0928270042194093,
+      "own_rank": 13,
+      "common_rank": 15
+    },
+    {
+      "model": "ARIMA",
+      "clean_mean": 0.999,
+      "faulted_mean": 121.7,
+      "published_r": 120.7,
+      "computed_r": 121.82182182182183,
+      "clean_skill": 1.2392392392392393,
+      "common_skill": 1.0640920295809366,
+      "own_rank": 12,
+      "common_rank": 16
+    },
+    {
+      "model": "ETS",
+      "clean_mean": 1.044,
+      "faulted_mean": 126.7,
+      "published_r": 122.9,
+      "computed_r": 121.36015325670498,
+      "clean_skill": 1.185823754789272,
+      "common_skill": 1.022099447513812,
+      "own_rank": 11,
+      "common_rank": 17
+    },
+    {
+      "model": "DLinear",
+      "clean_mean": 0.562,
+      "faulted_mean": 66.85,
+      "published_r": 197.3,
+      "computed_r": 118.95017793594305,
+      "clean_skill": 2.202846975088968,
+      "common_skill": 1.93717277486911,
+      "own_rank": 10,
+      "common_rank": 9
+    },
+    {
+      "model": "NLinear",
+      "clean_mean": 0.54,
+      "faulted_mean": 72.23,
+      "published_r": 142.1,
+      "computed_r": 133.75925925925927,
+      "clean_skill": 2.2925925925925923,
+      "common_skill": 1.792883843278416,
+      "own_rank": 14,
+      "common_rank": 10
+    },
+    {
+      "model": "N-BEATS",
+      "clean_mean": 0.449,
+      "faulted_mean": 21.59,
+      "published_r": 54.6,
+      "computed_r": 48.084632516703785,
+      "clean_skill": 2.757238307349666,
+      "common_skill": 5.998147290412228,
+      "own_rank": 6,
+      "common_rank": 4
+    },
+    {
+      "model": "LSTM",
+      "clean_mean": 0.733,
+      "faulted_mean": 0.78,
+      "published_r": 1.07,
+      "computed_r": 1.0641200545702594,
+      "clean_skill": 1.688949522510232,
+      "common_skill": 166.02564102564102,
+      "own_rank": 1,
+      "common_rank": 2
+    },
+    {
+      "model": "GRU",
+      "clean_mean": 0.68,
+      "faulted_mean": 0.775,
+      "published_r": 1.14,
+      "computed_r": 1.1397058823529411,
+      "clean_skill": 1.8205882352941174,
+      "common_skill": 167.09677419354838,
+      "own_rank": 2,
+      "common_rank": 1
+    },
+    {
+      "model": "TCN",
+      "clean_mean": 0.874,
+      "faulted_mean": 7.389,
+      "published_r": 7.9,
+      "computed_r": 8.454233409610984,
+      "clean_skill": 1.4164759725400458,
+      "common_skill": 17.526052239815943,
+      "own_rank": 3,
+      "common_rank": 3
+    },
+    {
+      "model": "Autoformer",
+      "clean_mean": 0.822,
+      "faulted_mean": 24.19,
+      "published_r": 48.0,
+      "computed_r": 29.428223844282243,
+      "clean_skill": 1.5060827250608273,
+      "common_skill": 5.353451839603141,
+      "own_rank": 5,
+      "common_rank": 5
+    },
+    {
+      "model": "FEDformer",
+      "clean_mean": 1.072,
+      "faulted_mean": 24.29,
+      "published_r": 22.6,
+      "computed_r": 22.658582089552237,
+      "clean_skill": 1.1548507462686566,
+      "common_skill": 5.3314121037463975,
+      "own_rank": 4,
+      "common_rank": 6
+    },
+    {
+      "model": "PatchTST",
+      "clean_mean": 0.551,
+      "faulted_mean": 86.63,
+      "published_r": 262.6,
+      "computed_r": 157.22323049001812,
+      "clean_skill": 2.246823956442831,
+      "common_skill": 1.4948632113586517,
+      "own_rank": 17,
+      "common_rank": 12
+    },
+    {
+      "model": "iTransformer",
+      "clean_mean": 0.529,
+      "faulted_mean": 83.16,
+      "published_r": 272.3,
+      "computed_r": 157.20226843100187,
+      "clean_skill": 2.3402646502835536,
+      "common_skill": 1.5572390572390573,
+      "own_rank": 16,
+      "common_rank": 11
+    },
+    {
+      "model": "TimeXer",
+      "clean_mean": 0.537,
+      "faulted_mean": 87.98,
+      "published_r": 301.2,
+      "computed_r": 163.83612662942272,
+      "clean_skill": 2.3054003724394785,
+      "common_skill": 1.4719254375994544,
+      "own_rank": 18,
+      "common_rank": 13
+    },
+    {
+      "model": "TimeMixer",
+      "clean_mean": 0.59,
+      "faulted_mean": 90.88,
+      "published_r": 264.2,
+      "computed_r": 154.03389830508473,
+      "clean_skill": 2.0983050847457627,
+      "common_skill": 1.424955985915493,
+      "own_rank": 15,
+      "common_rank": 14
+    },
+    {
+      "model": "TimesNet",
+      "clean_mean": 0.571,
+      "faulted_mean": 53.34,
+      "published_r": 141.7,
+      "computed_r": 93.415061295972,
+      "clean_skill": 2.1681260945709284,
+      "common_skill": 2.4278215223097113,
+      "own_rank": 8,
+      "common_rank": 7
+    },
+    {
+      "model": "NSTransformer",
+      "clean_mean": 0.608,
+      "faulted_mean": 55.16,
+      "published_r": 101.1,
+      "computed_r": 90.72368421052632,
+      "clean_skill": 2.036184210526316,
+      "common_skill": 2.3477157360406093,
+      "own_rank": 7,
+      "common_rank": 8
+    },
+    {
+      "model": "TimesFM",
+      "clean_mean": 0.516,
+      "faulted_mean": 162.7,
+      "published_r": 555.2,
+      "computed_r": 315.31007751937983,
+      "clean_skill": 2.39922480620155,
+      "common_skill": 0.7959434542102028,
+      "own_rank": 21,
+      "common_rank": 20
+    },
+    {
+      "model": "Chronos",
+      "clean_mean": 0.613,
+      "faulted_mean": 165.6,
+      "published_r": 512.5,
+      "computed_r": 270.1468189233279,
+      "clean_skill": 2.0195758564437196,
+      "common_skill": 0.7820048309178744,
+      "own_rank": 20,
+      "common_rank": 21
+    },
+    {
+      "model": "Moirai",
+      "clean_mean": 0.682,
+      "faulted_mean": 153.1,
+      "published_r": 365.6,
+      "computed_r": 224.48680351906157,
+      "clean_skill": 1.81524926686217,
+      "common_skill": 0.8458523840627041,
+      "own_rank": 19,
+      "common_rank": 19
+    }
+  ]
+}

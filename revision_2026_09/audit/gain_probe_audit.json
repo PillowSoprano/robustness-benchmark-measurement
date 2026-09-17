@@ -1,0 +1,1230 @@
+{
+  "summary": [
+    {
+      "gain": 1.0,
+      "n": 16,
+      "full_episode_invalid": 0,
+      "scoring_span_invalid": 0,
+      "pressure_sd": 59.86953730438182,
+      "temperature_sd": 0.023709578798410555,
+      "level_sd": 1.9308957123563741
+    },
+    {
+      "gain": 0.8,
+      "n": 16,
+      "full_episode_invalid": 3,
+      "scoring_span_invalid": 0,
+      "pressure_sd": 62.11362054116795,
+      "temperature_sd": 0.022277810051394634,
+      "level_sd": 2.203521111674044
+    },
+    {
+      "gain": 0.7,
+      "n": 16,
+      "full_episode_invalid": 5,
+      "scoring_span_invalid": 1,
+      "pressure_sd": 84.65964065893569,
+      "temperature_sd": 0.02538202527667727,
+      "level_sd": 3.2322419883881355
+    },
+    {
+      "gain": 0.6,
+      "n": 16,
+      "full_episode_invalid": 12,
+      "scoring_span_invalid": 5,
+      "pressure_sd": 71.82776169856727,
+      "temperature_sd": 0.02481032052304113,
+      "level_sd": 2.529308697782491
+    },
+    {
+      "gain": 0.5,
+      "n": 16,
+      "full_episode_invalid": 11,
+      "scoring_span_invalid": 7,
+      "pressure_sd": 93.96615241081149,
+      "temperature_sd": 0.031876526530706904,
+      "level_sd": 4.343409159674566
+    },
+    {
+      "gain": 0.4,
+      "n": 16,
+      "full_episode_invalid": 11,
+      "scoring_span_invalid": 5,
+      "pressure_sd": 88.20939146139877,
+      "temperature_sd": 0.03623297344065153,
+      "level_sd": 3.4576784551735846
+    },
+    {
+      "gain": 0.3,
+      "n": 16,
+      "full_episode_invalid": 10,
+      "scoring_span_invalid": 4,
+      "pressure_sd": 99.07465191463412,
+      "temperature_sd": 0.06532841339855242,
+      "level_sd": 6.127339933088838
+    },
+    {
+      "gain": 0.2,
+      "n": 16,
+      "full_episode_invalid": 10,
+      "scoring_span_invalid": 6,
+      "pressure_sd": 92.00531336041722,
+      "temperature_sd": 0.12936915722230627,
+      "level_sd": 7.4326569211737015
+    }
+  ],
+  "episodes": [
+    {
+      "gain": 1.0,
+      "seed": 5000,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 40.33710351331268,
+      "temperature_sd": 0.02351993955194306,
+      "level_sd": 1.9066364608942687
+    },
+    {
+      "gain": 1.0,
+      "seed": 5001,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 39.21753367183436,
+      "temperature_sd": 0.021461645988650524,
+      "level_sd": 1.1909515323485025
+    },
+    {
+      "gain": 1.0,
+      "seed": 5002,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 56.284513899744454,
+      "temperature_sd": 0.020713061646067184,
+      "level_sd": 1.6851999586655406
+    },
+    {
+      "gain": 1.0,
+      "seed": 5003,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 56.96321318171383,
+      "temperature_sd": 0.02290599596340907,
+      "level_sd": 2.048332276214292
+    },
+    {
+      "gain": 1.0,
+      "seed": 5004,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 63.66387949939304,
+      "temperature_sd": 0.022671363559503933,
+      "level_sd": 1.898851349889464
+    },
+    {
+      "gain": 1.0,
+      "seed": 5005,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 67.09623116190205,
+      "temperature_sd": 0.024152841778468253,
+      "level_sd": 1.9711880266455657
+    },
+    {
+      "gain": 1.0,
+      "seed": 5006,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 78.59096630312149,
+      "temperature_sd": 0.027436645862916803,
+      "level_sd": 2.484712426260348
+    },
+    {
+      "gain": 1.0,
+      "seed": 5007,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 93.85654082304228,
+      "temperature_sd": 0.02870628400051895,
+      "level_sd": 2.71145003175522
+    },
+    {
+      "gain": 1.0,
+      "seed": 5008,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 35.10328660997928,
+      "temperature_sd": 0.022473893366393403,
+      "level_sd": 1.1181604606334716
+    },
+    {
+      "gain": 1.0,
+      "seed": 5009,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 52.91751961142313,
+      "temperature_sd": 0.023912520655432968,
+      "level_sd": 1.8986468785214425
+    },
+    {
+      "gain": 1.0,
+      "seed": 5010,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 46.44693412810523,
+      "temperature_sd": 0.02334234837295121,
+      "level_sd": 1.6679546958040192
+    },
+    {
+      "gain": 1.0,
+      "seed": 5011,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 71.71299531648705,
+      "temperature_sd": 0.023633205267734922,
+      "level_sd": 2.2879519239465016
+    },
+    {
+      "gain": 1.0,
+      "seed": 5012,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 64.7065804065203,
+      "temperature_sd": 0.023248894768669377,
+      "level_sd": 1.8837404233372126
+    },
+    {
+      "gain": 1.0,
+      "seed": 5013,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 78.9164628960814,
+      "temperature_sd": 0.024793013094333165,
+      "level_sd": 2.3671770863993364
+    },
+    {
+      "gain": 1.0,
+      "seed": 5014,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 41.43511792386399,
+      "temperature_sd": 0.02186539260903174,
+      "level_sd": 1.328488745026086
+    },
+    {
+      "gain": 1.0,
+      "seed": 5015,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 70.66371792358453,
+      "temperature_sd": 0.024516214288544315,
+      "level_sd": 2.4448891213607173
+    },
+    {
+      "gain": 0.8,
+      "seed": 5000,
+      "finite": true,
+      "freeze_onset": 431,
+      "pressure_sd": 135.99800319002705,
+      "temperature_sd": 0.02441529644084493,
+      "level_sd": 3.3608496693644
+    },
+    {
+      "gain": 0.8,
+      "seed": 5001,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 48.899521749642396,
+      "temperature_sd": 0.021315318920954503,
+      "level_sd": 2.0311941039574086
+    },
+    {
+      "gain": 0.8,
+      "seed": 5002,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 71.15484854514155,
+      "temperature_sd": 0.022409201963113936,
+      "level_sd": 2.5301665562749673
+    },
+    {
+      "gain": 0.8,
+      "seed": 5003,
+      "finite": true,
+      "freeze_onset": 360,
+      "pressure_sd": 164.78401907700703,
+      "temperature_sd": 0.024542720130588738,
+      "level_sd": 3.7499017713017806
+    },
+    {
+      "gain": 0.8,
+      "seed": 5004,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 70.75167916405846,
+      "temperature_sd": 0.023744246954542643,
+      "level_sd": 2.655609387594266
+    },
+    {
+      "gain": 0.8,
+      "seed": 5005,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 47.571872499016955,
+      "temperature_sd": 0.020769393511820243,
+      "level_sd": 1.7053334341461297
+    },
+    {
+      "gain": 0.8,
+      "seed": 5006,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 74.01029590188435,
+      "temperature_sd": 0.024656330423125407,
+      "level_sd": 2.874013282331207
+    },
+    {
+      "gain": 0.8,
+      "seed": 5007,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 88.75783009732088,
+      "temperature_sd": 0.0231385038474369,
+      "level_sd": 2.602223605048142
+    },
+    {
+      "gain": 0.8,
+      "seed": 5008,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 55.22151308495002,
+      "temperature_sd": 0.02240791804479761,
+      "level_sd": 2.1771247325852974
+    },
+    {
+      "gain": 0.8,
+      "seed": 5009,
+      "finite": true,
+      "freeze_onset": 477,
+      "pressure_sd": 97.9233866461626,
+      "temperature_sd": 0.027423399923197724,
+      "level_sd": 4.162722717327829
+    },
+    {
+      "gain": 0.8,
+      "seed": 5010,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 51.76672497647454,
+      "temperature_sd": 0.021552870535824106,
+      "level_sd": 1.7571094714220585
+    },
+    {
+      "gain": 0.8,
+      "seed": 5011,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 91.57350964237992,
+      "temperature_sd": 0.026149085034674276,
+      "level_sd": 3.3465154411618525
+    },
+    {
+      "gain": 0.8,
+      "seed": 5012,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 49.78503121305133,
+      "temperature_sd": 0.02242417030467169,
+      "level_sd": 1.6392115177902105
+    },
+    {
+      "gain": 0.8,
+      "seed": 5013,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 56.48341999694004,
+      "temperature_sd": 0.02074249647828167,
+      "level_sd": 1.6436002419551734
+    },
+    {
+      "gain": 0.8,
+      "seed": 5014,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 37.718172160700185,
+      "temperature_sd": 0.01825963997674294,
+      "level_sd": 1.4428587547147496
+    },
+    {
+      "gain": 0.8,
+      "seed": 5015,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 63.78264800362262,
+      "temperature_sd": 0.02204235467214427,
+      "level_sd": 2.2408139227811104
+    },
+    {
+      "gain": 0.7,
+      "seed": 5000,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 121.44134069916434,
+      "temperature_sd": 0.03174727375131651,
+      "level_sd": 4.812364515952093
+    },
+    {
+      "gain": 0.7,
+      "seed": 5001,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 56.69452264632883,
+      "temperature_sd": 0.02302474511619738,
+      "level_sd": 2.340393793201839
+    },
+    {
+      "gain": 0.7,
+      "seed": 5002,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 71.12001769690976,
+      "temperature_sd": 0.021596734135352017,
+      "level_sd": 2.444009866909094
+    },
+    {
+      "gain": 0.7,
+      "seed": 5003,
+      "finite": true,
+      "freeze_onset": 270,
+      "pressure_sd": 161.52090527544038,
+      "temperature_sd": 0.024505759120654756,
+      "level_sd": 3.136216924288228
+    },
+    {
+      "gain": 0.7,
+      "seed": 5004,
+      "finite": true,
+      "freeze_onset": 465,
+      "pressure_sd": 105.59800162119068,
+      "temperature_sd": 0.02439819969181298,
+      "level_sd": 3.619894803781182
+    },
+    {
+      "gain": 0.7,
+      "seed": 5005,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 89.13223981936542,
+      "temperature_sd": 0.02571742425717764,
+      "level_sd": 3.4303634010710247
+    },
+    {
+      "gain": 0.7,
+      "seed": 5006,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 85.85766555350496,
+      "temperature_sd": 0.02458967839184922,
+      "level_sd": 2.8852715731077394
+    },
+    {
+      "gain": 0.7,
+      "seed": 5007,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 100.36268515948218,
+      "temperature_sd": 0.026863951413822054,
+      "level_sd": 3.5569844534272246
+    },
+    {
+      "gain": 0.7,
+      "seed": 5008,
+      "finite": true,
+      "freeze_onset": 388,
+      "pressure_sd": 140.288144642053,
+      "temperature_sd": 0.029262659134161432,
+      "level_sd": 3.6324118554219322
+    },
+    {
+      "gain": 0.7,
+      "seed": 5009,
+      "finite": true,
+      "freeze_onset": 384,
+      "pressure_sd": 160.9326400088551,
+      "temperature_sd": 0.02850829517136064,
+      "level_sd": 5.640007185792361
+    },
+    {
+      "gain": 0.7,
+      "seed": 5010,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 78.08931538305372,
+      "temperature_sd": 0.025959796943636555,
+      "level_sd": 3.387060502860778
+    },
+    {
+      "gain": 0.7,
+      "seed": 5011,
+      "finite": true,
+      "freeze_onset": 386,
+      "pressure_sd": 158.24561864330272,
+      "temperature_sd": 0.02412963681501589,
+      "level_sd": 3.7093265811399045
+    },
+    {
+      "gain": 0.7,
+      "seed": 5012,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 89.43320950779159,
+      "temperature_sd": 0.025828611018041233,
+      "level_sd": 3.5335461123778584
+    },
+    {
+      "gain": 0.7,
+      "seed": 5013,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 65.42551661546044,
+      "temperature_sd": 0.02106989059519482,
+      "level_sd": 2.132970436174437
+    },
+    {
+      "gain": 0.7,
+      "seed": 5014,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 86.30088115497578,
+      "temperature_sd": 0.026214125965161046,
+      "level_sd": 3.131437747097113
+    },
+    {
+      "gain": 0.7,
+      "seed": 5015,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 87.3986530122556,
+      "temperature_sd": 0.02659004645570149,
+      "level_sd": 3.900259470090296
+    },
+    {
+      "gain": 0.6,
+      "seed": 5000,
+      "finite": true,
+      "freeze_onset": 406,
+      "pressure_sd": 153.8054797819194,
+      "temperature_sd": 0.027869570473601578,
+      "level_sd": 6.676865025771759
+    },
+    {
+      "gain": 0.6,
+      "seed": 5001,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 93.00917278992964,
+      "temperature_sd": 0.02786716397290783,
+      "level_sd": 3.440735978704484
+    },
+    {
+      "gain": 0.6,
+      "seed": 5002,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 50.18500063478823,
+      "temperature_sd": 0.02203156225460066,
+      "level_sd": 1.2669091127828822
+    },
+    {
+      "gain": 0.6,
+      "seed": 5003,
+      "finite": true,
+      "freeze_onset": 295,
+      "pressure_sd": 164.32941931307658,
+      "temperature_sd": 0.02467834386757614,
+      "level_sd": 3.8759449844500993
+    },
+    {
+      "gain": 0.6,
+      "seed": 5004,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 91.46210726246173,
+      "temperature_sd": 0.02542420400396837,
+      "level_sd": 4.033501701905074
+    },
+    {
+      "gain": 0.6,
+      "seed": 5005,
+      "finite": true,
+      "freeze_onset": 294,
+      "pressure_sd": 158.77750353670376,
+      "temperature_sd": 0.02349988421080175,
+      "level_sd": 3.0878545670982205
+    },
+    {
+      "gain": 0.6,
+      "seed": 5006,
+      "finite": true,
+      "freeze_onset": 461,
+      "pressure_sd": 100.60090570117606,
+      "temperature_sd": 0.028997183114333778,
+      "level_sd": 3.759376356597982
+    },
+    {
+      "gain": 0.6,
+      "seed": 5007,
+      "finite": true,
+      "freeze_onset": 248,
+      "pressure_sd": 141.39850537214218,
+      "temperature_sd": 0.019293089999320567,
+      "level_sd": 3.086342202702286
+    },
+    {
+      "gain": 0.6,
+      "seed": 5008,
+      "finite": true,
+      "freeze_onset": 278,
+      "pressure_sd": 156.27522102045106,
+      "temperature_sd": 0.021118756412204957,
+      "level_sd": 3.8998306449714835
+    },
+    {
+      "gain": 0.6,
+      "seed": 5009,
+      "finite": true,
+      "freeze_onset": 292,
+      "pressure_sd": 162.44785176837163,
+      "temperature_sd": 0.027343351371537695,
+      "level_sd": 3.013900356033847
+    },
+    {
+      "gain": 0.6,
+      "seed": 5010,
+      "finite": true,
+      "freeze_onset": 379,
+      "pressure_sd": 147.40145929199616,
+      "temperature_sd": 0.028433164669248584,
+      "level_sd": 4.167083692030332
+    },
+    {
+      "gain": 0.6,
+      "seed": 5011,
+      "finite": true,
+      "freeze_onset": 425,
+      "pressure_sd": 141.63039437176,
+      "temperature_sd": 0.023935118135451232,
+      "level_sd": 3.1403278886469117
+    },
+    {
+      "gain": 0.6,
+      "seed": 5012,
+      "finite": true,
+      "freeze_onset": 391,
+      "pressure_sd": 145.98464807432487,
+      "temperature_sd": 0.023851654405831226,
+      "level_sd": 3.060661407646393
+    },
+    {
+      "gain": 0.6,
+      "seed": 5013,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 52.65476610708948,
+      "temperature_sd": 0.023918351860687664,
+      "level_sd": 1.376087997737523
+    },
+    {
+      "gain": 0.6,
+      "seed": 5014,
+      "finite": true,
+      "freeze_onset": 430,
+      "pressure_sd": 146.36102729026544,
+      "temperature_sd": 0.031069514820872682,
+      "level_sd": 6.5806388150986495
+    },
+    {
+      "gain": 0.6,
+      "seed": 5015,
+      "finite": true,
+      "freeze_onset": 381,
+      "pressure_sd": 156.13031849023858,
+      "temperature_sd": 0.02484086826709676,
+      "level_sd": 4.263738386048652
+    },
+    {
+      "gain": 0.5,
+      "seed": 5000,
+      "finite": true,
+      "freeze_onset": 324,
+      "pressure_sd": 151.141664518959,
+      "temperature_sd": 0.02045846437902727,
+      "level_sd": 2.749132685174927
+    },
+    {
+      "gain": 0.5,
+      "seed": 5001,
+      "finite": true,
+      "freeze_onset": 427,
+      "pressure_sd": 126.74626142758426,
+      "temperature_sd": 0.027200852036828174,
+      "level_sd": 2.97752556521549
+    },
+    {
+      "gain": 0.5,
+      "seed": 5002,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 111.91359890052753,
+      "temperature_sd": 0.03634532014783185,
+      "level_sd": 4.927750159268923
+    },
+    {
+      "gain": 0.5,
+      "seed": 5003,
+      "finite": true,
+      "freeze_onset": 326,
+      "pressure_sd": 171.92285840811076,
+      "temperature_sd": 0.029963049210389923,
+      "level_sd": 7.0071444359709165
+    },
+    {
+      "gain": 0.5,
+      "seed": 5004,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 68.50393480103676,
+      "temperature_sd": 0.026608032853456302,
+      "level_sd": 2.5052730695971035
+    },
+    {
+      "gain": 0.5,
+      "seed": 5005,
+      "finite": true,
+      "freeze_onset": 306,
+      "pressure_sd": 170.0561900997866,
+      "temperature_sd": 0.028894628622163583,
+      "level_sd": 7.179422174704203
+    },
+    {
+      "gain": 0.5,
+      "seed": 5006,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 107.78905610701652,
+      "temperature_sd": 0.033870186477506795,
+      "level_sd": 4.979285104265871
+    },
+    {
+      "gain": 0.5,
+      "seed": 5007,
+      "finite": true,
+      "freeze_onset": 259,
+      "pressure_sd": 155.84199367432603,
+      "temperature_sd": 0.026567701726397122,
+      "level_sd": 7.572057641390147
+    },
+    {
+      "gain": 0.5,
+      "seed": 5008,
+      "finite": true,
+      "freeze_onset": 297,
+      "pressure_sd": 168.3696077576218,
+      "temperature_sd": 0.027581390390820817,
+      "level_sd": 6.731668309627046
+    },
+    {
+      "gain": 0.5,
+      "seed": 5009,
+      "finite": true,
+      "freeze_onset": 465,
+      "pressure_sd": 130.0787719001338,
+      "temperature_sd": 0.02910959899774083,
+      "level_sd": 4.037326394818534
+    },
+    {
+      "gain": 0.5,
+      "seed": 5010,
+      "finite": true,
+      "freeze_onset": 283,
+      "pressure_sd": 154.4683003988824,
+      "temperature_sd": 0.033501873863544716,
+      "level_sd": 3.528695123518469
+    },
+    {
+      "gain": 0.5,
+      "seed": 5011,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 101.51336753474577,
+      "temperature_sd": 0.031057990386468618,
+      "level_sd": 4.575421264514935
+    },
+    {
+      "gain": 0.5,
+      "seed": 5012,
+      "finite": true,
+      "freeze_onset": 453,
+      "pressure_sd": 125.03020055782744,
+      "temperature_sd": 0.03619389683631312,
+      "level_sd": 5.5127457356806095
+    },
+    {
+      "gain": 0.5,
+      "seed": 5013,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 80.11080471073089,
+      "temperature_sd": 0.031501102788270965,
+      "level_sd": 4.729316200725998
+    },
+    {
+      "gain": 0.5,
+      "seed": 5014,
+      "finite": true,
+      "freeze_onset": 330,
+      "pressure_sd": 170.11405204835305,
+      "temperature_sd": 0.01949410729330914,
+      "level_sd": 2.901718590232657
+    },
+    {
+      "gain": 0.5,
+      "seed": 5015,
+      "finite": true,
+      "freeze_onset": 413,
+      "pressure_sd": 150.3987261900581,
+      "temperature_sd": 0.03789394643492969,
+      "level_sd": 5.930833539248921
+    },
+    {
+      "gain": 0.4,
+      "seed": 5000,
+      "finite": true,
+      "freeze_onset": 389,
+      "pressure_sd": 140.5095309563009,
+      "temperature_sd": 0.035077847229783285,
+      "level_sd": 7.027672018342428
+    },
+    {
+      "gain": 0.4,
+      "seed": 5001,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 63.11019105839403,
+      "temperature_sd": 0.03958934603652682,
+      "level_sd": 3.106722164164649
+    },
+    {
+      "gain": 0.4,
+      "seed": 5002,
+      "finite": true,
+      "freeze_onset": 367,
+      "pressure_sd": 159.31623864196436,
+      "temperature_sd": 0.039288807731834754,
+      "level_sd": 10.608569328952642
+    },
+    {
+      "gain": 0.4,
+      "seed": 5003,
+      "finite": true,
+      "freeze_onset": 377,
+      "pressure_sd": 178.7744175270673,
+      "temperature_sd": 0.09128135315480614,
+      "level_sd": 12.474458057424178
+    },
+    {
+      "gain": 0.4,
+      "seed": 5004,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 109.12181409707088,
+      "temperature_sd": 0.037117750926132224,
+      "level_sd": 5.263747462428899
+    },
+    {
+      "gain": 0.4,
+      "seed": 5005,
+      "finite": true,
+      "freeze_onset": 338,
+      "pressure_sd": 180.35124525311423,
+      "temperature_sd": 0.06215695790564169,
+      "level_sd": 12.11633233475563
+    },
+    {
+      "gain": 0.4,
+      "seed": 5006,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 76.6149474650576,
+      "temperature_sd": 0.03760149859418043,
+      "level_sd": 2.719113850836638
+    },
+    {
+      "gain": 0.4,
+      "seed": 5007,
+      "finite": true,
+      "freeze_onset": 290,
+      "pressure_sd": 175.56090226942334,
+      "temperature_sd": 0.06602489479107439,
+      "level_sd": 14.064747948129527
+    },
+    {
+      "gain": 0.4,
+      "seed": 5008,
+      "finite": true,
+      "freeze_onset": 333,
+      "pressure_sd": 177.728227326172,
+      "temperature_sd": 0.045287963416234665,
+      "level_sd": 9.394128987468642
+    },
+    {
+      "gain": 0.4,
+      "seed": 5009,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 78.13812886275942,
+      "temperature_sd": 0.03262263089009347,
+      "level_sd": 2.876940992974717
+    },
+    {
+      "gain": 0.4,
+      "seed": 5010,
+      "finite": true,
+      "freeze_onset": 314,
+      "pressure_sd": 159.82938922530693,
+      "temperature_sd": 0.03673307956597984,
+      "level_sd": 3.6451105776611317
+    },
+    {
+      "gain": 0.4,
+      "seed": 5011,
+      "finite": true,
+      "freeze_onset": 403,
+      "pressure_sd": 154.77594803697036,
+      "temperature_sd": 0.03541462112866705,
+      "level_sd": 8.856275259035428
+    },
+    {
+      "gain": 0.4,
+      "seed": 5012,
+      "finite": true,
+      "freeze_onset": 332,
+      "pressure_sd": 160.84365808441405,
+      "temperature_sd": 0.035934316941230844,
+      "level_sd": 7.058767628570765
+    },
+    {
+      "gain": 0.4,
+      "seed": 5013,
+      "finite": true,
+      "freeze_onset": 380,
+      "pressure_sd": 153.80518138769244,
+      "temperature_sd": 0.03276039519768092,
+      "level_sd": 3.440639167044285
+    },
+    {
+      "gain": 0.4,
+      "seed": 5014,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 114.06187582371192,
+      "temperature_sd": 0.03423364075632468,
+      "level_sd": 3.3218678054630195
+    },
+    {
+      "gain": 0.4,
+      "seed": 5015,
+      "finite": true,
+      "freeze_onset": 468,
+      "pressure_sd": 130.1744232171096,
+      "temperature_sd": 0.04709457122228704,
+      "level_sd": 8.993598690660164
+    },
+    {
+      "gain": 0.3,
+      "seed": 5000,
+      "finite": true,
+      "freeze_onset": 454,
+      "pressure_sd": 134.01645554749422,
+      "temperature_sd": 0.19357968537890893,
+      "level_sd": 18.708087973515
+    },
+    {
+      "gain": 0.3,
+      "seed": 5001,
+      "finite": true,
+      "freeze_onset": 395,
+      "pressure_sd": 134.49917475187567,
+      "temperature_sd": 0.04755523428852991,
+      "level_sd": 3.371980217860873
+    },
+    {
+      "gain": 0.3,
+      "seed": 5002,
+      "finite": true,
+      "freeze_onset": 246,
+      "pressure_sd": 154.17245839181706,
+      "temperature_sd": 0.03361977933484343,
+      "level_sd": 7.438126888430986
+    },
+    {
+      "gain": 0.3,
+      "seed": 5003,
+      "finite": true,
+      "freeze_onset": 243,
+      "pressure_sd": 161.57479044574708,
+      "temperature_sd": 0.05060430276140828,
+      "level_sd": 3.294892920270546
+    },
+    {
+      "gain": 0.3,
+      "seed": 5004,
+      "finite": true,
+      "freeze_onset": 394,
+      "pressure_sd": 155.4756952949605,
+      "temperature_sd": 0.05160207879280288,
+      "level_sd": 9.919686204572912
+    },
+    {
+      "gain": 0.3,
+      "seed": 5005,
+      "finite": true,
+      "freeze_onset": 400,
+      "pressure_sd": 182.85326609249424,
+      "temperature_sd": 0.12708088988065727,
+      "level_sd": 18.21926384171889
+    },
+    {
+      "gain": 0.3,
+      "seed": 5006,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 86.77540929182379,
+      "temperature_sd": 0.11066956187738095,
+      "level_sd": 8.803806736215272
+    },
+    {
+      "gain": 0.3,
+      "seed": 5007,
+      "finite": true,
+      "freeze_onset": 152,
+      "pressure_sd": 101.55796433037968,
+      "temperature_sd": 0.015388468755778035,
+      "level_sd": 3.2929105273239023
+    },
+    {
+      "gain": 0.3,
+      "seed": 5008,
+      "finite": true,
+      "freeze_onset": 397,
+      "pressure_sd": 166.49744465755347,
+      "temperature_sd": 0.057963027325076515,
+      "level_sd": 10.621993273959363
+    },
+    {
+      "gain": 0.3,
+      "seed": 5009,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 113.71426968623366,
+      "temperature_sd": 0.05523755647246386,
+      "level_sd": 6.567294207953509
+    },
+    {
+      "gain": 0.3,
+      "seed": 5010,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 104.86224662508045,
+      "temperature_sd": 0.059960163320228944,
+      "level_sd": 4.256861992481264
+    },
+    {
+      "gain": 0.3,
+      "seed": 5011,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 149.36211686509236,
+      "temperature_sd": 0.04949185588838697,
+      "level_sd": 9.225264343878345
+    },
+    {
+      "gain": 0.3,
+      "seed": 5012,
+      "finite": true,
+      "freeze_onset": 393,
+      "pressure_sd": 172.16624675508982,
+      "temperature_sd": 0.07075985740117387,
+      "level_sd": 14.823870289353867
+    },
+    {
+      "gain": 0.3,
+      "seed": 5013,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 67.42678204075557,
+      "temperature_sd": 0.06381617178301108,
+      "level_sd": 2.7276541953674363
+    },
+    {
+      "gain": 0.3,
+      "seed": 5014,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 72.30708697881897,
+      "temperature_sd": 0.05279517104984273,
+      "level_sd": 5.183158122637207
+    },
+    {
+      "gain": 0.3,
+      "seed": 5015,
+      "finite": true,
+      "freeze_onset": 302,
+      "pressure_sd": 151.71135150951423,
+      "temperature_sd": 0.05378475560719391,
+      "level_sd": 5.469024183660195
+    },
+    {
+      "gain": 0.2,
+      "seed": 5000,
+      "finite": true,
+      "freeze_onset": 272,
+      "pressure_sd": 171.34133693129772,
+      "temperature_sd": 0.06272440402938667,
+      "level_sd": 5.57745743404864
+    },
+    {
+      "gain": 0.2,
+      "seed": 5001,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 92.34701995505152,
+      "temperature_sd": 0.10072548454755396,
+      "level_sd": 7.534898908008739
+    },
+    {
+      "gain": 0.2,
+      "seed": 5002,
+      "finite": true,
+      "freeze_onset": 239,
+      "pressure_sd": 170.11916993250927,
+      "temperature_sd": 0.05779423487556312,
+      "level_sd": 4.6690914527772325
+    },
+    {
+      "gain": 0.2,
+      "seed": 5003,
+      "finite": true,
+      "freeze_onset": 336,
+      "pressure_sd": 162.21860683611644,
+      "temperature_sd": 0.11040264996079809,
+      "level_sd": 3.902814961220964
+    },
+    {
+      "gain": 0.2,
+      "seed": 5004,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 118.60838343511719,
+      "temperature_sd": 0.2229406537954404,
+      "level_sd": 13.235795698429891
+    },
+    {
+      "gain": 0.2,
+      "seed": 5005,
+      "finite": true,
+      "freeze_onset": 240,
+      "pressure_sd": 155.02164360366575,
+      "temperature_sd": 0.0887274897080957,
+      "level_sd": 7.403072572499164
+    },
+    {
+      "gain": 0.2,
+      "seed": 5006,
+      "finite": true,
+      "freeze_onset": 342,
+      "pressure_sd": 158.7808037452979,
+      "temperature_sd": 0.09497166754282085,
+      "level_sd": 4.691858176894531
+    },
+    {
+      "gain": 0.2,
+      "seed": 5007,
+      "finite": true,
+      "freeze_onset": 167,
+      "pressure_sd": 125.62669941915871,
+      "temperature_sd": 0.089673035604695,
+      "level_sd": 4.098688766835836
+    },
+    {
+      "gain": 0.2,
+      "seed": 5008,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 101.29261982398565,
+      "temperature_sd": 0.15710399371726352,
+      "level_sd": 10.392477653036105
+    },
+    {
+      "gain": 0.2,
+      "seed": 5009,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 110.21664109278761,
+      "temperature_sd": 0.0937388871498733,
+      "level_sd": 7.349070845231878
+    },
+    {
+      "gain": 0.2,
+      "seed": 5010,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 56.644270932131086,
+      "temperature_sd": 0.11768868459919543,
+      "level_sd": 3.266413572899442
+    },
+    {
+      "gain": 0.2,
+      "seed": 5011,
+      "finite": true,
+      "freeze_onset": null,
+      "pressure_sd": 72.9229449234303,
+      "temperature_sd": 0.08401723952451086,
+      "level_sd": 2.817284849436151
+    },
+    {
+      "gain": 0.2,
+      "seed": 5012,
+      "finite": true,
+      "freeze_onset": 246,
+      "pressure_sd": 138.54602753850676,
+      "temperature_sd": 0.06767477410603873,
+      "level_sd": 7.405070387029168
+    },
+    {
+      "gain": 0.2,
+      "seed": 5013,
+      "finite": true,
+      "freeze_onset": 388,
+      "pressure_sd": 138.3359979195218,
+      "temperature_sd": 0.09890572823224358,
+      "level_sd": 7.4582492151955515
+    },
+    {
+      "gain": 0.2,
+      "seed": 5014,
+      "finite": true,
+      "freeze_onset": 354,
+      "pressure_sd": 166.89623312705422,
+      "temperature_sd": 0.06644058361198836,
+      "level_sd": 4.473406446332654
+    },
+    {
+      "gain": 0.2,
+      "seed": 5015,
+      "finite": true,
+      "freeze_onset": 364,
+      "pressure_sd": 189.05135013957607,
+      "temperature_sd": 0.5008998374791465,
+      "level_sd": 18.65293783781425
+    }
+  ]
+}

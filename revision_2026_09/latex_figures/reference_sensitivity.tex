@@ -1,0 +1,126 @@
+\documentclass[tikz,border=2mm]{standalone}
+\usepackage{amsmath}\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}\usepgfplotslibrary{groupplots,fillbetween}\usetikzlibrary{calc}
+\definecolor{pers}{HTML}{222222}\definecolor{meanref}{HTML}{0072B2}
+\definecolor{driftref}{HTML}{D55E00}\definecolor{arref}{HTML}{009E73}
+\begin{document}\begin{tikzpicture}
+\begin{groupplot}[group style={group size=3 by 2,horizontal sep=12mm,vertical sep=14mm},width=49mm,height=34mm,scale only axis,ymode=log,ymin=0.01,ymax=100,
+axis lines=left,axis line style={line width=0.3pt,-},tick style={line width=0.3pt},
+tick label style={font=\fontsize{7}{8}\selectfont},label style={font=\fontsize{7}{8}\selectfont},title style={font=\fontsize{7}{8}\selectfont},
+minor ytick={},ytick={0.01,0.1,1,10,100},yticklabels={0.01,0.1,1,10,100},log ticks with fixed point,
+unbounded coords=jump,legend style={font=\fontsize{7}{8}\selectfont,draw=none,fill=none,/tikz/every even column/.append style={column sep=2mm}},legend columns=-1]
+\nextgroupplot[title={\textbf{a} MBR: observation noise},xmin=0,xmax=1,ylabel={Ridge: reference/model RMSE},legend to name=sharedrefs]
+\addplot[gray,dashed,line width=0.4pt,forget plot] coordinates {(0,1) (1,1)};
+\addplot[name path=loref000,draw=none,forget plot] table[x=x,y=lower] {data_ref000.dat};
+\addplot[name path=hiref000,draw=none,forget plot] table[x=x,y=upper] {data_ref000.dat};
+\addplot[pers,fill opacity=0.10,draw=none,forget plot] fill between[of=loref000 and hiref000];
+\addplot[pers,line width=0.65pt,mark=*,mark size=0.8pt] table[x=x,y=skill] {data_ref000.dat};
+\addlegendentry{Persistence}
+\addplot[name path=loref001,draw=none,forget plot] table[x=x,y=lower] {data_ref001.dat};
+\addplot[name path=hiref001,draw=none,forget plot] table[x=x,y=upper] {data_ref001.dat};
+\addplot[meanref,fill opacity=0.10,draw=none,forget plot] fill between[of=loref001 and hiref001];
+\addplot[meanref,line width=0.65pt,mark=*,mark size=0.8pt] table[x=x,y=skill] {data_ref001.dat};
+\addlegendentry{History mean}
+\addplot[name path=loref002,draw=none,forget plot] table[x=x,y=lower] {data_ref002.dat};
+\addplot[name path=hiref002,draw=none,forget plot] table[x=x,y=upper] {data_ref002.dat};
+\addplot[driftref,fill opacity=0.10,draw=none,forget plot] fill between[of=loref002 and hiref002];
+\addplot[driftref,line width=0.65pt,mark=*,mark size=0.8pt] table[x=x,y=skill] {data_ref002.dat};
+\addlegendentry{Drift}
+\addplot[name path=loref003,draw=none,forget plot] table[x=x,y=lower] {data_ref003.dat};
+\addplot[name path=hiref003,draw=none,forget plot] table[x=x,y=upper] {data_ref003.dat};
+\addplot[arref,fill opacity=0.10,draw=none,forget plot] fill between[of=loref003 and hiref003];
+\addplot[arref,line width=0.65pt,mark=*,mark size=0.8pt] table[x=x,y=skill] {data_ref003.dat};
+\addlegendentry{AR(1)}
+\nextgroupplot[title={\textbf{b} TEP: valve sticking},xmin=0,xmax=8,yticklabels={}]
+\addplot[gray,dashed,line width=0.4pt,forget plot] coordinates {(0,1) (8,1)};
+\addplot[name path=loref010,draw=none,forget plot] table[x=x,y=lower] {data_ref010.dat};
+\addplot[name path=hiref010,draw=none,forget plot] table[x=x,y=upper] {data_ref010.dat};
+\addplot[pers,fill opacity=0.10,draw=none,forget plot] fill between[of=loref010 and hiref010];
+\addplot[pers,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_ref010.dat};
+\addplot[name path=loref011,draw=none,forget plot] table[x=x,y=lower] {data_ref011.dat};
+\addplot[name path=hiref011,draw=none,forget plot] table[x=x,y=upper] {data_ref011.dat};
+\addplot[meanref,fill opacity=0.10,draw=none,forget plot] fill between[of=loref011 and hiref011];
+\addplot[meanref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_ref011.dat};
+\addplot[name path=loref012,draw=none,forget plot] table[x=x,y=lower] {data_ref012.dat};
+\addplot[name path=hiref012,draw=none,forget plot] table[x=x,y=upper] {data_ref012.dat};
+\addplot[driftref,fill opacity=0.10,draw=none,forget plot] fill between[of=loref012 and hiref012];
+\addplot[driftref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_ref012.dat};
+\addplot[name path=loref013,draw=none,forget plot] table[x=x,y=lower] {data_ref013.dat};
+\addplot[name path=hiref013,draw=none,forget plot] table[x=x,y=upper] {data_ref013.dat};
+\addplot[arref,fill opacity=0.10,draw=none,forget plot] fill between[of=loref013 and hiref013];
+\addplot[arref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_ref013.dat};
+\nextgroupplot[title={\textbf{c} TEP: setpoint shift},xmin=0,xmax=10,yticklabels={}]
+\addplot[gray,dashed,line width=0.4pt,forget plot] coordinates {(0,1) (10,1)};
+\addplot[name path=loref020,draw=none,forget plot] table[x=x,y=lower] {data_ref020.dat};
+\addplot[name path=hiref020,draw=none,forget plot] table[x=x,y=upper] {data_ref020.dat};
+\addplot[pers,fill opacity=0.10,draw=none,forget plot] fill between[of=loref020 and hiref020];
+\addplot[pers,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_ref020.dat};
+\addplot[name path=loref021,draw=none,forget plot] table[x=x,y=lower] {data_ref021.dat};
+\addplot[name path=hiref021,draw=none,forget plot] table[x=x,y=upper] {data_ref021.dat};
+\addplot[meanref,fill opacity=0.10,draw=none,forget plot] fill between[of=loref021 and hiref021];
+\addplot[meanref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_ref021.dat};
+\addplot[name path=loref022,draw=none,forget plot] table[x=x,y=lower] {data_ref022.dat};
+\addplot[name path=hiref022,draw=none,forget plot] table[x=x,y=upper] {data_ref022.dat};
+\addplot[driftref,fill opacity=0.10,draw=none,forget plot] fill between[of=loref022 and hiref022];
+\addplot[driftref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_ref022.dat};
+\addplot[name path=loref023,draw=none,forget plot] table[x=x,y=lower] {data_ref023.dat};
+\addplot[name path=hiref023,draw=none,forget plot] table[x=x,y=upper] {data_ref023.dat};
+\addplot[arref,fill opacity=0.10,draw=none,forget plot] fill between[of=loref023 and hiref023];
+\addplot[arref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_ref023.dat};
+\nextgroupplot[title={\textbf{d} MBR: observation noise},xmin=0,xmax=1,ylabel={GRU seed 42: reference/model RMSE},xlabel={Noise scale (training SD)}]
+\addplot[gray,dashed,line width=0.4pt,forget plot] coordinates {(0,1) (1,1)};
+\addplot[name path=loref100,draw=none,forget plot] table[x=x,y=lower] {data_ref100.dat};
+\addplot[name path=hiref100,draw=none,forget plot] table[x=x,y=upper] {data_ref100.dat};
+\addplot[pers,fill opacity=0.10,draw=none,forget plot] fill between[of=loref100 and hiref100];
+\addplot[pers,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_ref100.dat};
+\addplot[name path=loref101,draw=none,forget plot] table[x=x,y=lower] {data_ref101.dat};
+\addplot[name path=hiref101,draw=none,forget plot] table[x=x,y=upper] {data_ref101.dat};
+\addplot[meanref,fill opacity=0.10,draw=none,forget plot] fill between[of=loref101 and hiref101];
+\addplot[meanref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_ref101.dat};
+\addplot[name path=loref102,draw=none,forget plot] table[x=x,y=lower] {data_ref102.dat};
+\addplot[name path=hiref102,draw=none,forget plot] table[x=x,y=upper] {data_ref102.dat};
+\addplot[driftref,fill opacity=0.10,draw=none,forget plot] fill between[of=loref102 and hiref102];
+\addplot[driftref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_ref102.dat};
+\addplot[name path=loref103,draw=none,forget plot] table[x=x,y=lower] {data_ref103.dat};
+\addplot[name path=hiref103,draw=none,forget plot] table[x=x,y=upper] {data_ref103.dat};
+\addplot[arref,fill opacity=0.10,draw=none,forget plot] fill between[of=loref103 and hiref103];
+\addplot[arref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_ref103.dat};
+\nextgroupplot[title={\textbf{e} TEP: valve sticking},xmin=0,xmax=8,yticklabels={},xlabel={Stiction multiplier}]
+\addplot[gray,dashed,line width=0.4pt,forget plot] coordinates {(0,1) (8,1)};
+\addplot[name path=loref110,draw=none,forget plot] table[x=x,y=lower] {data_ref110.dat};
+\addplot[name path=hiref110,draw=none,forget plot] table[x=x,y=upper] {data_ref110.dat};
+\addplot[pers,fill opacity=0.10,draw=none,forget plot] fill between[of=loref110 and hiref110];
+\addplot[pers,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_ref110.dat};
+\addplot[name path=loref111,draw=none,forget plot] table[x=x,y=lower] {data_ref111.dat};
+\addplot[name path=hiref111,draw=none,forget plot] table[x=x,y=upper] {data_ref111.dat};
+\addplot[meanref,fill opacity=0.10,draw=none,forget plot] fill between[of=loref111 and hiref111];
+\addplot[meanref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_ref111.dat};
+\addplot[name path=loref112,draw=none,forget plot] table[x=x,y=lower] {data_ref112.dat};
+\addplot[name path=hiref112,draw=none,forget plot] table[x=x,y=upper] {data_ref112.dat};
+\addplot[driftref,fill opacity=0.10,draw=none,forget plot] fill between[of=loref112 and hiref112];
+\addplot[driftref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_ref112.dat};
+\addplot[name path=loref113,draw=none,forget plot] table[x=x,y=lower] {data_ref113.dat};
+\addplot[name path=hiref113,draw=none,forget plot] table[x=x,y=upper] {data_ref113.dat};
+\addplot[arref,fill opacity=0.10,draw=none,forget plot] fill between[of=loref113 and hiref113];
+\addplot[arref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_ref113.dat};
+\nextgroupplot[title={\textbf{f} TEP: setpoint shift},xmin=0,xmax=10,yticklabels={},xlabel={$\Delta T_r$ ($^\circ$C)}]
+\addplot[gray,dashed,line width=0.4pt,forget plot] coordinates {(0,1) (10,1)};
+\addplot[name path=loref120,draw=none,forget plot] table[x=x,y=lower] {data_ref120.dat};
+\addplot[name path=hiref120,draw=none,forget plot] table[x=x,y=upper] {data_ref120.dat};
+\addplot[pers,fill opacity=0.10,draw=none,forget plot] fill between[of=loref120 and hiref120];
+\addplot[pers,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_ref120.dat};
+\addplot[name path=loref121,draw=none,forget plot] table[x=x,y=lower] {data_ref121.dat};
+\addplot[name path=hiref121,draw=none,forget plot] table[x=x,y=upper] {data_ref121.dat};
+\addplot[meanref,fill opacity=0.10,draw=none,forget plot] fill between[of=loref121 and hiref121];
+\addplot[meanref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_ref121.dat};
+\addplot[name path=loref122,draw=none,forget plot] table[x=x,y=lower] {data_ref122.dat};
+\addplot[name path=hiref122,draw=none,forget plot] table[x=x,y=upper] {data_ref122.dat};
+\addplot[driftref,fill opacity=0.10,draw=none,forget plot] fill between[of=loref122 and hiref122];
+\addplot[driftref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_ref122.dat};
+\addplot[name path=loref123,draw=none,forget plot] table[x=x,y=lower] {data_ref123.dat};
+\addplot[name path=hiref123,draw=none,forget plot] table[x=x,y=upper] {data_ref123.dat};
+\addplot[arref,fill opacity=0.10,draw=none,forget plot] fill between[of=loref123 and hiref123];
+\addplot[arref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_ref123.dat};
+\end{groupplot}
+\node[anchor=north] at ([yshift=-11mm]$(group c1r2.south)!0.5!(group c3r2.south)$) {\pgfplotslegendfromname{sharedrefs}};
+\end{tikzpicture}\end{document}

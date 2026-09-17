@@ -1,0 +1,1111 @@
+{
+  "metadata": {
+    "system": "TEP",
+    "episodes": 80,
+    "horizon": 40,
+    "history": 20,
+    "ar_coefficients": {
+      "slope": [
+        0.9891882709145733,
+        0.643622342587358,
+        0.9440710022665217,
+        0.9707384305308052,
+        0.00499151280233818,
+        0.6008202096769146,
+        0.9973231590721513,
+        0.9283444627945718,
+        0.22762203874695672,
+        0.9895002727799902,
+        0.9900125417662587,
+        0.019716870365235024,
+        0.9972415689121179,
+        0.1379620158353569,
+        0.05588559359472973,
+        0.9969870593625021,
+        0.0626885000008349,
+        0.9989509180102567,
+        0.9992972659874109,
+        0.9975381856336415,
+        0.951354784271373,
+        0.9295937254448559
+      ],
+      "intercept": [
+        -0.00010866202925276149,
+        -0.003912177860905794,
+        -0.0007247318950267378,
+        0.00018469857413027507,
+        -0.0006237660990572839,
+        -0.001857047355741086,
+        -7.426701877772703e-05,
+        -0.0005785786547439736,
+        0.0008435909403545254,
+        -0.000243781383120225,
+        0.0002149506393348856,
+        -0.0013680268956887032,
+        -4.388194123288412e-05,
+        0.0026966058591866952,
+        -0.004107741847688561,
+        -0.00022691760245820147,
+        0.00026432903135721305,
+        0.000683365993639426,
+        0.0006445289352204862,
+        0.00045833437059730753,
+        -0.00020573831607428004,
+        0.0009908998522068849
+      ]
+    },
+    "primary_loss": "mean of standardized window RMSE",
+    "bootstrap_unit": "episode",
+    "training_seeds": [
+      42,
+      123,
+      7,
+      2024,
+      31337
+    ],
+    "survival_threshold": 0.5,
+    "fresh_process_per_replay": true,
+    "analysis": "full original held-out clean-admission grid",
+    "n_windows": 1440,
+    "stride": 20
+  },
+  "references": [
+    "persistence",
+    "history_mean",
+    "drift",
+    "ar1"
+  ],
+  "members": [
+    "gru_s123",
+    "gru_s2024",
+    "gru_s31337",
+    "gru_s42",
+    "gru_s7",
+    "mlp_s123",
+    "mlp_s2024",
+    "mlp_s31337",
+    "mlp_s42",
+    "mlp_s7",
+    "ridge"
+  ],
+  "domains": {
+    "clean_admission": [
+      0.0
+    ]
+  },
+  "curves": {
+    "persistence|gru_s123|clean_admission": {
+      "skill": [
+        1.942730641157619
+      ],
+      "ci_low": [
+        1.8850440572160176
+      ],
+      "ci_high": [
+        2.0032118311774085
+      ],
+      "reference_loss": [
+        1.2713339073956755
+      ],
+      "model_loss": [
+        0.6544056496880716
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "persistence|gru_s2024|clean_admission": {
+      "skill": [
+        1.9471501782950273
+      ],
+      "ci_low": [
+        1.889395167235693
+      ],
+      "ci_high": [
+        2.0075258038716726
+      ],
+      "reference_loss": [
+        1.2713339073956755
+      ],
+      "model_loss": [
+        0.6529203148104821
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "persistence|gru_s31337|clean_admission": {
+      "skill": [
+        1.9412837138589318
+      ],
+      "ci_low": [
+        1.8831144581138737
+      ],
+      "ci_high": [
+        2.001582873020852
+      ],
+      "reference_loss": [
+        1.2713339073956755
+      ],
+      "model_loss": [
+        0.6548934080678431
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "persistence|gru_s42|clean_admission": {
+      "skill": [
+        1.9441811698164368
+      ],
+      "ci_low": [
+        1.8849605504524538
+      ],
+      "ci_high": [
+        2.005135797870391
+      ],
+      "reference_loss": [
+        1.2713339073956755
+      ],
+      "model_loss": [
+        0.6539174060181391
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "persistence|gru_s7|clean_admission": {
+      "skill": [
+        1.9461337678067587
+      ],
+      "ci_low": [
+        1.8876864595902738
+      ],
+      "ci_high": [
+        2.005840739159357
+      ],
+      "reference_loss": [
+        1.2713339073956755
+      ],
+      "model_loss": [
+        0.6532613165786827
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "persistence|mlp_s123|clean_admission": {
+      "skill": [
+        1.8828791515982033
+      ],
+      "ci_low": [
+        1.8246018866584304
+      ],
+      "ci_high": [
+        1.9427846926080217
+      ],
+      "reference_loss": [
+        1.2713339073956755
+      ],
+      "model_loss": [
+        0.6752073845613282
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "persistence|mlp_s2024|clean_admission": {
+      "skill": [
+        1.88157069178259
+      ],
+      "ci_low": [
+        1.826222156456147
+      ],
+      "ci_high": [
+        1.9402043016734636
+      ],
+      "reference_loss": [
+        1.2713339073956755
+      ],
+      "model_loss": [
+        0.6756769293590668
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "persistence|mlp_s31337|clean_admission": {
+      "skill": [
+        1.8897317656104338
+      ],
+      "ci_low": [
+        1.8324844064582482
+      ],
+      "ci_high": [
+        1.9507250041979713
+      ],
+      "reference_loss": [
+        1.2713339073956755
+      ],
+      "model_loss": [
+        0.6727589230024933
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "persistence|mlp_s42|clean_admission": {
+      "skill": [
+        1.8823382363429146
+      ],
+      "ci_low": [
+        1.8265630002031685
+      ],
+      "ci_high": [
+        1.9409739216002935
+      ],
+      "reference_loss": [
+        1.2713339073956755
+      ],
+      "model_loss": [
+        0.6754014145011877
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "persistence|mlp_s7|clean_admission": {
+      "skill": [
+        1.8818597885676427
+      ],
+      "ci_low": [
+        1.8254963577655625
+      ],
+      "ci_high": [
+        1.9402362277978047
+      ],
+      "reference_loss": [
+        1.2713339073956755
+      ],
+      "model_loss": [
+        0.675573129900043
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "persistence|ridge|clean_admission": {
+      "skill": [
+        1.9366157415499128
+      ],
+      "ci_low": [
+        1.878017736568674
+      ],
+      "ci_high": [
+        1.9979412908310112
+      ],
+      "reference_loss": [
+        1.2713339073956755
+      ],
+      "model_loss": [
+        0.6564719474903169
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "history_mean|gru_s123|clean_admission": {
+      "skill": [
+        1.919186618370056
+      ],
+      "ci_low": [
+        1.8429276556034393
+      ],
+      "ci_high": [
+        1.9987567475970682
+      ],
+      "reference_loss": [
+        1.2559265658671097
+      ],
+      "model_loss": [
+        0.6544056496880716
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "history_mean|gru_s2024|clean_admission": {
+      "skill": [
+        1.9235525949773173
+      ],
+      "ci_low": [
+        1.847290414737076
+      ],
+      "ci_high": [
+        2.001781849927661
+      ],
+      "reference_loss": [
+        1.2559265658671097
+      ],
+      "model_loss": [
+        0.6529203148104821
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "history_mean|gru_s31337|clean_admission": {
+      "skill": [
+        1.917757226435547
+      ],
+      "ci_low": [
+        1.8409337698274963
+      ],
+      "ci_high": [
+        1.997035895589576
+      ],
+      "reference_loss": [
+        1.2559265658671097
+      ],
+      "model_loss": [
+        0.6548934080678431
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "history_mean|gru_s42|clean_admission": {
+      "skill": [
+        1.9206195680196827
+      ],
+      "ci_low": [
+        1.8436639687667578
+      ],
+      "ci_high": [
+        2.000956622602724
+      ],
+      "reference_loss": [
+        1.2559265658671097
+      ],
+      "model_loss": [
+        0.6539174060181391
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "history_mean|gru_s7|clean_admission": {
+      "skill": [
+        1.9225485024044562
+      ],
+      "ci_low": [
+        1.8453124729158872
+      ],
+      "ci_high": [
+        2.0016583155961736
+      ],
+      "reference_loss": [
+        1.2559265658671097
+      ],
+      "model_loss": [
+        0.6532613165786827
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "history_mean|mlp_s123|clean_admission": {
+      "skill": [
+        1.8600604711737057
+      ],
+      "ci_low": [
+        1.784463947274441
+      ],
+      "ci_high": [
+        1.9387919137610157
+      ],
+      "reference_loss": [
+        1.2559265658671097
+      ],
+      "model_loss": [
+        0.6752073845613282
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "history_mean|mlp_s2024|clean_admission": {
+      "skill": [
+        1.8587678686298432
+      ],
+      "ci_low": [
+        1.7851136993004362
+      ],
+      "ci_high": [
+        1.9347915518441843
+      ],
+      "reference_loss": [
+        1.2559265658671097
+      ],
+      "model_loss": [
+        0.6756769293590668
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "history_mean|mlp_s31337|clean_admission": {
+      "skill": [
+        1.8668300381092904
+      ],
+      "ci_low": [
+        1.7906045918577393
+      ],
+      "ci_high": [
+        1.9437455089650635
+      ],
+      "reference_loss": [
+        1.2559265658671097
+      ],
+      "model_loss": [
+        0.6727589230024933
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "history_mean|mlp_s42|clean_admission": {
+      "skill": [
+        1.859526111289927
+      ],
+      "ci_low": [
+        1.7846812614558845
+      ],
+      "ci_high": [
+        1.9354191770233582
+      ],
+      "reference_loss": [
+        1.2559265658671097
+      ],
+      "model_loss": [
+        0.6754014145011877
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "history_mean|mlp_s7|clean_admission": {
+      "skill": [
+        1.859053461840519
+      ],
+      "ci_low": [
+        1.7844625055604177
+      ],
+      "ci_high": [
+        1.935727084535008
+      ],
+      "reference_loss": [
+        1.2559265658671097
+      ],
+      "model_loss": [
+        0.675573129900043
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "history_mean|ridge|clean_admission": {
+      "skill": [
+        1.9131458254514904
+      ],
+      "ci_low": [
+        1.836251083830385
+      ],
+      "ci_high": [
+        1.9928964794642585
+      ],
+      "reference_loss": [
+        1.2559265658671097
+      ],
+      "model_loss": [
+        0.6564719474903169
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "drift|gru_s123|clean_admission": {
+      "skill": [
+        3.4153337505276835
+      ],
+      "ci_low": [
+        3.325040289768596
+      ],
+      "ci_high": [
+        3.5092972191657283
+      ],
+      "reference_loss": [
+        2.235013701915667
+      ],
+      "model_loss": [
+        0.6544056496880716
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "drift|gru_s2024|clean_admission": {
+      "skill": [
+        3.4231033270337226
+      ],
+      "ci_low": [
+        3.3313380567935367
+      ],
+      "ci_high": [
+        3.516920939882009
+      ],
+      "reference_loss": [
+        2.235013701915667
+      ],
+      "model_loss": [
+        0.6529203148104821
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "drift|gru_s31337|clean_admission": {
+      "skill": [
+        3.412790042443262
+      ],
+      "ci_low": [
+        3.323964624220173
+      ],
+      "ci_high": [
+        3.5070376079380114
+      ],
+      "reference_loss": [
+        2.235013701915667
+      ],
+      "model_loss": [
+        0.6548934080678431
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "drift|gru_s42|clean_admission": {
+      "skill": [
+        3.417883789827839
+      ],
+      "ci_low": [
+        3.327926360529283
+      ],
+      "ci_high": [
+        3.513311841098924
+      ],
+      "reference_loss": [
+        2.235013701915667
+      ],
+      "model_loss": [
+        0.6539174060181391
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "drift|gru_s7|clean_admission": {
+      "skill": [
+        3.421316470445665
+      ],
+      "ci_low": [
+        3.3315639227774314
+      ],
+      "ci_high": [
+        3.5154889447370397
+      ],
+      "reference_loss": [
+        2.235013701915667
+      ],
+      "model_loss": [
+        0.6532613165786827
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "drift|mlp_s123|clean_admission": {
+      "skill": [
+        3.310114422649155
+      ],
+      "ci_low": [
+        3.221985657193075
+      ],
+      "ci_high": [
+        3.401863365824172
+      ],
+      "reference_loss": [
+        2.235013701915667
+      ],
+      "model_loss": [
+        0.6752073845613282
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "drift|mlp_s2024|clean_admission": {
+      "skill": [
+        3.307814141346745
+      ],
+      "ci_low": [
+        3.2237252047774336
+      ],
+      "ci_high": [
+        3.394867393368807
+      ],
+      "reference_loss": [
+        2.235013701915667
+      ],
+      "model_loss": [
+        0.6756769293590668
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "drift|mlp_s31337|clean_admission": {
+      "skill": [
+        3.322161364937234
+      ],
+      "ci_low": [
+        3.2333053971138987
+      ],
+      "ci_high": [
+        3.4132863368201756
+      ],
+      "reference_loss": [
+        2.235013701915667
+      ],
+      "model_loss": [
+        0.6727589230024933
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "drift|mlp_s42|clean_admission": {
+      "skill": [
+        3.3091634899318625
+      ],
+      "ci_low": [
+        3.2228189634800812
+      ],
+      "ci_high": [
+        3.398770096772219
+      ],
+      "reference_loss": [
+        2.235013701915667
+      ],
+      "model_loss": [
+        0.6754014145011877
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "drift|mlp_s7|clean_admission": {
+      "skill": [
+        3.3083223754715596
+      ],
+      "ci_low": [
+        3.2234388570623658
+      ],
+      "ci_high": [
+        3.3974389903307602
+      ],
+      "reference_loss": [
+        2.235013701915667
+      ],
+      "model_loss": [
+        0.675573129900043
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "drift|ridge|clean_admission": {
+      "skill": [
+        3.4045837152068614
+      ],
+      "ci_low": [
+        3.3122875195631902
+      ],
+      "ci_high": [
+        3.500974130237692
+      ],
+      "reference_loss": [
+        2.235013701915667
+      ],
+      "model_loss": [
+        0.6564719474903169
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "ar1|gru_s123|clean_admission": {
+      "skill": [
+        1.5517696013202567
+      ],
+      "ci_low": [
+        1.5033429114863681
+      ],
+      "ci_high": [
+        1.6020159578328328
+      ],
+      "reference_loss": [
+        1.0154867941181824
+      ],
+      "model_loss": [
+        0.6544056496880716
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "ar1|gru_s2024|clean_admission": {
+      "skill": [
+        1.5552997373239024
+      ],
+      "ci_low": [
+        1.5068634567109453
+      ],
+      "ci_high": [
+        1.605197139783109
+      ],
+      "reference_loss": [
+        1.0154867941181824
+      ],
+      "model_loss": [
+        0.6529203148104821
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "ar1|gru_s31337|clean_admission": {
+      "skill": [
+        1.550613858084496
+      ],
+      "ci_low": [
+        1.5021706937168908
+      ],
+      "ci_high": [
+        1.6006615502207249
+      ],
+      "reference_loss": [
+        1.0154867941181824
+      ],
+      "model_loss": [
+        0.6548934080678431
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "ar1|gru_s42|clean_admission": {
+      "skill": [
+        1.5529282211674509
+      ],
+      "ci_low": [
+        1.5040292800667912
+      ],
+      "ci_high": [
+        1.603633275110522
+      ],
+      "reference_loss": [
+        1.0154867941181824
+      ],
+      "model_loss": [
+        0.6539174060181391
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "ar1|gru_s7|clean_admission": {
+      "skill": [
+        1.5544878723824926
+      ],
+      "ci_low": [
+        1.5052926087064236
+      ],
+      "ci_high": [
+        1.6044316248021906
+      ],
+      "reference_loss": [
+        1.0154867941181824
+      ],
+      "model_loss": [
+        0.6532613165786827
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "ar1|mlp_s123|clean_admission": {
+      "skill": [
+        1.5039628080755196
+      ],
+      "ci_low": [
+        1.4563160795547785
+      ],
+      "ci_high": [
+        1.553561807525155
+      ],
+      "reference_loss": [
+        1.0154867941181824
+      ],
+      "model_loss": [
+        0.6752073845613282
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "ar1|mlp_s2024|clean_admission": {
+      "skill": [
+        1.502917666704193
+      ],
+      "ci_low": [
+        1.4558758105193623
+      ],
+      "ci_high": [
+        1.5510928752822801
+      ],
+      "reference_loss": [
+        1.0154867941181824
+      ],
+      "model_loss": [
+        0.6756769293590668
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "ar1|mlp_s31337|clean_admission": {
+      "skill": [
+        1.50943638114246
+      ],
+      "ci_low": [
+        1.4607767504975675
+      ],
+      "ci_high": [
+        1.5590235729886326
+      ],
+      "reference_loss": [
+        1.0154867941181824
+      ],
+      "model_loss": [
+        0.6727589230024933
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "ar1|mlp_s42|clean_admission": {
+      "skill": [
+        1.5035307482560754
+      ],
+      "ci_low": [
+        1.4568721713111832
+      ],
+      "ci_high": [
+        1.5520739778116028
+      ],
+      "reference_loss": [
+        1.0154867941181824
+      ],
+      "model_loss": [
+        0.6754014145011877
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "ar1|mlp_s7|clean_admission": {
+      "skill": [
+        1.5031485847704342
+      ],
+      "ci_low": [
+        1.456123741319738
+      ],
+      "ci_high": [
+        1.5521559564138678
+      ],
+      "reference_loss": [
+        1.0154867941181824
+      ],
+      "model_loss": [
+        0.675573129900043
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    },
+    "ar1|ridge|clean_admission": {
+      "skill": [
+        1.5468852827609378
+      ],
+      "ci_low": [
+        1.4981156724247287
+      ],
+      "ci_high": [
+        1.5974824366399771
+      ],
+      "reference_loss": [
+        1.0154867941181824
+      ],
+      "model_loss": [
+        0.6564719474903169
+      ],
+      "n_valid": [
+        1440
+      ],
+      "crossing": null,
+      "bootstrap_no_crossing_fraction": 1.0,
+      "conditional_crossing_ci": null
+    }
+  },
+  "pointwise_invariance_failures": []
+}

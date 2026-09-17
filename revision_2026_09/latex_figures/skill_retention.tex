@@ -1,0 +1,73 @@
+\documentclass[tikz,border=2mm]{standalone}
+\usepackage{amsmath}\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}\usepgfplotslibrary{groupplots,fillbetween}\usetikzlibrary{calc}
+\definecolor{pers}{HTML}{222222}\definecolor{meanref}{HTML}{0072B2}
+\definecolor{driftref}{HTML}{D55E00}\definecolor{arref}{HTML}{009E73}
+\begin{document}\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 2,horizontal sep=12mm,vertical sep=14mm},width=76mm,height=32mm,scale only axis,ymode=log,ymin=0.01,ymax=100,
+axis lines=left,axis line style={line width=0.3pt,-},tick style={line width=0.3pt},
+tick label style={font=\fontsize{7}{8}\selectfont},label style={font=\fontsize{7}{8}\selectfont},title style={font=\fontsize{7}{8}\selectfont},
+minor ytick={},ytick={0.01,0.1,1,10,100},yticklabels={0.01,0.1,1,10,100},log ticks with fixed point,
+unbounded coords=jump,legend style={font=\fontsize{7}{8}\selectfont,draw=none,fill=none,/tikz/every even column/.append style={column sep=2mm}},legend columns=-1]
+\nextgroupplot[title={Observation bias},xlabel={Operator severity},xmin=0.0,xmax=1.0,ylabel={Persistence/model RMSE},legend to name=mbrlegend]
+\addplot[gray,dashed,line width=0.4pt,forget plot] coordinates {(0,1) (1.0,1)};
+\addplot[name path=lombr00,draw=none,forget plot] table[x=x,y=lower] {data_mbr00.dat};
+\addplot[name path=himbr00,draw=none,forget plot] table[x=x,y=upper] {data_mbr00.dat};
+\addplot[pers,fill opacity=0.10,draw=none,forget plot] fill between[of=lombr00 and himbr00];
+\addplot[pers,line width=0.65pt,mark=*,mark size=0.8pt] table[x=x,y=skill] {data_mbr00.dat};
+\addlegendentry{Ridge}
+\addplot[name path=lombr01,draw=none,forget plot] table[x=x,y=lower] {data_mbr01.dat};
+\addplot[name path=himbr01,draw=none,forget plot] table[x=x,y=upper] {data_mbr01.dat};
+\addplot[meanref,fill opacity=0.10,draw=none,forget plot] fill between[of=lombr01 and himbr01];
+\addplot[meanref,line width=0.65pt,mark=*,mark size=0.8pt] table[x=x,y=skill] {data_mbr01.dat};
+\addlegendentry{MLP seed 42}
+\addplot[name path=lombr02,draw=none,forget plot] table[x=x,y=lower] {data_mbr02.dat};
+\addplot[name path=himbr02,draw=none,forget plot] table[x=x,y=upper] {data_mbr02.dat};
+\addplot[driftref,fill opacity=0.10,draw=none,forget plot] fill between[of=lombr02 and himbr02];
+\addplot[driftref,line width=0.65pt,mark=*,mark size=0.8pt] table[x=x,y=skill] {data_mbr02.dat};
+\addlegendentry{GRU seed 42}
+\nextgroupplot[title={Observation noise},xlabel={Operator severity},xmin=0.0,xmax=1.0,yticklabels={}]
+\addplot[gray,dashed,line width=0.4pt,forget plot] coordinates {(0,1) (1.0,1)};
+\addplot[name path=lombr10,draw=none,forget plot] table[x=x,y=lower] {data_mbr10.dat};
+\addplot[name path=himbr10,draw=none,forget plot] table[x=x,y=upper] {data_mbr10.dat};
+\addplot[pers,fill opacity=0.10,draw=none,forget plot] fill between[of=lombr10 and himbr10];
+\addplot[pers,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_mbr10.dat};
+\addplot[name path=lombr11,draw=none,forget plot] table[x=x,y=lower] {data_mbr11.dat};
+\addplot[name path=himbr11,draw=none,forget plot] table[x=x,y=upper] {data_mbr11.dat};
+\addplot[meanref,fill opacity=0.10,draw=none,forget plot] fill between[of=lombr11 and himbr11];
+\addplot[meanref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_mbr11.dat};
+\addplot[name path=lombr12,draw=none,forget plot] table[x=x,y=lower] {data_mbr12.dat};
+\addplot[name path=himbr12,draw=none,forget plot] table[x=x,y=upper] {data_mbr12.dat};
+\addplot[driftref,fill opacity=0.10,draw=none,forget plot] fill between[of=lombr12 and himbr12];
+\addplot[driftref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_mbr12.dat};
+\nextgroupplot[title={Process input},xlabel={Operator severity},xmin=0.0,xmax=100.0,ylabel={Persistence/model RMSE}]
+\addplot[gray,dashed,line width=0.4pt,forget plot] coordinates {(0,1) (100.0,1)};
+\addplot[name path=lombr20,draw=none,forget plot] table[x=x,y=lower] {data_mbr20.dat};
+\addplot[name path=himbr20,draw=none,forget plot] table[x=x,y=upper] {data_mbr20.dat};
+\addplot[pers,fill opacity=0.10,draw=none,forget plot] fill between[of=lombr20 and himbr20];
+\addplot[pers,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_mbr20.dat};
+\addplot[name path=lombr21,draw=none,forget plot] table[x=x,y=lower] {data_mbr21.dat};
+\addplot[name path=himbr21,draw=none,forget plot] table[x=x,y=upper] {data_mbr21.dat};
+\addplot[meanref,fill opacity=0.10,draw=none,forget plot] fill between[of=lombr21 and himbr21];
+\addplot[meanref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_mbr21.dat};
+\addplot[name path=lombr22,draw=none,forget plot] table[x=x,y=lower] {data_mbr22.dat};
+\addplot[name path=himbr22,draw=none,forget plot] table[x=x,y=upper] {data_mbr22.dat};
+\addplot[driftref,fill opacity=0.10,draw=none,forget plot] fill between[of=lombr22 and himbr22];
+\addplot[driftref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_mbr22.dat};
+\nextgroupplot[title={Actuation},xlabel={Operator severity},xmin=0.0,xmax=0.5,yticklabels={}]
+\addplot[gray,dashed,line width=0.4pt,forget plot] coordinates {(0,1) (0.5,1)};
+\addplot[name path=lombr30,draw=none,forget plot] table[x=x,y=lower] {data_mbr30.dat};
+\addplot[name path=himbr30,draw=none,forget plot] table[x=x,y=upper] {data_mbr30.dat};
+\addplot[pers,fill opacity=0.10,draw=none,forget plot] fill between[of=lombr30 and himbr30];
+\addplot[pers,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_mbr30.dat};
+\addplot[name path=lombr31,draw=none,forget plot] table[x=x,y=lower] {data_mbr31.dat};
+\addplot[name path=himbr31,draw=none,forget plot] table[x=x,y=upper] {data_mbr31.dat};
+\addplot[meanref,fill opacity=0.10,draw=none,forget plot] fill between[of=lombr31 and himbr31];
+\addplot[meanref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_mbr31.dat};
+\addplot[name path=lombr32,draw=none,forget plot] table[x=x,y=lower] {data_mbr32.dat};
+\addplot[name path=himbr32,draw=none,forget plot] table[x=x,y=upper] {data_mbr32.dat};
+\addplot[driftref,fill opacity=0.10,draw=none,forget plot] fill between[of=lombr32 and himbr32];
+\addplot[driftref,line width=0.65pt,mark=*,mark size=0.8pt,forget plot] table[x=x,y=skill] {data_mbr32.dat};
+\end{groupplot}
+\node[anchor=north] at ([yshift=-11mm]$(group c1r2.south)!0.5!(group c2r2.south)$) {\pgfplotslegendfromname{mbrlegend}};
+\end{tikzpicture}\end{document}

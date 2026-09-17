@@ -1,0 +1,6 @@
+{
+  "original_submission_main_text_words": 11611,
+  "revised_main_text_words": 4856,
+  "reduction_percent": 58.177590216174316,
+  "method": "Identical recursive LaTeX-input expansion; body after frontmatter and before appendix; excludes floats, tabular material, display/inline mathematics, reference/citation/label commands; counts English lexical tokens with internal hyphens/apostrophes."
+}

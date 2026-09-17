@@ -1,0 +1,142 @@
+[
+  {
+    "model": "ridge",
+    "domain": "obs_bias",
+    "max_abs_skill_difference": 3.5122147767907563e-07
+  },
+  {
+    "model": "ridge",
+    "domain": "obs_noise",
+    "max_abs_skill_difference": 4.3118091386240565e-07
+  },
+  {
+    "model": "ridge",
+    "domain": "process",
+    "max_abs_skill_difference": 1.8876681107116156e-07
+  },
+  {
+    "model": "ridge",
+    "domain": "actuation",
+    "max_abs_skill_difference": 1.5253454521690912e-07
+  },
+  {
+    "model": "mlp_s42",
+    "domain": "obs_bias",
+    "max_abs_skill_difference": 2.347994736418002e-07
+  },
+  {
+    "model": "mlp_s42",
+    "domain": "obs_noise",
+    "max_abs_skill_difference": 1.94897315175524e-07
+  },
+  {
+    "model": "mlp_s42",
+    "domain": "process",
+    "max_abs_skill_difference": 2.242925203344015e-07
+  },
+  {
+    "model": "mlp_s42",
+    "domain": "actuation",
+    "max_abs_skill_difference": 2.7677979197449076e-07
+  },
+  {
+    "model": "mlp_s123",
+    "domain": "obs_bias",
+    "max_abs_skill_difference": 1.8257490341788696e-07
+  },
+  {
+    "model": "mlp_s123",
+    "domain": "obs_noise",
+    "max_abs_skill_difference": 1.8257490341788696e-07
+  },
+  {
+    "model": "mlp_s123",
+    "domain": "process",
+    "max_abs_skill_difference": 1.8257490341788696e-07
+  },
+  {
+    "model": "mlp_s123",
+    "domain": "actuation",
+    "max_abs_skill_difference": 1.8257490341788696e-07
+  },
+  {
+    "model": "mlp_s7",
+    "domain": "obs_bias",
+    "max_abs_skill_difference": 3.736147959898517e-07
+  },
+  {
+    "model": "mlp_s7",
+    "domain": "obs_noise",
+    "max_abs_skill_difference": 2.402288967751076e-07
+  },
+  {
+    "model": "mlp_s7",
+    "domain": "process",
+    "max_abs_skill_difference": 3.4532416104404717e-07
+  },
+  {
+    "model": "mlp_s7",
+    "domain": "actuation",
+    "max_abs_skill_difference": 2.221734973772982e-07
+  },
+  {
+    "model": "gru_s42",
+    "domain": "obs_bias",
+    "max_abs_skill_difference": 9.157484641697522e-07
+  },
+  {
+    "model": "gru_s42",
+    "domain": "obs_noise",
+    "max_abs_skill_difference": 4.346399209431695e-07
+  },
+  {
+    "model": "gru_s42",
+    "domain": "process",
+    "max_abs_skill_difference": 4.824402379810522e-07
+  },
+  {
+    "model": "gru_s42",
+    "domain": "actuation",
+    "max_abs_skill_difference": 2.9208057794605224e-07
+  },
+  {
+    "model": "gru_s123",
+    "domain": "obs_bias",
+    "max_abs_skill_difference": 3.705493680783434e-07
+  },
+  {
+    "model": "gru_s123",
+    "domain": "obs_noise",
+    "max_abs_skill_difference": 4.155820150231193e-07
+  },
+  {
+    "model": "gru_s123",
+    "domain": "process",
+    "max_abs_skill_difference": 2.3189965547842917e-07
+  },
+  {
+    "model": "gru_s123",
+    "domain": "actuation",
+    "max_abs_skill_difference": 1.5215989379591122e-07
+  },
+  {
+    "model": "gru_s7",
+    "domain": "obs_bias",
+    "max_abs_skill_difference": 4.41703477793709e-07
+  },
+  {
+    "model": "gru_s7",
+    "domain": "obs_noise",
+    "max_abs_skill_difference": 6.618519945433832e-07
+  },
+  {
+    "model": "gru_s7",
+    "domain": "process",
+    "max_abs_skill_difference": 5.014884130183361e-07
+  },
+  {
+    "model": "gru_s7",
+    "domain": "actuation",
+    "max_abs_skill_difference": 2.7482563913494573e-07
+  }
+]

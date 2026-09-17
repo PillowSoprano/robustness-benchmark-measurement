@@ -1,0 +1,50 @@
+{
+  "corrected_cells": [
+    {
+      "cell": "norm|persistence|process_idv1|1.0",
+      "early_valid": 80,
+      "corrected_valid": 79
+    },
+    {
+      "cell": "norm|persistence|process_idv1|1.5",
+      "early_valid": 80,
+      "corrected_valid": 76
+    },
+    {
+      "cell": "norm|persistence|actuation_idv6|1.0",
+      "early_valid": 80,
+      "corrected_valid": 78
+    },
+    {
+      "cell": "norm|persistence|dynamics_idv13|1.5",
+      "early_valid": 80,
+      "corrected_valid": 78
+    },
+    {
+      "cell": "norm|persistence|dynamics_idv13|2.0",
+      "early_valid": 80,
+      "corrected_valid": 77
+    },
+    {
+      "cell": "norm|persistence|dynamics_idv13|3.0",
+      "early_valid": 80,
+      "corrected_valid": 73
+    },
+    {
+      "cell": "norm|persistence|process_idv1|2.0",
+      "early_valid": 80,
+      "corrected_valid": 60
+    },
+    {
+      "cell": "norm|persistence|dynamics_idv13|4.0",
+      "early_valid": 80,
+      "corrected_valid": 70
+    },
+    {
+      "cell": "norm|persistence|dynamics_idv13|6.0",
+      "early_valid": 80,
+      "corrected_valid": 61
+    }
+  ],
+  "test_passed": true
+}
