@@ -43,3 +43,5 @@ Full MBR physical re-simulation still requires the separately available plant en
 ## Control-gain supporting study
 
 `audit/gain_sweep.json` is the independently replayed, separately retrained four-gain study. `summary/gain_statistics.json` records each intersected severity grid and all plotted minima. `audit/gain_probe_audit.json` distinguishes shutdown over a full 24-hour episode from failure before forecast sample 340. Training and validation retain finite post-shutdown segments under the original design; evaluation uses forecast-span survival. These comparisons therefore include changes in training coverage and surviving populations. The gain figure is a point-estimate study at training seed 42.
+
+`audit/mbr_tau_abs_check_v2.json` is the MBR channel tolerance check with each tolerance computed as the distance from the nominal value to the nearest limit (`mbr/tau_abs_check_v2.py`; manuscript Appendix C.2). Only S_NO exceeds its tolerance: every member at process input +75% and +100%, and ridge under observation bias from 0.4 and observation noise from 0.8.

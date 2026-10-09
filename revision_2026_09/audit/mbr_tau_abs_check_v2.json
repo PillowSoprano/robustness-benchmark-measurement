@@ -1,0 +1,380 @@
+{
+  "decision_channels": {
+    "48": {
+      "name": "S_S_t5",
+      "tol": 39.3810293674469,
+      "nominal": 0.6189706325531006,
+      "limit": 40.0
+    },
+    "55": {
+      "name": "S_NO_t5",
+      "tol": 4.044181823730469,
+      "nominal": 13.955818176269531,
+      "limit": 18.0
+    },
+    "56": {
+      "name": "S_NH_t5",
+      "tol": 3.944706790149212,
+      "nominal": 0.055293209850788116,
+      "limit": 4.0
+    },
+    "57": {
+      "name": "S_ND_t5",
+      "tol": 17.451714038848877,
+      "nominal": 0.548285961151123,
+      "limit": 18.0
+    }
+  },
+  "nominal_admissibility": {
+    "persistence": "admissible",
+    "ridge": "admissible",
+    "mlp_s42": "admissible",
+    "mlp_s123": "admissible",
+    "mlp_s7": "admissible",
+    "gru_s42": "admissible",
+    "gru_s123": "admissible",
+    "gru_s7": "admissible"
+  },
+  "absolute_trips": [
+    {
+      "model": "persistence",
+      "domain": "process",
+      "severity": 75,
+      "channel": "S_NO_t5",
+      "rmse": 5.293453216552734,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "persistence",
+      "domain": "process",
+      "severity": 100,
+      "channel": "S_NO_t5",
+      "rmse": 6.501554012298584,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "ridge",
+      "domain": "obs_bias",
+      "severity": 0.4,
+      "channel": "S_NO_t5",
+      "rmse": 4.450681686401367,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "ridge",
+      "domain": "obs_bias",
+      "severity": 0.5,
+      "channel": "S_NO_t5",
+      "rmse": 5.48640251159668,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "ridge",
+      "domain": "obs_bias",
+      "severity": 0.6,
+      "channel": "S_NO_t5",
+      "rmse": 6.539560794830322,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "ridge",
+      "domain": "obs_bias",
+      "severity": 0.8,
+      "channel": "S_NO_t5",
+      "rmse": 8.672711372375488,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "ridge",
+      "domain": "obs_bias",
+      "severity": 1.0,
+      "channel": "S_NO_t5",
+      "rmse": 10.823990821838379,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "ridge",
+      "domain": "obs_noise",
+      "severity": 0.8,
+      "channel": "S_NO_t5",
+      "rmse": 4.363221168518066,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "ridge",
+      "domain": "obs_noise",
+      "severity": 1.0,
+      "channel": "S_NO_t5",
+      "rmse": 5.338380813598633,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "ridge",
+      "domain": "process",
+      "severity": 75,
+      "channel": "S_NO_t5",
+      "rmse": 4.8373332023620605,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "ridge",
+      "domain": "process",
+      "severity": 100,
+      "channel": "S_NO_t5",
+      "rmse": 6.050744533538818,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "mlp_s42",
+      "domain": "process",
+      "severity": 75,
+      "channel": "S_NO_t5",
+      "rmse": 5.009566307067871,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "mlp_s42",
+      "domain": "process",
+      "severity": 100,
+      "channel": "S_NO_t5",
+      "rmse": 6.215156078338623,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "mlp_s123",
+      "domain": "process",
+      "severity": 75,
+      "channel": "S_NO_t5",
+      "rmse": 5.167038917541504,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "mlp_s123",
+      "domain": "process",
+      "severity": 100,
+      "channel": "S_NO_t5",
+      "rmse": 6.371593475341797,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "mlp_s7",
+      "domain": "process",
+      "severity": 75,
+      "channel": "S_NO_t5",
+      "rmse": 4.815821170806885,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "mlp_s7",
+      "domain": "process",
+      "severity": 100,
+      "channel": "S_NO_t5",
+      "rmse": 6.041043758392334,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "gru_s42",
+      "domain": "process",
+      "severity": 75,
+      "channel": "S_NO_t5",
+      "rmse": 4.9038214683532715,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "gru_s42",
+      "domain": "process",
+      "severity": 100,
+      "channel": "S_NO_t5",
+      "rmse": 6.142176628112793,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "gru_s123",
+      "domain": "process",
+      "severity": 75,
+      "channel": "S_NO_t5",
+      "rmse": 4.877282619476318,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "gru_s123",
+      "domain": "process",
+      "severity": 100,
+      "channel": "S_NO_t5",
+      "rmse": 6.110307693481445,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "gru_s7",
+      "domain": "process",
+      "severity": 75,
+      "channel": "S_NO_t5",
+      "rmse": 4.865480899810791,
+      "tol": 4.044181823730469
+    },
+    {
+      "model": "gru_s7",
+      "domain": "process",
+      "severity": 100,
+      "channel": "S_NO_t5",
+      "rmse": 6.104271411895752,
+      "tol": 4.044181823730469
+    }
+  ],
+  "radii": {
+    "persistence|obs_bias": {
+      "relative_only": 0.060000000000000005,
+      "conjunction": null
+    },
+    "persistence|obs_noise": {
+      "relative_only": 0.060000000000000005,
+      "conjunction": null
+    },
+    "persistence|process": {
+      "relative_only": 5.0,
+      "conjunction": 62.5
+    },
+    "persistence|actuation": {
+      "relative_only": 0.275,
+      "conjunction": null
+    },
+    "ridge|obs_bias": {
+      "relative_only": 0.025,
+      "conjunction": 0.35
+    },
+    "ridge|obs_noise": {
+      "relative_only": 0.045,
+      "conjunction": 0.7
+    },
+    "ridge|process": {
+      "relative_only": 5.0,
+      "conjunction": 62.5
+    },
+    "ridge|actuation": {
+      "relative_only": 0.07500000000000001,
+      "conjunction": null
+    },
+    "mlp_s42|obs_bias": {
+      "relative_only": 0.060000000000000005,
+      "conjunction": null
+    },
+    "mlp_s42|obs_noise": {
+      "relative_only": 0.060000000000000005,
+      "conjunction": null
+    },
+    "mlp_s42|process": {
+      "relative_only": 5.0,
+      "conjunction": 62.5
+    },
+    "mlp_s42|actuation": {
+      "relative_only": 0.15000000000000002,
+      "conjunction": null
+    },
+    "mlp_s123|obs_bias": {
+      "relative_only": 0.060000000000000005,
+      "conjunction": null
+    },
+    "mlp_s123|obs_noise": {
+      "relative_only": 0.060000000000000005,
+      "conjunction": null
+    },
+    "mlp_s123|process": {
+      "relative_only": 5.0,
+      "conjunction": 62.5
+    },
+    "mlp_s123|actuation": {
+      "relative_only": 0.275,
+      "conjunction": null
+    },
+    "mlp_s7|obs_bias": {
+      "relative_only": 0.060000000000000005,
+      "conjunction": null
+    },
+    "mlp_s7|obs_noise": {
+      "relative_only": 0.060000000000000005,
+      "conjunction": null
+    },
+    "mlp_s7|process": {
+      "relative_only": 5.0,
+      "conjunction": 62.5
+    },
+    "mlp_s7|actuation": {
+      "relative_only": 0.15000000000000002,
+      "conjunction": null
+    },
+    "gru_s42|obs_bias": {
+      "relative_only": 0.060000000000000005,
+      "conjunction": null
+    },
+    "gru_s42|obs_noise": {
+      "relative_only": 0.060000000000000005,
+      "conjunction": null
+    },
+    "gru_s42|process": {
+      "relative_only": 5.0,
+      "conjunction": 62.5
+    },
+    "gru_s42|actuation": {
+      "relative_only": 0.15000000000000002,
+      "conjunction": null
+    },
+    "gru_s123|obs_bias": {
+      "relative_only": 0.08,
+      "conjunction": null
+    },
+    "gru_s123|obs_noise": {
+      "relative_only": 0.060000000000000005,
+      "conjunction": null
+    },
+    "gru_s123|process": {
+      "relative_only": 5.0,
+      "conjunction": 62.5
+    },
+    "gru_s123|actuation": {
+      "relative_only": 0.15000000000000002,
+      "conjunction": null
+    },
+    "gru_s7|obs_bias": {
+      "relative_only": 0.060000000000000005,
+      "conjunction": null
+    },
+    "gru_s7|obs_noise": {
+      "relative_only": 0.060000000000000005,
+      "conjunction": null
+    },
+    "gru_s7|process": {
+      "relative_only": 5.0,
+      "conjunction": 62.5
+    },
+    "gru_s7|actuation": {
+      "relative_only": 0.15000000000000002,
+      "conjunction": null
+    }
+  },
+  "worst_margin": {
+    "S_S_t5": {
+      "max_rmse": 0.15285862982273102,
+      "tol": 39.3810293674469,
+      "ratio": 0.003881529565834225,
+      "at": "persistence|process|100"
+    },
+    "S_NO_t5": {
+      "max_rmse": 10.823990821838379,
+      "tol": 4.044181823730469,
+      "ratio": 2.6764352577634654,
+      "at": "ridge|obs_bias|1.0"
+    },
+    "S_NH_t5": {
+      "max_rmse": 0.14423568546772003,
+      "tol": 3.944706790149212,
+      "ratio": 0.03656436159663573,
+      "at": "mlp_s123|process|100"
+    },
+    "S_ND_t5": {
+      "max_rmse": 0.10915722697973251,
+      "tol": 17.451714038848877,
+      "ratio": 0.0062548140965832935,
+      "at": "ridge|obs_noise|1.0"
+    }
+  }
+}
