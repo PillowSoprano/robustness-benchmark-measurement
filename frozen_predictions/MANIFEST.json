@@ -40,7 +40,11 @@
     "bytes": 15829
   },
   "tep/tau_abs.json": {
-    "sha256": "0d0e9754481400d6",
-    "bytes": 5384
+    "sha256": "e05e3bd781deead2",
+    "bytes": 7400
+  },
+  "tep/regime_checks.json": {
+    "sha256": "3ce52249e2800f71",
+    "bytes": 18706
   }
 }

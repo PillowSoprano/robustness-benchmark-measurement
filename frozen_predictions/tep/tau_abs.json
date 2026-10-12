@@ -29,7 +29,11 @@
     "mlp_s123": "admissible",
     "gru_s123": "admissible",
     "mlp_s7": "admissible",
-    "gru_s7": "admissible"
+    "gru_s7": "admissible",
+    "mlp_s2024": "admissible",
+    "gru_s2024": "admissible",
+    "mlp_s31337": "admissible",
+    "gru_s31337": "admissible"
   },
   "absolute_trips": [
     {
@@ -199,6 +203,86 @@
       "conjunction": null
     },
     "gru_s7|dynamics_idv13": {
+      "relative_only": 0.375,
+      "conjunction": null
+    },
+    "mlp_s2024|obs_bias": {
+      "relative_only": 0.3,
+      "conjunction": null
+    },
+    "mlp_s2024|obs_noise": {
+      "relative_only": 0.215,
+      "conjunction": null
+    },
+    "mlp_s2024|process_idv1": {
+      "relative_only": 0.175,
+      "conjunction": null
+    },
+    "mlp_s2024|actuation_idv6": {
+      "relative_only": 0.625,
+      "conjunction": null
+    },
+    "mlp_s2024|dynamics_idv13": {
+      "relative_only": 0.375,
+      "conjunction": null
+    },
+    "gru_s2024|obs_bias": {
+      "relative_only": 0.3,
+      "conjunction": null
+    },
+    "gru_s2024|obs_noise": {
+      "relative_only": 0.215,
+      "conjunction": null
+    },
+    "gru_s2024|process_idv1": {
+      "relative_only": 0.175,
+      "conjunction": null
+    },
+    "gru_s2024|actuation_idv6": {
+      "relative_only": 0.625,
+      "conjunction": null
+    },
+    "gru_s2024|dynamics_idv13": {
+      "relative_only": 0.375,
+      "conjunction": null
+    },
+    "mlp_s31337|obs_bias": {
+      "relative_only": 0.215,
+      "conjunction": null
+    },
+    "mlp_s31337|obs_noise": {
+      "relative_only": 0.215,
+      "conjunction": null
+    },
+    "mlp_s31337|process_idv1": {
+      "relative_only": 0.175,
+      "conjunction": null
+    },
+    "mlp_s31337|actuation_idv6": {
+      "relative_only": 0.625,
+      "conjunction": null
+    },
+    "mlp_s31337|dynamics_idv13": {
+      "relative_only": 0.375,
+      "conjunction": null
+    },
+    "gru_s31337|obs_bias": {
+      "relative_only": 0.3,
+      "conjunction": null
+    },
+    "gru_s31337|obs_noise": {
+      "relative_only": 0.3,
+      "conjunction": null
+    },
+    "gru_s31337|process_idv1": {
+      "relative_only": 0.175,
+      "conjunction": null
+    },
+    "gru_s31337|actuation_idv6": {
+      "relative_only": 0.625,
+      "conjunction": null
+    },
+    "gru_s31337|dynamics_idv13": {
       "relative_only": 0.375,
       "conjunction": null
     }

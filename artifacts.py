@@ -21,6 +21,7 @@ MAP = {
     "retention/results_v2.json": "tep/retention.json",
     "retention/regime_act2_results.json": "tep/regime_act2.json",
     "retention/tau_abs_check.json": "tep/tau_abs.json",
+    "retention/r2_checks.json": "tep/regime_checks.json",
     "retention/seven_checks_v2.json": "tep/seven_checks.json",
     "artifacts/panel_report.json": "tep/panel.json",
     "modern/modern_panel.json": "tep/modern_panel.json",

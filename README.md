@@ -129,6 +129,7 @@ python tep_severity_extension.py   # severity extension by the declared rule
 python shutdown_scan.py            # detect frozen episodes, rebuild the tables
 python tep_regime_actuation2.py    # regime domain, second actuation operator
 python tep_tau_abs_check.py        # per-channel absolute admissibility
+python tep_r2_checks.py            # onset timing, finer setpoint grid, grid extension
 python tep_seven_checks_v2.py      # gate semantics and both aggregation axes
 python gain_probe.py               # viability limit of the gain sweep
 python gain_sweep.py               # control-authority sweep, panel retrained per gain
